@@ -5,27 +5,31 @@ import * as fs from "fs";
 import _, { concat } from "lodash";
 import { authenticate } from "./utils"
 
-const EMAIL = "";
-const PASSWORD = "";
+const EMAIL = "c851350@urhen.com";
+const PASSWORD = "test1234";
 
 (async () => {
     const { baseUrl, token } = await authenticate(EMAIL, PASSWORD);
 
-    const courses = await getLiveCourses(baseUrl);
+    let previouslyScrapedCourses = [];
+    if (fs.existsSync("courses.json")) {
+        previouslyScrapedCourses = JSON.parse(fs.readFileSync("courses.json", "utf8"));
+    }
 
-    const coursesWithAnswers = await Promise.all(courses.map(async course => {
-        const courseWithQuesions = await getChaptersAndQuestions(baseUrl, course);
-        const courseWithAnswers = await getAnswers(baseUrl, token, courseWithQuesions);
-        return courseWithAnswers;
+    const newCourses = await getNewLiveCourses(baseUrl, previouslyScrapedCourses);
+
+    const newCoursesWithAnswers = await Promise.all(newCourses.map(async newCourse => {
+        const newCourseWithQuesions = await getChaptersAndQuestions(baseUrl, newCourse);
+        const newCourseWithAnswers = await getAnswers(baseUrl, token, newCourseWithQuesions);
+        return newCourseWithAnswers;
     }));
-    // for await (const course of courses) {
-    //     const courseWithQuesions = await getChaptersAndQuestions(baseUrl, course);
-    //     const courseWithAnswers = await getAnswers(baseUrl, token, courseWithQuesions);
-    // }
-    fs.writeFileSync("courses.json", JSON.stringify(coursesWithAnswers));
+
+    previouslyScrapedCourses.concat(newCoursesWithAnswers);
+
+    fs.writeFileSync("courses.json", JSON.stringify(newCoursesWithAnswers));
 })();
 
-async function getLiveCourses(baseUrl: string) {
+async function getNewLiveCourses(baseUrl: string, previouslyScrapedCourses: Course[]) {
     const endpoint = urljoin(baseUrl, "getCourses");
     const response = await fetch(endpoint);
     const courses = JSON.parse(await response.text()) as Course[];
@@ -35,7 +39,9 @@ async function getLiveCourses(baseUrl: string) {
         new Error("No live courses found");
     }
 
-    return liveCourses;
+    const newLiveCourses = liveCourses.filter((liveCourse) => !previouslyScrapedCourses.some(previouslyScrapedCourse=> previouslyScrapedCourse.id === liveCourse.id))
+
+    return newLiveCourses;
 }
 
 async function getChaptersAndQuestions(baseUrl: string, course: Course) {

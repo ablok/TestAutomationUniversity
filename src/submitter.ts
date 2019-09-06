@@ -11,13 +11,13 @@ const PASSWORD = "";
     const { baseUrl, token } = await authenticate(EMAIL, PASSWORD);
     const courses = JSON.parse(fs.readFileSync("courses.json", { encoding: "utf-8" })) as Course[];
 
-    // await Promise.all(courses.map(async course => {
-    //     await submitQuestions(baseUrl, token, course);
-    //     await generateCertificate(baseUrl, token, course);
-    // }));
+    await Promise.all(courses.map(async course => {
+        await submitQuestions(baseUrl, token, course);
+        // await generateCertificate(baseUrl, token, course);
+    }));
 
     for await(const course of courses) {
-        await submitQuestions(baseUrl, token, course);
+        // await submitQuestions(baseUrl, token, course);
         await generateCertificate(baseUrl, token, course);
     }
 })()
