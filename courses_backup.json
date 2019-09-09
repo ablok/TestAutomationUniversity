@@ -11613,6 +11613,371 @@
         ]
     },
     {
+        "id": "course3",
+        "chaptersCount": 5,
+        "learningPaths": [
+            "learningPathUIJava",
+            "learningPathUIJS",
+            "learningPathUICS",
+            "learningPathUIRuby",
+            "learningPathUIPython",
+            "learningPathMobileJava",
+            "learningPathMobileJS"
+        ],
+        "status": "live",
+        "credits": 500,
+        "courseId": "course3",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "performance",
+            "ui",
+            "mobile",
+            "beginner",
+            "jmeter",
+            "loadrunner",
+            "gatling"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Tools and Techniques for Performance and Load Testing",
+        "titleSlug": "performance-and-load-testing",
+        "teacher": {
+            "profilePath": "amber_race",
+            "twitter": "ambertests",
+            "name": "Amber Race",
+            "linkedIn": "",
+            "photoURL": "amber_race.jpg"
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn performance and load testing for websites, mobile, and back-end services",
+        "group": "foundational_testing",
+        "releaseDate": "05/06/2019",
+        "duration": 57,
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which statement is NOT true?",
+                        "type": "radio",
+                        "answers": [
+                            "If a site is slow, people are more likely to leave",
+                            "The faster a site is, the greater the chance of making a sale",
+                            "People are intimidated by speed and prefer to watch the spinny circle",
+                            "Any website is potentially vulnerable to performance-related outages"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What do load tests focus on?",
+                        "type": "radio",
+                        "answers": [
+                            "How many requests a service can handle in a given period of time",
+                            "How quickly a web page can load",
+                            "The size and quantity of images on a website",
+                            "How long does it take a customer to log in"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which factors can impact client performance?",
+                        "type": "radio",
+                        "answers": [
+                            "Server performance",
+                            "The number and complexity of scripts",
+                            "Both",
+                            "Neither"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Host configuration",
+                            "The number of client requests",
+                            "Data caching",
+                            "All of the above"
+                        ],
+                        "question": "Which factors can impact server performance?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Poor server performance affects the total number of clients it can handle",
+                            "There is nothing the client can do to decrease load on the server",
+                            "Good caching policy is important for both client and server",
+                            "Network quality is a major factor in client performance"
+                        ],
+                        "question": "Which statement is NOT true?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "The first time a new page is visible to the user",
+                            "The point at which a user can start interacting with a page",
+                            "The point when the entire document is loaded in the browser",
+                            "It’s when all entire page is complete"
+                        ],
+                        "question": "What does “First Contentful Paint” mean?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "By compressing images for faster loading",
+                            "By storing scripts in a database",
+                            "By hosting content in various locations to better serve people in different places",
+                            "By encrypting content for improved security"
+                        ],
+                        "question": "What is one way a CDN (Content Delivery Network) can help with performance?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which performance property can you profile with Chrome Developer Tools?",
+                        "type": "radio",
+                        "answers": [
+                            "Frames per second",
+                            "Request response time",
+                            "Time spent running scripts",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "How can scripts affect the performance of a web page?",
+                        "type": "radio",
+                        "answers": [
+                            "By blocking further content loading",
+                            "By making additional network requests",
+                            "Both",
+                            "Neither"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Your local machine",
+                            "Real devices in various locations",
+                            " Both",
+                            "Neither"
+                        ],
+                        "question": "Tests on WebPageTest can be run on...",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Chrome Dev Tools can emulate a 3G network on your laptop",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "How do redirects cause issues for web page performance?",
+                        "type": "radio",
+                        "answers": [
+                            "By corrupting assets",
+                            "By clearing cache",
+                            "By increasing the total number of network calls",
+                            "By causing a scripting loop"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "WebPageTest can run tests on which device?",
+                        "type": "radio",
+                        "answers": [
+                            "Samsung Galaxy S7",
+                            "iPhone SE",
+                            "iPad Mini 2",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Local Notifications",
+                            "USB Debugging",
+                            "Low power mode",
+                            "Data roaming"
+                        ],
+                        "question": "What has to be enabled on your Android device before profiling with Android Studio?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What profiling information is generally NOT available on a mobile device?",
+                        "type": "radio",
+                        "answers": [
+                            "Battery usage",
+                            "Request response speed",
+                            "Data usage",
+                            "Memory usage"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "Download size",
+                            "Expertise within your team",
+                            "Existing licensing arrangements",
+                            "UI or lack thereof"
+                        ],
+                        "question": "What is NOT a major factor to consider in choosing a load testing tool?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "HTTP",
+                            "WebSockets",
+                            "MongoDB",
+                            "All of the above"
+                        ],
+                        "question": "What kinds of connections are supported by JMeter?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Python",
+                            "Groovy",
+                            "Perl",
+                            "Scala"
+                        ],
+                        "question": "What scripting language is supported by JMeter?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "Java",
+                            "Python",
+                            "Scala",
+                            "Javascript"
+                        ],
+                        "question": "What programming language is the basis of the Gatling tool?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Load testing can only be done in the cloud",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What is the first step in creating a load testing strategy?",
+                        "type": "radio",
+                        "answers": [
+                            "Picking a tool",
+                            "Running test automation",
+                            "Creating test data",
+                            "Understanding the system under test"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Monitoring your service in production",
+                            "Analyzing the source code",
+                            "Reading test plans",
+                            "Using client applications"
+                        ],
+                        "question": "If possible, what is the best way to learn how your system is actually being used for the purpose of load testing?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "The type of VM used",
+                            "The physical location of the cloud",
+                            "Auto-scaling parameters",
+                            "All of the above"
+                        ],
+                        "question": "Which of these factors applies to testing applications deployed in the cloud?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "The CPU of the database host",
+                            "Cold boot time if the compute function isn’t used frequently",
+                            "The total number of caching instances",
+                            "Which language is used to write the service"
+                        ],
+                        "question": "What is a special consideration for performance testing serverless applications?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What is coordinated omission?",
+                        "type": "radio",
+                        "answers": [
+                            "When outlier results are hidden in a larger aggregate result",
+                            "When tests don’t cover certain devices",
+                            "When you don’t include all requests in your tests",
+                            "When are home sick but you forget to tell your boss"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "course30",
         "teacher": {
             "profilePath": "aparna_gopalakrishnan",
@@ -13266,6 +13631,512 @@
         ]
     },
     {
+        "id": "course37",
+        "sortOrder": 8,
+        "abstract": "Learn how to automate your visual testing in JavaScript with Applitools",
+        "group": "visual_testing",
+        "releaseDate": "09/06/2019",
+        "duration": 36,
+        "chaptersCount": 8,
+        "learningPaths": [
+            "learningPathUIJavascript"
+        ],
+        "status": "live",
+        "credits": 800,
+        "courseId": "course37",
+        "category": "Automated Visual Testing Courses",
+        "tags": [
+            "beginner",
+            "applitools",
+            "visual testing",
+            "javascript",
+            "web",
+            "ui",
+            "web ui"
+        ],
+        "groupName": "Visual Testing",
+        "title": "Automated Visual Testing with WebdriverIO",
+        "titleSlug": "automated-visual-testing-javascript-webdriverio",
+        "teacher": {
+            "name": "Nyran Moodie",
+            "linkedIn": "",
+            "photoURL": "nyran_moodie.jpg",
+            "profilePath": "nyran_moodie",
+            "twitter": "nyranmoodie"
+        },
+        "level": "beginner",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "Backend",
+                            "Database",
+                            "API",
+                            "UI"
+                        ],
+                        "question": "At what level of an application does automated visual tests detect bugs?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which of the following is LEAST likely a visual bug?",
+                        "type": "radio",
+                        "answers": [
+                            "The button on the page is not clickable.",
+                            "A part of the button is not showing.",
+                            "The button on the page is overlapping text.",
+                            "The button on the page is too big for the screen size."
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "It shows that you are a good QA.",
+                            "They can make the site unusable for the end user.",
+                            "To help the developers code better.",
+                            "To show that the developers are not doing a good job."
+                        ],
+                        "question": "Which of the following is the MOST important reason to catch visual bugs?",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "JavaScript",
+                            "An API Key",
+                            "An CSS file",
+                            "VS Code"
+                        ],
+                        "question": "What do you need in order to execute visual tests with Applitools?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "On paper",
+                            "In a CSS file",
+                            "In an email",
+                            "As an environment variable"
+                        ],
+                        "question": "Which of the following is the best way to store the API key you get from Applitools? ",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "google.com",
+                            "wikipedia.org",
+                            "applitools.com",
+                            "webdriver.io"
+                        ],
+                        "question": "Where can you obtain your Applitools API key from?",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What is the name of the class used for visual validation?",
+                        "type": "radio",
+                        "answers": [
+                            "Applitools",
+                            "Open",
+                            "Begin",
+                            "Eyes"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "open()",
+                            "close()",
+                            "abortIfNotClosed()",
+                            "check()"
+                        ],
+                        "question": "Which command is used to abort the visual test if it hangs?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "The Test Manager",
+                            "The Terminal",
+                            "a local log file",
+                            "GitHub repo"
+                        ],
+                        "question": "Where are the image comparisons of the visual validations outputted to?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "When a visual test fails, what is the initial status of that test?",
+                        "type": "radio",
+                        "answers": [
+                            "Failed",
+                            " New",
+                            "Unresolved",
+                            "Incorrect"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "open()",
+                            "close()",
+                            "abortIfNotClosed()",
+                            "start()"
+                        ],
+                        "question": "Which command is used to tell Applitools that we want to start a new test?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "Which command instructs Eyes to take a screenshot of the current page?",
+                        "type": "radio",
+                        "answers": [
+                            "checkScreen()",
+                            "checkWindow()",
+                            "checkImage()",
+                            "checkViewport()"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which definition best describes what a viewport is?",
+                        "type": "radio",
+                        "answers": [
+                            "Visible area of a webpage on a display device.",
+                            "The browser",
+                            "The area taken in a screenshot",
+                            "The size of the computer screen"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Changing the viewport is beneficial when testing different screen sizes?",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "The pairing of testers based on skill",
+                            "How similar two screenshots look",
+                            "The score given to grade the screenshots",
+                            "The approach used to compare screenshots"
+                        ],
+                        "question": "Which best defines a match level within the context of visual testing?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Exact",
+                            "Strict",
+                            "Layout",
+                            "Content"
+                        ],
+                        "question": "Which match level does Applitools use by default?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which match level does pixel by pixel comparison?",
+                        "type": "radio",
+                        "answers": [
+                            "Exact",
+                            "Strict",
+                            "Layout",
+                            "Content"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "Exact",
+                            "Strict",
+                            "Layout",
+                            "Content"
+                        ],
+                        "question": "Which match level should be used when color can be ignored?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question7",
+                        "question": "Which match level allows you to validate dynamic content?",
+                        "type": "radio",
+                        "answers": [
+                            "Exact",
+                            "Strict",
+                            "Layout",
+                            "Content"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Entire page",
+                            "Visible portion of the page",
+                            "All open tabs",
+                            "Every page within the application"
+                        ],
+                        "question": "By default, which of these will the checkWindow command take a screenshot of?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "True",
+                            "False",
+                            "Full",
+                            "Entire"
+                        ],
+                        "question": "To force checkWindow to take a screenshot of the entire page, which value should be passed to setForceFullPageScreenshot()?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "checkWindow",
+                            "checkElementBySelector",
+                            "checkFrame",
+                            "checkDom"
+                        ],
+                        "question": "Which checkpoint should be used to visually check a specific web element on the page?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "The checkFrame function is used to capture an image of a specific frame.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "setTestSuite",
+                            "setSuite",
+                            "setGroup",
+                            "setBatchName"
+                        ],
+                        "question": "Which command groups individual tests into a batch?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Each subsequent test that comes after the command that sets the batch",
+                            "Each test that comes before the command that sets the batch",
+                            "The first test that gets ran",
+                            "Every test that we specify within a text file"
+                        ],
+                        "question": "Which tests are assigned to a batch once it is created?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "How do batches appear in the Test Manager dashboard?",
+                        "type": "radio",
+                        "answers": [
+                            "Every test continues to be shown in the left side bar",
+                            "There is one entry in the left side bar for the batch.  Its contained tests are shown only when clicking on the batch",
+                            "Batches do not appear in the dashboard",
+                            "You must filter down within the dashboard to view batches"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "Execute tests",
+                            "Fail tests",
+                            "Filter tests",
+                            "Assign issues"
+                        ],
+                        "question": "Which of these CANNOT be done from the Test Manager?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Show the differences between images",
+                            "Show the differences in the DOM and CSS that caused a visual failure",
+                            "Zoom in on differences",
+                            "Assigns a bug to a team member"
+                        ],
+                        "question": "What does the root cause analysis feature do?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Strict Region",
+                            "Content Region",
+                            "Ignore Region",
+                            "Floating Region"
+                        ],
+                        "question": "Which annotation would be good for a dynamic portion of the page not worth verifying?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Previews the visual differences using the selected comparison method",
+                            "Updates the test to run the selected comparison method for future runs",
+                            "Reruns the full test using the selected comparison method",
+                            "Changes the checkpoint"
+                        ],
+                        "question": "Changing the match level from the Test Manager does what?",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which programming languages does Applitools support?",
+                        "type": "radio",
+                        "answers": [
+                            "C#, Java, Javascript, PHP, Python, Ruby",
+                            "C++, Go, Java, Javascript, Kotlin",
+                            "Java, Javascript, Python, SQL, XML",
+                            "Clojure, C#, Java, Javascript, Visual Basic"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "Web apps",
+                            "Mobile apps",
+                            "PDF files",
+                            "Audio files"
+                        ],
+                        "question": "Which format does Eyes NOT support?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Vue",
+                            "Angular",
+                            "React",
+                            "All of the above"
+                        ],
+                        "question": "Which Storybook framework is supported by Eyes?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Cypress",
+                            "Capybara",
+                            "Appium",
+                            "All of the above"
+                        ],
+                        "question": "In addition to Selenium WebDriver, which other web test automation frameworks does Eyes integrate with?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "Screenshot",
+                            "Web",
+                            "Mobile",
+                            "None"
+                        ],
+                        "question": "If someone does not have one of the supported test automation frameworks, which Eyes SDK can they use?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "Which Eyes integration point allows for source control?",
+                        "type": "radio",
+                        "answers": [
+                            "WebDriver",
+                            "Jira",
+                            "Github",
+                            "Jenkins"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "course5",
         "level": "beginner",
         "sortOrder": 5,
@@ -13900,877 +14771,6 @@
                             "Driver instance"
                         ],
                         "correctAnswerIndex": 2
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "course37",
-        "level": "beginner",
-        "sortOrder": 8,
-        "abstract": "Learn how to automate your visual testing in JavaScript with Applitools",
-        "group": "visual_testing",
-        "releaseDate": "09/06/2019",
-        "duration": 36,
-        "chaptersCount": 8,
-        "learningPaths": [
-            "learningPathUIJavascript"
-        ],
-        "status": "live",
-        "credits": 800,
-        "courseId": "course37",
-        "category": "Automated Visual Testing Courses",
-        "tags": [
-            "beginner",
-            "applitools",
-            "visual testing",
-            "javascript",
-            "web",
-            "ui",
-            "web ui"
-        ],
-        "groupName": "Visual Testing",
-        "title": "Automated Visual Testing with WebdriverIO",
-        "titleSlug": "automated-visual-testing-javascript-webdriverio",
-        "teacher": {
-            "profilePath": "nyran_moodie",
-            "twitter": "nyranmoodie",
-            "name": "Nyran Moodie",
-            "linkedIn": "",
-            "photoURL": "nyran_moodie.jpg"
-        },
-        "chapters": [
-            {
-                "chapterId": "chapter1",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "answers": [
-                            "Backend",
-                            "Database",
-                            "API",
-                            "UI"
-                        ],
-                        "question": "At what level of an application does automated visual tests detect bugs?",
-                        "type": "radio",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question2",
-                        "answers": [
-                            "The button on the page is not clickable.",
-                            "A part of the button is not showing.",
-                            "The button on the page is overlapping text.",
-                            "The button on the page is too big for the screen size."
-                        ],
-                        "question": "Which of the following is LEAST likely a visual bug?",
-                        "type": "radio",
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question3",
-                        "question": "Which of the following is the MOST important reason to catch visual bugs?",
-                        "type": "radio",
-                        "answers": [
-                            "It shows that you are a good QA.",
-                            "They can make the site unusable for the end user.",
-                            "To help the developers code better.",
-                            "To show that the developers are not doing a good job."
-                        ],
-                        "correctAnswerIndex": 1
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "answers": [
-                            "JavaScript",
-                            "An API Key",
-                            "An CSS file",
-                            "VS Code"
-                        ],
-                        "question": "What do you need in order to execute visual tests with Applitools?",
-                        "type": "radio",
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question2",
-                        "question": "Which of the following is the best way to store the API key you get from Applitools? ",
-                        "type": "radio",
-                        "answers": [
-                            "On paper",
-                            "In a CSS file",
-                            "In an email",
-                            "As an environment variable"
-                        ],
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question3",
-                        "type": "radio",
-                        "answers": [
-                            "google.com",
-                            "wikipedia.org",
-                            "applitools.com",
-                            "webdriver.io"
-                        ],
-                        "question": "Where can you obtain your Applitools API key from?",
-                        "correctAnswerIndex": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter3",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "answers": [
-                            "Applitools",
-                            "Open",
-                            "Begin",
-                            "Eyes"
-                        ],
-                        "question": "What is the name of the class used for visual validation?",
-                        "type": "radio",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question2",
-                        "answers": [
-                            "open()",
-                            "close()",
-                            "abortIfNotClosed()",
-                            "check()"
-                        ],
-                        "question": "Which command is used to abort the visual test if it hangs?",
-                        "type": "radio",
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question3",
-                        "question": "Where are the image comparisons of the visual validations outputted to?",
-                        "type": "radio",
-                        "answers": [
-                            "The Test Manager",
-                            "The Terminal",
-                            "a local log file",
-                            "GitHub repo"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question4",
-                        "question": "When a visual test fails, what is the initial status of that test?",
-                        "type": "radio",
-                        "answers": [
-                            "Failed",
-                            " New",
-                            "Unresolved",
-                            "Incorrect"
-                        ],
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question5",
-                        "question": "Which command is used to tell Applitools that we want to start a new test?",
-                        "type": "radio",
-                        "answers": [
-                            "open()",
-                            "close()",
-                            "abortIfNotClosed()",
-                            "start()"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question6",
-                        "type": "radio",
-                        "answers": [
-                            "checkScreen()",
-                            "checkWindow()",
-                            "checkImage()",
-                            "checkViewport()"
-                        ],
-                        "question": "Which command instructs Eyes to take a screenshot of the current page?",
-                        "correctAnswerIndex": 1
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter4",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "question": "Which definition best describes what a viewport is?",
-                        "type": "radio",
-                        "answers": [
-                            "Visible area of a webpage on a display device.",
-                            "The browser",
-                            "The area taken in a screenshot",
-                            "The size of the computer screen"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question2",
-                        "question": "Changing the viewport is beneficial when testing different screen sizes?",
-                        "type": "radio",
-                        "answers": [
-                            "True",
-                            "False"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question3",
-                        "question": "Which best defines a match level within the context of visual testing?",
-                        "type": "radio",
-                        "answers": [
-                            "The pairing of testers based on skill",
-                            "How similar two screenshots look",
-                            "The score given to grade the screenshots",
-                            "The approach used to compare screenshots"
-                        ],
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question4",
-                        "answers": [
-                            "Exact",
-                            "Strict",
-                            "Layout",
-                            "Content"
-                        ],
-                        "question": "Which match level does Applitools use by default?",
-                        "type": "radio",
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question5",
-                        "question": "Which match level does pixel by pixel comparison?",
-                        "type": "radio",
-                        "answers": [
-                            "Exact",
-                            "Strict",
-                            "Layout",
-                            "Content"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question6",
-                        "answers": [
-                            "Exact",
-                            "Strict",
-                            "Layout",
-                            "Content"
-                        ],
-                        "question": "Which match level should be used when color can be ignored?",
-                        "type": "radio",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question7",
-                        "type": "radio",
-                        "answers": [
-                            "Exact",
-                            "Strict",
-                            "Layout",
-                            "Content"
-                        ],
-                        "question": "Which match level allows you to validate dynamic content?",
-                        "correctAnswerIndex": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter5",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "type": "radio",
-                        "answers": [
-                            "Entire page",
-                            "Visible portion of the page",
-                            "All open tabs",
-                            "Every page within the application"
-                        ],
-                        "question": "By default, which of these will the checkWindow command take a screenshot of?",
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question2",
-                        "question": "To force checkWindow to take a screenshot of the entire page, which value should be passed to setForceFullPageScreenshot()?",
-                        "type": "radio",
-                        "answers": [
-                            "True",
-                            "False",
-                            "Full",
-                            "Entire"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question3",
-                        "type": "radio",
-                        "answers": [
-                            "checkWindow",
-                            "checkElementBySelector",
-                            "checkFrame",
-                            "checkDom"
-                        ],
-                        "question": "Which checkpoint should be used to visually check a specific web element on the page?",
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question4",
-                        "question": "The checkFrame function is used to capture an image of a specific frame.",
-                        "type": "radio",
-                        "answers": [
-                            "True",
-                            "False"
-                        ],
-                        "correctAnswerIndex": 0
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter6",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "answers": [
-                            "setTestSuite",
-                            "setSuite",
-                            "setGroup",
-                            "setBatchName"
-                        ],
-                        "question": "Which command groups individual tests into a batch?",
-                        "type": "radio",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question2",
-                        "type": "radio",
-                        "answers": [
-                            "Each subsequent test that comes after the command that sets the batch",
-                            "Each test that comes before the command that sets the batch",
-                            "The first test that gets ran",
-                            "Every test that we specify within a text file"
-                        ],
-                        "question": "Which tests are assigned to a batch once it is created?",
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question3",
-                        "question": "How do batches appear in the Test Manager dashboard?",
-                        "type": "radio",
-                        "answers": [
-                            "Every test continues to be shown in the left side bar",
-                            "There is one entry in the left side bar for the batch.  Its contained tests are shown only when clicking on the batch",
-                            "Batches do not appear in the dashboard",
-                            "You must filter down within the dashboard to view batches"
-                        ],
-                        "correctAnswerIndex": 1
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter7",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "question": "Which of these CANNOT be done from the Test Manager?",
-                        "type": "radio",
-                        "answers": [
-                            "Execute tests",
-                            "Fail tests",
-                            "Filter tests",
-                            "Assign issues"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question2",
-                        "answers": [
-                            "Show the differences between images",
-                            "Show the differences in the DOM and CSS that caused a visual failure",
-                            "Zoom in on differences",
-                            "Assigns a bug to a team member"
-                        ],
-                        "question": "What does the root cause analysis feature do?",
-                        "type": "radio",
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question3",
-                        "question": "Which annotation would be good for a dynamic portion of the page not worth verifying?",
-                        "type": "radio",
-                        "answers": [
-                            "Strict Region",
-                            "Content Region",
-                            "Ignore Region",
-                            "Floating Region"
-                        ],
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question4",
-                        "question": "Changing the match level from the Test Manager does what?",
-                        "type": "radio",
-                        "answers": [
-                            "Previews the visual differences using the selected comparison method",
-                            "Updates the test to run the selected comparison method for future runs",
-                            "Reruns the full test using the selected comparison method",
-                            "Changes the checkpoint"
-                        ],
-                        "correctAnswerIndex": 0
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter8",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "type": "radio",
-                        "answers": [
-                            "C#, Java, Javascript, PHP, Python, Ruby",
-                            "C++, Go, Java, Javascript, Kotlin",
-                            "Java, Javascript, Python, SQL, XML",
-                            "Clojure, C#, Java, Javascript, Visual Basic"
-                        ],
-                        "question": "Which programming languages does Applitools support?",
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question2",
-                        "answers": [
-                            "Web apps",
-                            "Mobile apps",
-                            "PDF files",
-                            "Audio files"
-                        ],
-                        "question": "Which format does Eyes NOT support?",
-                        "type": "radio",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question3",
-                        "type": "radio",
-                        "answers": [
-                            "Vue",
-                            "Angular",
-                            "React",
-                            "All of the above"
-                        ],
-                        "question": "Which Storybook framework is supported by Eyes?",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question4",
-                        "question": "In addition to Selenium WebDriver, which other web test automation frameworks does Eyes integrate with?",
-                        "type": "radio",
-                        "answers": [
-                            "Cypress",
-                            "Capybara",
-                            "Appium",
-                            "All of the above"
-                        ],
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question5",
-                        "type": "radio",
-                        "answers": [
-                            "Screenshot",
-                            "Web",
-                            "Mobile",
-                            "None"
-                        ],
-                        "question": "If someone does not have one of the supported test automation frameworks, which Eyes SDK can they use?",
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question6",
-                        "question": "Which Eyes integration point allows for source control?",
-                        "type": "radio",
-                        "answers": [
-                            "WebDriver",
-                            "Jira",
-                            "Github",
-                            "Jenkins"
-                        ],
-                        "correctAnswerIndex": 2
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "course3",
-        "status": "live",
-        "credits": 500,
-        "courseId": "course3",
-        "category": "Foundational Test Automation Courses",
-        "tags": [
-            "performance",
-            "ui",
-            "mobile",
-            "beginner",
-            "jmeter",
-            "loadrunner",
-            "gatling"
-        ],
-        "groupName": "Foundational Testing",
-        "title": "Tools and Techniques for Performance and Load Testing",
-        "titleSlug": "performance-and-load-testing",
-        "teacher": {
-            "photoURL": "amber_race.jpg",
-            "profilePath": "amber_race",
-            "twitter": "ambertests",
-            "name": "Amber Race",
-            "linkedIn": ""
-        },
-        "level": "beginner",
-        "sortOrder": 8,
-        "abstract": "Learn performance and load testing for websites, mobile, and back-end services",
-        "group": "foundational_testing",
-        "releaseDate": "05/06/2019",
-        "duration": 57,
-        "chaptersCount": 5,
-        "learningPaths": [
-            "learningPathUIJava",
-            "learningPathUIJS",
-            "learningPathUICS",
-            "learningPathUIRuby",
-            "learningPathUIPython",
-            "learningPathMobileJava",
-            "learningPathMobileJS"
-        ],
-        "chapters": [
-            {
-                "chapterId": "chapter1",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "question": "Which statement is NOT true?",
-                        "type": "radio",
-                        "answers": [
-                            "If a site is slow, people are more likely to leave",
-                            "The faster a site is, the greater the chance of making a sale",
-                            "People are intimidated by speed and prefer to watch the spinny circle",
-                            "Any website is potentially vulnerable to performance-related outages"
-                        ],
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question2",
-                        "question": "What do load tests focus on?",
-                        "type": "radio",
-                        "answers": [
-                            "How many requests a service can handle in a given period of time",
-                            "How quickly a web page can load",
-                            "The size and quantity of images on a website",
-                            "How long does it take a customer to log in"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question3",
-                        "type": "radio",
-                        "answers": [
-                            "Server performance",
-                            "The number and complexity of scripts",
-                            "Both",
-                            "Neither"
-                        ],
-                        "question": "Which factors can impact client performance?",
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question4",
-                        "question": "Which factors can impact server performance?",
-                        "type": "radio",
-                        "answers": [
-                            "Host configuration",
-                            "The number of client requests",
-                            "Data caching",
-                            "All of the above"
-                        ],
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question5",
-                        "question": "Which statement is NOT true?",
-                        "type": "radio",
-                        "answers": [
-                            "Poor server performance affects the total number of clients it can handle",
-                            "There is nothing the client can do to decrease load on the server",
-                            "Good caching policy is important for both client and server",
-                            "Network quality is a major factor in client performance"
-                        ],
-                        "correctAnswerIndex": 1
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "question": "What does “First Contentful Paint” mean?",
-                        "type": "radio",
-                        "answers": [
-                            "The first time a new page is visible to the user",
-                            "The point at which a user can start interacting with a page",
-                            "The point when the entire document is loaded in the browser",
-                            "It’s when all entire page is complete"
-                        ],
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question2",
-                        "question": "What is one way a CDN (Content Delivery Network) can help with performance?",
-                        "type": "radio",
-                        "answers": [
-                            "By compressing images for faster loading",
-                            "By storing scripts in a database",
-                            "By hosting content in various locations to better serve people in different places",
-                            "By encrypting content for improved security"
-                        ],
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question3",
-                        "type": "radio",
-                        "answers": [
-                            "Frames per second",
-                            "Request response time",
-                            "Time spent running scripts",
-                            "All of the above"
-                        ],
-                        "question": "Which performance property can you profile with Chrome Developer Tools?",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question4",
-                        "type": "radio",
-                        "answers": [
-                            "By blocking further content loading",
-                            "By making additional network requests",
-                            "Both",
-                            "Neither"
-                        ],
-                        "question": "How can scripts affect the performance of a web page?",
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question5",
-                        "type": "radio",
-                        "answers": [
-                            "Your local machine",
-                            "Real devices in various locations",
-                            " Both",
-                            "Neither"
-                        ],
-                        "question": "Tests on WebPageTest can be run on...",
-                        "correctAnswerIndex": 1
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter3",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "answers": [
-                            "True",
-                            "False"
-                        ],
-                        "question": "Chrome Dev Tools can emulate a 3G network on your laptop",
-                        "type": "radio",
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question2",
-                        "question": "How do redirects cause issues for web page performance?",
-                        "type": "radio",
-                        "answers": [
-                            "By corrupting assets",
-                            "By clearing cache",
-                            "By increasing the total number of network calls",
-                            "By causing a scripting loop"
-                        ],
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question3",
-                        "type": "radio",
-                        "answers": [
-                            "Samsung Galaxy S7",
-                            "iPhone SE",
-                            "iPad Mini 2",
-                            "All of the above"
-                        ],
-                        "question": "WebPageTest can run tests on which device?",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question4",
-                        "question": "What has to be enabled on your Android device before profiling with Android Studio?",
-                        "type": "radio",
-                        "answers": [
-                            "Local Notifications",
-                            "USB Debugging",
-                            "Low power mode",
-                            "Data roaming"
-                        ],
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question5",
-                        "type": "radio",
-                        "answers": [
-                            "Battery usage",
-                            "Request response speed",
-                            "Data usage",
-                            "Memory usage"
-                        ],
-                        "question": "What profiling information is generally NOT available on a mobile device?",
-                        "correctAnswerIndex": 1
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter4",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "answers": [
-                            "Download size",
-                            "Expertise within your team",
-                            "Existing licensing arrangements",
-                            "UI or lack thereof"
-                        ],
-                        "question": "What is NOT a major factor to consider in choosing a load testing tool?",
-                        "type": "radio",
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question2",
-                        "answers": [
-                            "HTTP",
-                            "WebSockets",
-                            "MongoDB",
-                            "All of the above"
-                        ],
-                        "question": "What kinds of connections are supported by JMeter?",
-                        "type": "radio",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question3",
-                        "question": "What scripting language is supported by JMeter?",
-                        "type": "radio",
-                        "answers": [
-                            "Python",
-                            "Groovy",
-                            "Perl",
-                            "Scala"
-                        ],
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question4",
-                        "question": "What programming language is the basis of the Gatling tool?",
-                        "type": "radio",
-                        "answers": [
-                            "Java",
-                            "Python",
-                            "Scala",
-                            "Javascript"
-                        ],
-                        "correctAnswerIndex": 2
-                    },
-                    {
-                        "id": "question5",
-                        "type": "radio",
-                        "answers": [
-                            "True",
-                            "False"
-                        ],
-                        "question": "Load testing can only be done in the cloud",
-                        "correctAnswerIndex": 1
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter5",
-                "questions": [
-                    {
-                        "id": "question1",
-                        "answers": [
-                            "Picking a tool",
-                            "Running test automation",
-                            "Creating test data",
-                            "Understanding the system under test"
-                        ],
-                        "question": "What is the first step in creating a load testing strategy?",
-                        "type": "radio",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question2",
-                        "type": "radio",
-                        "answers": [
-                            "Monitoring your service in production",
-                            "Analyzing the source code",
-                            "Reading test plans",
-                            "Using client applications"
-                        ],
-                        "question": "If possible, what is the best way to learn how your system is actually being used for the purpose of load testing?",
-                        "correctAnswerIndex": 0
-                    },
-                    {
-                        "id": "question3",
-                        "type": "radio",
-                        "answers": [
-                            "The type of VM used",
-                            "The physical location of the cloud",
-                            "Auto-scaling parameters",
-                            "All of the above"
-                        ],
-                        "question": "Which of these factors applies to testing applications deployed in the cloud?",
-                        "correctAnswerIndex": 3
-                    },
-                    {
-                        "id": "question4",
-                        "answers": [
-                            "The CPU of the database host",
-                            "Cold boot time if the compute function isn’t used frequently",
-                            "The total number of caching instances",
-                            "Which language is used to write the service"
-                        ],
-                        "question": "What is a special consideration for performance testing serverless applications?",
-                        "type": "radio",
-                        "correctAnswerIndex": 1
-                    },
-                    {
-                        "id": "question5",
-                        "type": "radio",
-                        "answers": [
-                            "When outlier results are hidden in a larger aggregate result",
-                            "When tests don’t cover certain devices",
-                            "When you don’t include all requests in your tests",
-                            "When are home sick but you forget to tell your boss"
-                        ],
-                        "question": "What is coordinated omission?",
-                        "correctAnswerIndex": 0
                     }
                 ]
             }
