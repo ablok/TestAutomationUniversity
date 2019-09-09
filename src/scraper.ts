@@ -11,7 +11,7 @@ const PASSWORD = "test1234";
 (async () => {
     const { baseUrl, token } = await authenticate(EMAIL, PASSWORD);
 
-    let previouslyScrapedCourses = [];
+    let previouslyScrapedCourses: Course[] = [];
     if (fs.existsSync("courses.json")) {
         previouslyScrapedCourses = JSON.parse(fs.readFileSync("courses.json", "utf8"));
     }
@@ -24,9 +24,7 @@ const PASSWORD = "test1234";
         return newCourseWithAnswers;
     }));
 
-    previouslyScrapedCourses.concat(newCoursesWithAnswers);
-
-    fs.writeFileSync("courses.json", JSON.stringify(newCoursesWithAnswers));
+    fs.writeFileSync("courses.json", JSON.stringify([...previouslyScrapedCourses, ...newCoursesWithAnswers]));
 })();
 
 async function getNewLiveCourses(baseUrl: string, previouslyScrapedCourses: Course[]) {
