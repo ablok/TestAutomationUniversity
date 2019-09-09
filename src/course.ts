@@ -5,6 +5,7 @@ export type Course = {
     credits: number,
     courseId: string,
     category: string,
+    duration: number,
     groupName: string,
     title: string,
     titleSlug: string,
@@ -14,6 +15,8 @@ export type Course = {
         photoURL: string,
         profilePath: string
     },
+    learningPaths: string[],
+    tags: string[],
     level: string,
     type: string,
     abstract: string,
