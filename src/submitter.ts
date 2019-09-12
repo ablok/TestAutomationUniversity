@@ -1,14 +1,13 @@
-import { authenticate } from "./utils";
+import { authenticate, getUserCredentials } from "./utils";
 import * as fs from "fs";
 import { Course, SubmitQuestionsResult } from "./course";
 import urljoin from "url-join";
 import fetch from "node-fetch";
 
-const EMAIL = "";
-const PASSWORD = "";
+const credentials = getUserCredentials();
 
 (async () => {
-    const { baseUrl, token } = await authenticate(EMAIL, PASSWORD);
+    const { baseUrl, token } = await authenticate(credentials.TAU_EMAIL, credentials.TAU_PASSWORD);
     const courses = JSON.parse(fs.readFileSync("courses.json", { encoding: "utf-8" })) as Course[];
 
     await Promise.all(courses.map(async course => {

@@ -2,14 +2,13 @@ import fetch from "node-fetch";
 import urljoin from "url-join";
 import { Course, Question, SubmitQuestionsResult, Chapter } from "./course";
 import * as fs from "fs";
-import _, { concat } from "lodash";
-import { authenticate } from "./utils"
+import _ from "lodash";
+import { authenticate, getUserCredentials } from "./utils"
 
-const EMAIL = "c851350@urhen.com";
-const PASSWORD = "test1234";
+const credentials = getUserCredentials();
 
 (async () => {
-    const { baseUrl, token } = await authenticate(EMAIL, PASSWORD);
+    const { baseUrl, token } = await authenticate(credentials.TAU_EMAIL, credentials.TAU_PASSWORD);
 
     let previouslyScrapedCourses: Course[] = [];
     if (fs.existsSync("courses.json")) {

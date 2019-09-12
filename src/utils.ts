@@ -1,5 +1,17 @@
 import fetch from "node-fetch";
 
+export function getUserCredentials() {
+    const TAU_EMAIL = process.env.TAU_EMAIL;
+    const TAU_PASSWORD = process.env.TAU_PASSWORD;
+    if (!TAU_EMAIL) {
+        throw new Error("TAU_EMAIL environment vairable not set.");
+    }
+    if (!TAU_PASSWORD) {
+        throw new Error("TAU_PASSWORD environment vairable not set.");
+    }
+    return { TAU_EMAIL, TAU_PASSWORD };
+}
+
 async function getTAUInfo() {
     const response = await fetch("https://testautomationu.applitools.com");
     const html = await response.text();
