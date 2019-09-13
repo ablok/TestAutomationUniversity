@@ -14775,5 +14775,484 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course8",
+        "title": "Introduction to Cypress",
+        "titleSlug": "cypress-tutorial",
+        "teacher": {
+            "name": "Gil Tayar",
+            "linkedIn": "",
+            "photoURL": "gil_tayar.jpg",
+            "profilePath": "gil_tayar",
+            "twitter": "giltayar"
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn how to automate web UI tests with Cypress",
+        "group": "foundational_testing",
+        "releaseDate": "09/13/2019",
+        "duration": 86,
+        "chaptersCount": 8,
+        "learningPaths": [
+            "learningPathUIJS"
+        ],
+        "status": "live",
+        "credits": 800,
+        "courseId": "course8",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner",
+            "javascript",
+            "cypress",
+            "web ui"
+        ],
+        "groupName": "Foundational Testing",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Cypress can run tests under",
+                        "type": "radio",
+                        "answers": [
+                            "Chrome",
+                            "Firefox",
+                            "Safari",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Cypress can use the following test runner:",
+                        "type": "radio",
+                        "answers": [
+                            "Jest",
+                            "Jasmine",
+                            "Mocha",
+                            "Whichever you want, just install it!"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Cypress is fast because",
+                        "type": "radio",
+                        "answers": [
+                            "It was written by frontend developers",
+                            "It’s written in C++",
+                            "It talks directly with the browser via its native protocol",
+                            "It runs the tests in the browser along with the app"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "How do you run cypress locally in your test folder?",
+                        "type": "radio",
+                        "answers": [
+                            "cypress open",
+                            "npm cypress open",
+                            "npx cypress open",
+                            "npm run cypress"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "The config folder",
+                            "The test folder",
+                            "The cypress/integration folder",
+                            "The root of the folder"
+                        ],
+                        "question": "Test code needs to run under",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "An “it” function",
+                            "A “test” function",
+                            "A function with a “@test” decorator"
+                        ],
+                        "question": "A test runs inside:",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "cy.visit",
+                            "cy.navigate",
+                            "driver.get",
+                            "cy.get"
+                        ],
+                        "question": "To navigate to a page, we use:",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "Think sad thoughts, and then… sigh",
+                            "Add an “import cy from ‘cypress’” to the top of the file",
+                            "Do nothing. It’s already there, so we just use it",
+                            "Add a “var cy” to the top of the file"
+                        ],
+                        "question": "To use cy, Cypress’ global object, we need to:",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Rerun Cypress tests when the tests file change",
+                            "Compiles the Cypress code when the tests file change",
+                            "Reruns all tests when the version of Chrome is upgraded",
+                            "Remembers all the versions of your test files so you can rollback"
+                        ],
+                        "question": "watchForFileChanges enables:",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "cy.get(selector) will",
+                        "type": "radio",
+                        "answers": [
+                            "Get the text of the element with the selector",
+                            "Find an element with the selector"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Check the type of the element",
+                            "Type into an input element"
+                        ],
+                        "question": "cy.type will",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "cy.contains will",
+                        "type": "radio",
+                        "answers": [
+                            "Checks whether an element contains some text",
+                            "Checks whether an element is inside another element",
+                            "Find an element that contains some text",
+                            "Returns true if a string is inside another string"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Cypress is less flaky because:",
+                        "type": "radio",
+                        "answers": [
+                            "It’s fast, and fast things are less flaky",
+                            "Because it waits by default 6 seconds before failing a cy.get",
+                            "Because it waits by default 4 seconds before failing a cy.get",
+                            "It’s Cypress, and Cypress is the best!"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question6",
+                        "answers": [
+                            "By adding a {timeout: new-timeout} to the cy.get",
+                            "By specifying timeout: new-timeout to the cypress.json",
+                            "By calling cy.setTimeout(new-timeout)"
+                        ],
+                        "question": "You can change the default timeout",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "To validate that a certain element has text, we can use:",
+                        "type": "radio",
+                        "answers": [
+                            "cy.get(selector).should('have.text', the-text)",
+                            "cy.contains(selector, the-text)",
+                            "expect(cy.get(selector)).to.equal(the-text)"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "The fastest way to determine which “should validations” Cypress has is:",
+                        "type": "radio",
+                        "answers": [
+                            "Read the documentation",
+                            "Read the source code",
+                            "Use code completion in your IDE to show all the options"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "If (cy.get(selector).isChecked) {...}",
+                            "cy.get(selector).should(‘be.checked’)",
+                            "cy.contains(selector, 'check')"
+                        ],
+                        "question": "Checking whether a checkbox is checked:",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Checking that a list has no items:",
+                        "type": "radio",
+                        "answers": [
+                            "cy.get(selector).should('have.descendants')",
+                            "cy.get(selector).children.length.should('be.equal.to', 0)",
+                            "cy.get(selector).should('not.have.descendants', 'li')"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "describe",
+                            "group"
+                        ],
+                        "question": "To group a set of tests in a file:",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "To run just one test:",
+                        "type": "radio",
+                        "answers": [
+                            "Find all the tests in the Cypress UI and uncheck all except for that test",
+                            "it.only(....)",
+                            "It.skip(...) all other tests",
+                            "it.exclusive(...)"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "To run code before each tests",
+                        "type": "radio",
+                        "answers": [
+                            "beforeEach(() => …)",
+                            "Just put the code inside the describe function",
+                            "before(() => …)",
+                            "it.beforeEach(...)"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "True. It doesn’t matter where you put a beforeEach.",
+                            "False. beforeEach will only run  before the tests in the group that contains it."
+                        ],
+                        "question": "beforeEach applies to all describe groups",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "To run all the tests:",
+                        "type": "radio",
+                        "answers": [
+                            "Run “npx cypress open”, and select “Run all tests”",
+                            "Run “npx cypress run”",
+                            "Run “npm run cypress”",
+                            "Run “npm cypress open --all”"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Run “npx cypress run --spec the-test-file”",
+                            "Run “npx cypress open”, and select the test to run",
+                            "Run “npx cypress run --only the-test-file”"
+                        ],
+                        "question": "To run a specific test file non-interactively",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Run “npx test”",
+                            "Run “npx cypress run”",
+                            "Run “npm test”"
+                        ],
+                        "question": "The standard way to run the tests in an NPM package",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "question": "To define the “test” script to run Cypress tests",
+                        "type": "radio",
+                        "answers": [
+                            "Run “npm install test cypress run”",
+                            "Change the “test” script in “package.json” to be “cypress run”",
+                            "Add a “test” option in “package.json” to be “cypress run”"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "A class is better than a set of functions",
+                        "type": "radio",
+                        "answers": [
+                            "No it isn’t",
+                            "Yes it is",
+                            "It doesn’t matter. Both are good. Use what you like."
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "export class Foo  {...}",
+                            "public class Foo {...}",
+                            "exports.Foo = class {...}"
+                        ],
+                        "question": "To export a class from a file in Cypress, use",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "import Foo",
+                            "import {Foo} from './foo'",
+                            "from './foo' import Foo"
+                        ],
+                        "question": "To import the previous class, use",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "To export a function from a file in Cypress, use",
+                        "type": "radio",
+                        "answers": [
+                            "Nothing. All functions not marked “private” can be used outside the file",
+                            "We can’t. We can only export classes",
+                            "export function foo() {...}"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Visual testing is",
+                        "type": "radio",
+                        "answers": [
+                            "Manually looking and verifying that what should happen, did happen",
+                            "Validating that the application looks like it should"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "To do visual validation in Cypress",
+                        "type": "radio",
+                        "answers": [
+                            "Just take a screenshot using the tool. The tool will do the rest",
+                            "Take a screenshot and verify that it conforms to the design system defined",
+                            "Take a screenshot and compare it to the previous screenshot you saved on disk"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "To take a screenshot with Applitools Eyes",
+                        "type": "radio",
+                        "answers": [
+                            "Use “eyes.checkWindow”",
+                            "Use “cy.eyesCheckWindow(...)”",
+                            "Use “cy.takeScreenshot”"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "You can’t. Cypress supports only Chrome",
+                            "Run your test multiple times with other browsers",
+                            "Add a “browser” section to the “cy.eyesOpen” with the list of browser configurations you want"
+                        ],
+                        "question": "To generate and test the visual appearance in multiple browsers",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "Creates a JIRA ticket with the bug",
+                            "Saves the new screenshot as the baseline for the future tests",
+                            "Tweets the visual diff to #guigonewrong hashtag"
+                        ],
+                        "question": "“Liking” a diff in the Applitools Test Manager",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "question": "A diff is “unresolved” because",
+                        "type": "radio",
+                        "answers": [
+                            "You need to check the diff for false positives",
+                            "The algorithm can’t determine whether the diff is a bug or a welcome change",
+                            "You need to approve the bug by adding a description to it"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
