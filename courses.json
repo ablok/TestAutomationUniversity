@@ -15254,5 +15254,1161 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course41",
+        "chaptersCount": 14,
+        "learningPaths": [
+            "learningPathUIJava"
+        ],
+        "status": "live",
+        "credits": 1400,
+        "courseId": "course41",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner",
+            "java",
+            "selenium",
+            "webdriver",
+            "selenium webdriver",
+            "web ui",
+            "web",
+            "ui"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Selenium WebDriver with Java",
+        "titleSlug": "selenium-webdriver-tutorial-java",
+        "teacher": {
+            "photoURL": "angie.jpg",
+            "profilePath": "angie_jones",
+            "twitter": "techgirl1908",
+            "name": "Angie Jones",
+            "linkedIn": ""
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn introductory to advanced Selenium WebDriver with Java",
+        "group": "foundational_testing",
+        "releaseDate": "09/27/2019",
+        "duration": 217,
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which programming language is needed to write scripts using the Selenium WebDriver Java API?",
+                        "type": "radio",
+                        "answers": [
+                            "JavaScript",
+                            "Java",
+                            "PHP",
+                            "Ruby"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "WebDriver scripts can only be written with the IntelliJ editor.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "The driver executable must correspond to the appropriate version of the browser.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "chromerunner",
+                            "chromebrowser",
+                            "chromedriver",
+                            "seleniumchrome"
+                        ],
+                        "question": "What's the name of the executable file needed to run WebDriver scripts on the Chrome browser?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "In additional to the executable file, you also must include the Selenium dependency to execute Selenium scripts.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What's the name of the property that ChromeDriver looks for when searching for the chromedriver executable?",
+                        "type": "radio",
+                        "answers": [
+                            "chrome.driver",
+                            "chromedriver.chrome",
+                            "webdriver.chrome.driver",
+                            "webdriver.chromedriver"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which of the following is NOT an implementation of the WebDriver interface provided within the Selenium library?",
+                        "type": "radio",
+                        "answers": [
+                            "ChromeDriver",
+                            "EdgeDriver",
+                            "FirefoxDriver",
+                            "InternetExplorerDriver",
+                            "PersonalDriver"
+                        ],
+                        "correctAnswerIndex": 4
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "launch",
+                            "get",
+                            "load",
+                            "open"
+                        ],
+                        "question": "Which WebDriver method is used to launch the browser and load a url?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "gets the name of the browser being used",
+                            "gets the title of the current web page",
+                            "prints the title of the test class"
+                        ],
+                        "question": "What does the WebDriver getTitle() command do?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "quit",
+                            "close",
+                            "end",
+                            "stop"
+                        ],
+                        "question": "Which WebDriver command closes the browser and ends the session?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "Which WebDriver command closes the current window but not necessarily the entire session?",
+                        "type": "radio",
+                        "answers": [
+                            "quit",
+                            "close",
+                            "end",
+                            "stop"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "answers": [
+                            "maximize",
+                            "fullscreen",
+                            "setSize",
+                            "enlarge"
+                        ],
+                        "question": "Which of the following is NOT a WebDriver command to modify the window size?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question8",
+                        "question": "Which of the following WebDriver command sequences enables you to manage the window, assuming your WebDriver object is called driver?",
+                        "type": "radio",
+                        "answers": [
+                            "driver.window()",
+                            "driver.manage().window()",
+                            "driver.manage()",
+                            "driver.control()"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "The findElement method is used to locate a specific element on a web page.",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "CSS selectors",
+                            "Xpath selectors",
+                            "Java objects that specify how to find an element on a page",
+                            "Objects that open the browser"
+                        ],
+                        "question": "`By` objects are ______",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What is a WebElement?",
+                        "type": "radio",
+                        "answers": [
+                            "The locator to find the element",
+                            "The Java object used to represent an element on a web page",
+                            "The actual element within the web page",
+                            "A web page"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "The first matching element in the DOM",
+                            "All matching elements in the DOM",
+                            "The last matching element in the DOM",
+                            "An exception"
+                        ],
+                        "question": "If there are multiple elements on the web page that match the given locator, what does findElement [singular] return?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "question": "If there are multiple elements on the web page that match the given locator, what does findElements [plural] return?",
+                        "type": "radio",
+                        "answers": [
+                            "The first matching element in the DOM",
+                            "All matching elements in the DOM",
+                            "The last matching element in the DOM",
+                            "An exception"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "question": "What type of Java object has methods (such as `click`) that interact with elements on a web page?",
+                        "type": "radio",
+                        "answers": [
+                            "By",
+                            "WebElement",
+                            "WebDriver",
+                            "ChromeDriver"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "question": "To interact with web elements, WebDriver must find the element and then take action on the element.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question8",
+                        "answers": [
+                            "findElement returns null",
+                            "findElement returns an empty list",
+                            "NoSuchElementException is thrown",
+                            "WebDriver skips it and continues running the program"
+                        ],
+                        "question": "What happens if you use findElement to find an element that does not exist?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "fields",
+                            "methods",
+                            "classes",
+                            "packages"
+                        ],
+                        "question": "In the page object model design pattern, ______ are created to *represent* the web elements on the web page",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question10",
+                        "question": "Which dependency provides a class that contains specific methods to interact with dropdown elements?",
+                        "type": "radio",
+                        "answers": [
+                            "selenium-chrome-driver",
+                            "selenium-support",
+                            "testng"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question11",
+                        "question": "Which method would you use to get a list of all of the options that are selected within a dropdown menu?",
+                        "type": "radio",
+                        "answers": [
+                            "getOptions",
+                            "getSelectedOptions",
+                            "getAllSelectedOptions",
+                            "getFirstSelectedOption"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "fields",
+                            "methods",
+                            "classes",
+                            "packages"
+                        ],
+                        "question": "In the page object model design pattern, ______ are created to *interact with* the web elements on the web page",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which of these is a WebElement method to type text into a field?",
+                        "type": "radio",
+                        "answers": [
+                            "setText",
+                            "typeText",
+                            "typeKeys",
+                            "sendKeys"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which of these is a WebElement method to read text from an element?",
+                        "type": "radio",
+                        "answers": [
+                            "read",
+                            "readText",
+                            "get",
+                            "getText"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "select",
+                            "check",
+                            "click",
+                            "get"
+                        ],
+                        "question": "Which of these is a WebElement method to select a radio button?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question6",
+                        "question": "Which of these is a WebElement method to check a checkbox?",
+                        "type": "radio",
+                        "answers": [
+                            "select",
+                            "check",
+                            "click",
+                            "get"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question7",
+                        "question": "When a method's actions cause us to move to a new page, it is a good practice that the method __________",
+                        "type": "radio",
+                        "answers": [
+                            "return an object representing the new page",
+                            "print a message",
+                            "goes back to the previous page"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question8",
+                        "question": "WebDriver provides methods to assert if a test has passed or failed",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question9",
+                        "answers": [
+                            "WebElement",
+                            "Dropdown",
+                            "Select",
+                            "Menu"
+                        ],
+                        "question": "Which type of Java object represents a dropdown element?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which of the following is considered an advanced interaction and is not covered by the WebElement class?",
+                        "type": "radio",
+                        "answers": [
+                            "clicking",
+                            "hovering",
+                            "getting text from an element",
+                            "sending text to an element"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "hover",
+                            "point",
+                            "moveToElement",
+                            "holdCursor"
+                        ],
+                        "question": "Which method is used to hover over an element?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Actions",
+                            "AdvancedWebElement",
+                            "WebElementPro",
+                            "Hover"
+                        ],
+                        "question": "What's the name of the class that provides methods for advanced interactions?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "doIt",
+                            "perform",
+                            "now",
+                            "go"
+                        ],
+                        "question": "To actually have an advanced action occur, which method must be called after the action method calls?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "You can use a given WebElement as the starting point to find descending elements, as opposed to starting the search from the top of the DOM.",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which Selenium class allows you to specify specific keys to press?",
+                        "type": "radio",
+                        "answers": [
+                            "Text",
+                            "String",
+                            "Keys",
+                            "Buttons"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which method will enable you to press multiple keys at the same time?",
+                        "type": "radio",
+                        "answers": [
+                            "chord",
+                            "keys",
+                            "actions",
+                            "click"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Function keys (such as F1, F2, etc) can NOT be pressed using the Selenium WebDriver API?",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Selenium WebDriver supports the use of arrow keys.",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which of the following will press the backspace button?",
+                        "type": "radio",
+                        "answers": [
+                            "chord(\"backspace\")",
+                            "Keys.BACK_SPACE",
+                            "Actions.pressBackspace",
+                            "Just press the backspace button when typing the text in the IDE"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "JavaScript alerts exist in the DOM.",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question10",
+                        "question": "Modal dialogs appear in the DOM",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question11",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Modal dialogs can be accessed using the Alert class",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "goTo().alert()",
+                            "open().alert()",
+                            "switchTo().alert()",
+                            "moveTo().alert()"
+                        ],
+                        "question": "Which WebDriver call should you make to begin interaction with alerts?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Alert",
+                            "Dialog",
+                            "PopUp",
+                            "WebDriver"
+                        ],
+                        "question": "Which Selenium class contains methods to interact with alerts?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which method will click the OK button on an alert?",
+                        "type": "radio",
+                        "answers": [
+                            "clickOK()",
+                            "ok()",
+                            "accept()",
+                            "okClick()"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which method will click the Cancel button on an alert?",
+                        "type": "radio",
+                        "answers": [
+                            "clickCancel()",
+                            "cancel()",
+                            "dismiss()",
+                            "okCancel()"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "getText()",
+                            "showText()",
+                            "getAlertText()",
+                            "showAlertText()"
+                        ],
+                        "question": "Which method will return the text that's displayed on an alert?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "answers": [
+                            "setText()",
+                            "input()",
+                            "inputText()",
+                            "sendKeys()"
+                        ],
+                        "question": "Which method will input text into a field on an alert?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question8",
+                        "question": "File upload dialogs can be accessed using the Alert class",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question9",
+                        "question": "Which WebDriver method is used to provide the file location to a file upload dialog?",
+                        "type": "radio",
+                        "answers": [
+                            "uploadFile()",
+                            "sendKeys()",
+                            "addPath()",
+                            "addFile()"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What is a frame in the context of Selenium?",
+                        "type": "radio",
+                        "answers": [
+                            "An HTML document embedded into another HTML document",
+                            "An object that you place a picture in",
+                            "The entire DOM",
+                            "The number of elements in the DOM"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which WebDriver call should you make to begin interaction with frames?",
+                        "type": "radio",
+                        "answers": [
+                            "switchTo().frame()",
+                            "moveTo().frame()",
+                            "goTo().frame()",
+                            "interactWith().frame()"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "<frame>",
+                            "<iframe>",
+                            "<html>",
+                            "<doc>"
+                        ],
+                        "question": "What is the HTML element that represents a frame?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "There can be multiple frames within the DOM.",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which of the following is NOT a valid argument for the frame() method?",
+                        "type": "radio",
+                        "answers": [
+                            "id of frame",
+                            "WebElement of frame",
+                            "index of frame",
+                            "By object"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "When WebDriver has switched to the content of a specific frame, it can still interact with elements not within that frame.",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "The purpose of the parentFrame() method is to exit the current frame and return to the parent context.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter9",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What does this WebDriver command do? manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)",
+                        "type": "radio",
+                        "answers": [
+                            "Pauses the execution for 5 seconds",
+                            "Waits up to 5 seconds any time an element that it needs to interact with is not already present",
+                            "A one-time wait of 5 seconds for a specific element"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question10",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Selenium provides a method to allow you to wait for the page to completely load.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question11",
+                        "answers": [
+                            "test to execute",
+                            "page to load",
+                            "asynchronous JavaScript code to execute",
+                            "to write a Selenium test"
+                        ],
+                        "question": "The purpose of the setScriptTimeout() method is to set the maximum amount of time it should take for the ________.",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which Selenium class allows you to do explicit waits?",
+                        "type": "radio",
+                        "answers": [
+                            "Wait",
+                            "WebDriver",
+                            "WebDriverWait",
+                            "ExplicitWait"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Explicit waits will always wait the entire time specified by the timeout.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which type of wait strategy allows you to specify the condition to wait for?",
+                        "type": "radio",
+                        "answers": [
+                            "Implicit",
+                            "Explicit"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Conditions",
+                            "ExpectedConditions",
+                            "WaitUntil",
+                            "WebDriver"
+                        ],
+                        "question": "Which Selenium class is used to note the type of condition to wait for?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "question": "To wait for an element to disappear, which method should be used?",
+                        "type": "radio",
+                        "answers": [
+                            "hidden()",
+                            "isDisappeared()",
+                            "absent()",
+                            "invisibilityOf()"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "answers": [
+                            "The program continues with the next step",
+                            "An exception is thrown",
+                            "The test is skipped"
+                        ],
+                        "question": "What happens if the element is still not found after waiting the specified amount of time?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question8",
+                        "question": "What's an advantage of fluent waits over other types of wait strategies?",
+                        "type": "radio",
+                        "answers": [
+                            "Fluent waits give you more flexibility",
+                            "Fluent waits don't have a timeout",
+                            "Fluent waits are done at the project level by default"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question9",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Fluent waits allow you to ignore exceptions that may be thrown when polling for an element?",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter10",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "If you're using Selenium for Java, why would you need to use JavaScript?",
+                        "type": "radio",
+                        "answers": [
+                            "For anything not already provided by Selenium",
+                            "Because Selenium supports any language",
+                            "To interact with alerts"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which Selenium class contains methods to execute JavaScript code?",
+                        "type": "radio",
+                        "answers": [
+                            "JavaScriptDriver",
+                            "JavaScriptCode",
+                            "JavascriptExecutor",
+                            "WebDriverJS"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "cast it",
+                            "pass it",
+                            "delete it",
+                            "reinstantiate it"
+                        ],
+                        "question": "To utilize the Selenium class that executes JavaScript, what must you do with the WebDriver object?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "runJS",
+                            "executeScript",
+                            "runScript"
+                        ],
+                        "question": "Which of the following is a method to execute JavaScript code?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter11",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "move()",
+                            "back()",
+                            "refresh()",
+                            "to()"
+                        ],
+                        "question": "Which of these is NOT a Navigation method?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Selenium handles windows and tabs differently.",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which method returns handles to all open windows and tabs?",
+                        "type": "radio",
+                        "answers": [
+                            "getWindowHandles()",
+                            "getWindows()",
+                            "getTabs()",
+                            "getWindowsAndTabs()"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "A specific page will have the same window handle every time it is launched",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "newTab(\"123\")",
+                            "switchTo().window(\"123\")",
+                            "tab(\"123\")"
+                        ],
+                        "question": "Which of the following WebDriver calls will change the focus to a different tab which has a handle of 123?",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter12",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which Selenium class is used to take screenshots of the browser?",
+                        "type": "radio",
+                        "answers": [
+                            "Screenshot",
+                            "SeleniumScreenshot",
+                            "TakesScreenshot",
+                            "BrowserScreenshot"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which method actually takes the screenshot?",
+                        "type": "radio",
+                        "answers": [
+                            "takePic()",
+                            " takeScreenshot()",
+                            "getScreenshotAs()",
+                            "screenshot()"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "By default, Selenium takes screenshots on test failures.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "By default, screenshots are saved in your project's directory.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "cast it",
+                            "send it as an argument",
+                            "remove it"
+                        ],
+                        "question": "To utilize the Selenium class that takes screenshots, what must you do with the WebDriver object?",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter13",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "A class to create a new WebDriver instance",
+                            "An interface containing methods that listens for Selenium events",
+                            "A method that is called whenever there are exceptions thrown"
+                        ],
+                        "question": "What is WebDriverEventListener?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "EventFiringWebDriver is a class that allows you to register an implementation of WebDriverEventListener.",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Before any element is clicked",
+                            "Only when buttons are clicked",
+                            "After links are clicked"
+                        ],
+                        "question": "When is the WebDriverEventListener method beforeClickOn() called?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "The WebDriverEventListener methods can only be implemented for the purpose of reporting.",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter14",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Selenium launches the same browser instance that you typically use for your everyday browsing.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "To make changes to the browser being launched",
+                            "To specify which browser to launch (e.g. IE, Firefox, Chrome, etc)",
+                            "To run cross-browser testing"
+                        ],
+                        "question": "What is the purpose of the ChromeOptions class?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Removes the automation notification from the browser",
+                            "Runs the Selenium scripts without opening the browser",
+                            "Decapitates your enemy"
+                        ],
+                        "question": "What does the ChromeOptions method setHeadless(true) do?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Selenium has methods that allow you to manage cookies within your browser.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            }
+        ]
     }
 ]
