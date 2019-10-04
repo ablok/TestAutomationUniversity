@@ -16410,5 +16410,556 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course7",
+        "chaptersCount": 8,
+        "learningPaths": [
+            "learningPathUIJava"
+        ],
+        "status": "live",
+        "credits": 800,
+        "courseId": "course7",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner",
+            "java",
+            "selenium",
+            "functional",
+            "end-to-end",
+            "web ui",
+            "web",
+            "mobile",
+            "visual AI"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Modern Functional Test Automation Through Visual AI",
+        "titleSlug": "modern-functional-testing",
+        "teacher": {
+            "name": "Raja Rao DV",
+            "linkedIn": "",
+            "photoURL": "raja.jpeg",
+            "profilePath": "raja_rao_dv",
+            "twitter": "rajaraodv"
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn how to add AI to your existing code to increase test coverage while reducing code",
+        "group": "foundational_testing",
+        "releaseDate": "10/04/2019",
+        "duration": 48,
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "An AI that can look into your soul",
+                            "A graphical AI that's written using Microsoft's Visual studio",
+                            "An AI that's uses computer vision and advanced algorithms to find meaningful UI issues in web and mobile apps"
+                        ],
+                        "question": "What is 'Visual AI'?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question10",
+                        "type": "radio",
+                        "answers": [
+                            "java.takeSelfie()",
+                            "selenium.takeScreenshot()",
+                            "eyes.checkWindow()",
+                            "All the above"
+                        ],
+                        "question": "What does the simplest Applitools code that takes the screenshot look like?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question11",
+                        "type": "radio",
+                        "answers": [
+                            "Functional bugs (Login functionality not working)",
+                            "Visual bugs (like text overlap)",
+                            "Differences due to enhancements",
+                            "All the above"
+                        ],
+                        "question": "What all bugs/differences you can find by comparing screenshots using Visual AI?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question12",
+                        "question": "Functional testing using Visual AI is...",
+                        "type": "radio",
+                        "answers": [
+                            "subset of legacy functional testing",
+                            "a superset of legacy functional testing (because in addition you get visual diffs as a bonus)",
+                            "same as legacy code based functional testing",
+                            "way to do load testing"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "When you write a test, exactly when do you take the screenshot for analysis?",
+                        "type": "radio",
+                        "answers": [
+                            "Before the functionality is complete",
+                            "After the functionality is complete"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "You can cover the entire page in a single screenshot -- amazing coverage",
+                            "You can literally see the differences and know if it's because of a bug or a feature",
+                            "You can find both visual and functional bugs easily",
+                            "All the above"
+                        ],
+                        "question": "Why is taking screenshots and comparing them is better than writing code?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Why does pixel-by-pixel screenshot comparison or DOM-diffing not work?",
+                        "type": "radio",
+                        "answers": [
+                            "A minor and irrelevant change somewhere in the screenshot or DOM can show up as a false positive",
+                            "They use pretty rudementary comparison methods instead of comparing like humans which involves a lot of nuances",
+                            "Too hard to debug false-positives and manage",
+                            "All the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "They are good browser automation but not at App validation",
+                            "They are good at both browser automation and App validation",
+                            "They are bad at everything, just do manual testing"
+                        ],
+                        "question": "What are tools like Selenium, Cypress etc. good at (and not so good at)?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "You need to repalace your existing test framework and language and replace it with the new Appli-framework and Appli-language. It's pretty simple actually",
+                            "Applitools works as a compliment to your existing testing framework and programming language"
+                        ],
+                        "question": "How do you incarporate Applitools to your QA workflow?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "answers": [
+                            "The 'Nose' SDK",
+                            "The 'Stomach' SDK",
+                            "The 'Ears' SDK",
+                            "The 'Eyes' SDK"
+                        ],
+                        "question": "What does the Applitools SDK called?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question8",
+                        "answers": [
+                            "You don't need to write a lot of individual tests for each elements like fields and checkboxes (because you can take full page screenshots)",
+                            "You don't need to write validation code (delegate that to the AI)",
+                            "In some tests like verifing if data is sorted, you don't need to write logic or algorithms in test code",
+                            "All the above"
+                        ],
+                        "question": "When you use the modern approach, what makes the code size shrink?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question9",
+                        "answers": [
+                            "You depend on flaky DOM locators or selectors that can change at any time",
+                            "You can essentially check one element at a time",
+                            "To test things like field labels, you need to duplicate and hardcode labels in your test code",
+                            "Spend a lot of time figuring out the appropriate locators",
+                            "All the above"
+                        ],
+                        "question": "Why is the legacy way of test creation and maintenance so hard?",
+                        "type": "radio",
+                        "correctAnswerIndex": 4
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Why is it harder to test things like table sorting?",
+                        "type": "radio",
+                        "answers": [
+                            "You need to come up with an algorithm to figure out how to get the data and compare things\" , \"You need how to ensure your QA code itself has no bugs",
+                            "You need to have advanced programming language knowledge",
+                            "All the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "You get a screenshot to look at it",
+                            "No need to think or write an algorithm",
+                            "No code maintenance",
+                            "All the above"
+                        ],
+                        "question": "Why is it easier to test in the modern approach?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "question": "In Applitools, how do you create a bug in Github or Jira?",
+                        "type": "radio",
+                        "answers": [
+                            "Take a screenshot of the screenshot and upload it to your reporting server",
+                            "Manually reproduce the bug and then take a screenshot of the bug and report it",
+                            "Simply draw a box around the bug over the screenshot and report it to using Github or Jura integration"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Can you do data driven testing in the modern approach?",
+                        "type": "radio",
+                        "answers": [
+                            "Yes",
+                            "No"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "No, because the code is usually generic like eyes.checkWindow(\"login page\")",
+                            "Yes, because the modern eyes.checkWindow also depends on DOM locators"
+                        ],
+                        "question": "In the modern approach, if the error message changes, do you need to update the code?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Yes",
+                            "No"
+                        ],
+                        "question": "In the modern approach, can you catch bugs where error message might be hidden?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "No",
+                            "Yes"
+                        ],
+                        "question": "In the legacy, code based approach, can you detect visual bugs such as text overlap, text cutoff, easily?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "No",
+                            "Yes"
+                        ],
+                        "question": "Can you use legacy functional testing to test charts built using Canvas?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Too many data points and elements",
+                            "Hard or impossible to access internal chart elements",
+                            "All the above"
+                        ],
+                        "question": "Why is hard or impossible to test charts in legacy, code-based approach?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Why is it easy to test charts do that in the modern approach?",
+                        "type": "radio",
+                        "answers": [
+                            "Because you take screenshots and see how it's displayed",
+                            "Because you don't depend on internal chart elements",
+                            "All the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "question": "In the modern approach, can you test dynamic charts? If so how?",
+                        "type": "radio",
+                        "answers": [
+                            "You can't test dynamic charts, only static charts can be tested",
+                            "Simply take the screenshot after the button is clicked just like any other functional test through Visual AI",
+                            "It's too complex, leave it for manual testing"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "In the code based approach, if you need to test a nested iframe what do you need to do first?",
+                        "type": "radio",
+                        "answers": [
+                            "You can't test nested iframes",
+                            "what is an iframe?",
+                            "You need to switch context using \"switchTo()\"",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Missing scrollbars",
+                            "Double scrollbars",
+                            "iframe resize issues",
+                            "All the above"
+                        ],
+                        "question": "What kind of UI bugs you typically encounter with iframes that is not easy to detect in legacy code based testing but can be detected throught screenshots?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Why is testing lists of complex data such as the product lists hard in the legacy code-based testing?",
+                        "type": "radio",
+                        "answers": [
+                            "There can be a lot of details in each item",
+                            "Each item can have different values, different background colors, foreground colors, etc",
+                            "Visual defects such as text overlap can't be easily detected",
+                            "All the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "In the modern approach, if the test needs multiple test steps, how will you ensure that each step is correct?",
+                        "type": "radio",
+                        "answers": [
+                            "Simply take screenshots at each step before going to the next step",
+                            "Multi step tests can't be tested in the modern approach"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Yes",
+                            "No"
+                        ],
+                        "question": "In Applitools, can you take full page screenshots?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "In Applitools, how do you take full page screenshots of lists (like product list in this example)?",
+                        "type": "radio",
+                        "answers": [
+                            "Find the element that has a scrollbar and use the \"fully\" method that comes as part of the SDK",
+                            "It's not supported"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "They are proprietary",
+                            "Your development team or the QA team has no control over changes",
+                            "Even things like \"id\"s are dynamically generated so you can't depend on them",
+                            "All the above"
+                        ],
+                        "question": "What's the challenge with enterprise UI frameworks such as SAP?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question6",
+                        "answers": [
+                            "Yes, absolutely",
+                            "No"
+                        ],
+                        "question": "In Applitools, can you handle dynamic sections of the page that can cause false-positives?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Screenshots can constantly or arbitrarily change making you to think the functionality is broken (false positive)",
+                            "There is no problem"
+                        ],
+                        "question": "Why dymamic pages are a big problem for doing functional testing by taking screenshots?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question10",
+                        "question": "What order should you approach adding different Applitools features to handle dynamic pages?",
+                        "type": "radio",
+                        "answers": [
+                            "Start from full page screenshots and then go down to checking just regions and finally just an element",
+                            "Start small. Start taking screenshot of elements using locators"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Even a small change can cause false-positive",
+                            "Browser rendering engine can cause false-positive",
+                            "Partial dynamic sections with a page can cause false-positive",
+                            "All the above"
+                        ],
+                        "question": "Why is pixel-by-pixel screenshot comparison doesn't really work?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "DOM change does't always correlate with the UI change",
+                            "DOM diffing still need a lot of debugging to see if it's a false-positive or a real issue (is manual work)",
+                            "All the above"
+                        ],
+                        "question": "Why DOM diffing doesn't really work?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Go back to code-based testing",
+                            "Don't worry about the change. Just update the baseline everytime",
+                            "Use \"ignore region\""
+                        ],
+                        "question": "In Applitools, if a small section of the page is dynamic, how will you handle that?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "Regions allow you to apply algorithm to a small region of the screenshot, and \"modes\" allow you to apply algorithms for the entire screenshot",
+                            "They are deprecated features, don't use them"
+                        ],
+                        "question": "What exactly are \"regions\" and \"match levels (aka modes)\" in Applitools",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "Can the \"Layout\" mode help with dealing with dynamic pages?",
+                        "type": "radio",
+                        "answers": [
+                            "Yes - The Layout mode only checks for layouts and ignore small changes, so it could be used",
+                            "It is only useful when pages have tables with layouts"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "answers": [
+                            "1",
+                            "2",
+                            "2.5",
+                            "Any number of regions"
+                        ],
+                        "question": "How many \"regions\" like the \"ignore region\" can you add to a page?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question8",
+                        "type": "radio",
+                        "answers": [
+                            "Yes",
+                            "No, that's a bad practice"
+                        ],
+                        "question": "Can you combine different types of regions and modes to deal with a complex dynamic page?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question9",
+                        "answers": [
+                            "checkRegion allows you to get screenshot without depending on flaky locators",
+                            "You can check an entire region, that's why"
+                        ],
+                        "question": "Why should you use checkRegion instead of checkElement?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "What caveats?",
+                            "Dynamic pages"
+                        ],
+                        "question": "What is the main caveat of this approach especially for pixel-by-pixel or DOM-diffing tools?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Run tests in parallel",
+                            "Avoid taking duplicate screenshots",
+                            "All the above"
+                        ],
+                        "question": "How do you deal with test execution speed?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            }
+        ]
     }
 ]
