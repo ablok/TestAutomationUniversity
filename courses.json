@@ -16961,5 +16961,487 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course39",
+        "sortOrder": 8,
+        "abstract": "Learn Jest, Facebook's open source JavaScript testing tool",
+        "group": "foundational_testing",
+        "releaseDate": "10/11/2019",
+        "duration": 51,
+        "chaptersCount": 9,
+        "learningPaths": [],
+        "status": "live",
+        "credits": 900,
+        "courseId": "course39",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Jest JavaScript Testing Framework",
+        "titleSlug": "jest-testing-tutorial",
+        "teacher": {
+            "name": "Toyer Mamoojee",
+            "linkedIn": "",
+            "photoURL": "toyer_mamoojee.jpg",
+            "profilePath": "toyer_mamoojee",
+            "twitter": "tottilfc"
+        },
+        "level": "beginner",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Jest is an open sourced Javascript testing library",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Jest supports the following language(s)",
+                        "type": "radio",
+                        "answers": [
+                            "Javascript",
+                            "Python",
+                            "Java",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Jest has the ability to run tests in parallel",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Jest comes with the following feature(s) built in",
+                        "type": "radio",
+                        "answers": [
+                            "matchers",
+                            "spies",
+                            "mocking library",
+                            "all of the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Jest provides a method to perform snapshot testing",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "You can only use Jest to test your API",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which of these is a prerequisite needed to run Jest?",
+                        "type": "radio",
+                        "answers": [
+                            "Scala",
+                            "TestNG",
+                            "Node.js",
+                            "Putty"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "npm install --save-dev jest",
+                            "node install jest",
+                            "npm please install jest "
+                        ],
+                        "question": "Which command is used to install Jest?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Jest tests can be written in the Visual Studio Code editor",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "run.js",
+                            "testme.js",
+                            "js.testing",
+                            "calculator.test.js"
+                        ],
+                        "question": "Which of the following is an example of a test file naming convention that Jest would be able to interpret and run?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Jest interprets and runs files that contain .spec.js ",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "In Jest, 'describe' is used to ______",
+                        "type": "radio",
+                        "answers": [
+                            "add performance improvements",
+                            "test code that contains describe features",
+                            "logically group tests",
+                            "provide help feature in jest"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Jest requires external assertion libraries as it doesn’t have these capabilities built-in",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "methods that let you test values",
+                            "methods that let you beautify your code",
+                            "a dating service"
+                        ],
+                        "question": "Matchers are ________",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "toBe",
+                            "toUnEqual",
+                            "toBeOrNotToBe",
+                            "none of the above"
+                        ],
+                        "question": "Which of the following is a valid matcher in Jest?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which of the following statements is true?",
+                        "type": "radio",
+                        "answers": [
+                            "toEqual is always the best matcher to use regardless of what type to test",
+                            "toBe tests the value, toEqual uses strict equality",
+                            "toBe uses strict equality, toEqual tests the value of an object"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which of the following matchers can be used in conjunction with another matcher to verify its opposite?",
+                        "type": "radio",
+                        "answers": [
+                            "not",
+                            "false",
+                            "!",
+                            "opposite"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "toString",
+                            "toFind",
+                            "toKnow",
+                            "toMatch"
+                        ],
+                        "question": "Which of these is a String matcher to check for specific values using regular expressions",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "The toBeGreaterThan matcher is typically used to check String values",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "A test that uses the toBeFalsy matcher would pass if the value being checked is false",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which matcher is best for checking for value(s) in an array?",
+                        "type": "radio",
+                        "answers": [
+                            "toFindInArray",
+                            "toBeGreaterThan",
+                            "toContain",
+                            "toMatch"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which built-in helper function will execute prior to *each* test?",
+                        "type": "radio",
+                        "answers": [
+                            "beforeTest()",
+                            "beforeAll()",
+                            "afterEach()",
+                            "beforeEach()"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "The afterEach() function is executed in the middle of all the tests in your file.",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "beforeAll()",
+                            "beforeAllMyTests()",
+                            "before()",
+                            "none of the above"
+                        ],
+                        "question": "To execute a block of code once before any tests run, which helper function should you use?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Additional libraries need to be installed to use the beforeEach() and afterEach() helper functions.",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Jest does not have the ability to run specific tests files, it can only run all test files at once",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which syntax enables you to run specific tests within a file?",
+                        "type": "radio",
+                        "answers": [
+                            ".this1",
+                            ".just",
+                            ".runMe",
+                            ".only"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Jest includes a feature to run tests in watch mode",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "While in watchAll mode, which option can you select to watch tests that have failed?",
+                        "type": "radio",
+                        "answers": [
+                            "f",
+                            "q",
+                            "a",
+                            "none"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "callbacks",
+                            "snapshots",
+                            "promises",
+                            "async/await"
+                        ],
+                        "question": "Which of the following is NOT a way that Jest handles asynchronous code?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "If you are using an async function, there's no need to include the async syntax in your test",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "await",
+                            "sleep",
+                            "wait",
+                            "async"
+                        ],
+                        "question": "Complete the following code snippet for a test which uses asynchronous code: test('test this nicely', ________() => {",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Complete the following code snippet for a test which uses asynchronous code: const data = _____ fetchSomething();",
+                        "type": "radio",
+                        "answers": [
+                            "await",
+                            "sleep",
+                            "wait",
+                            "async"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter9",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "In Jest, snapshots can only be used for UI components",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "toSnapshot()",
+                            "toMatch()",
+                            "toMatchSnapshot()"
+                        ],
+                        "question": "Which function call will verify a snapshot",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "snapshot",
+                            "_snapshots_",
+                            "selfieShots"
+                        ],
+                        "question": "This folder gets created automatically when executing Jest if you have snapshot matches as part of your test",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Snapshots have the ability to replace multiple lines of code",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            }
+        ]
     }
 ]
