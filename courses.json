@@ -15334,5 +15334,889 @@
         ]
       }
     ]
+  },
+  {
+    "id": "course35",
+    "chaptersCount": 12,
+    "learningPaths": ["learningPathUICS"],
+    "status": "live",
+    "credits": 1200,
+    "courseId": "course35",
+    "category": "Foundational Test Automation Courses",
+    "tags": ["advanced", "c#", "csharp", "framework"],
+    "groupName": "Foundational Testing",
+    "title": "From Scripting to Framework with Selenium and C#",
+    "titleSlug": "test-automation-framework-csharp",
+    "teacher": {
+      "name": "Carlos Kidman",
+      "linkedIn": "",
+      "photoURL": "CarlosKidman.jpg",
+      "profilePath": "carlos_kidman",
+      "twitter": "CarlosKidman"
+    },
+    "level": "Advanced",
+    "sortOrder": 8,
+    "abstract": "Learn how create a test automation framework in C#",
+    "group": "foundational_testing",
+    "releaseDate": "12/02/2019",
+    "duration": 188,
+    "chapters": [
+      {
+        "chapterId": "chapter1",
+        "questions": [
+          {
+            "id": "question1",
+            "type": "radio",
+            "answers": ["1.0", "2.0", "3.0", "2.2 or greater"],
+            "question": "Which version of .NET Core is required?",
+            "correctAnswerIndex": 3
+          },
+          {
+            "id": "question2",
+            "question": "Do you install the SDK or the Runtime?",
+            "type": "radio",
+            "answers": ["Runtime", "SDK"],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question3",
+            "question": "PackSharp will show you the commands it uses in the Integrated Terminal",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question4",
+            "type": "radio",
+            "answers": ["MSTest", "xUnit", "VSTest", "NUnit 3"],
+            "question": "Which testing framework are we using?",
+            "correctAnswerIndex": 3
+          },
+          {
+            "id": "question5",
+            "type": "radio",
+            "answers": [
+              "Console Application",
+              "Class Library",
+              "NUnit 3 Test Project",
+              "ASP.NET"
+            ],
+            "question": "Framework and Royale are which type of Project?",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question6",
+            "question": "PackSharp commands can be found in the _______",
+            "type": "radio",
+            "answers": [
+              "Extension Marketplace",
+              "Main menu",
+              "Command Palette",
+              "Action Menu"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question7",
+            "question": "The Solution File manages the packages",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question8",
+            "question": "How do you build the solution?",
+            "type": "radio",
+            "answers": [
+              "$ dot net build",
+              "$ .net build",
+              "$ dotnet build",
+              "$ dotnet-build"
+            ],
+            "correctAnswerIndex": 2
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter2",
+        "questions": [
+          {
+            "id": "question1",
+            "type": "radio",
+            "answers": [
+              "Bootstrap Selenium",
+              "Create New Project",
+              "Add Project Reference",
+              "Add Package"
+            ],
+            "question": "Which PackSharp command was used to easily install Selenium?",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question2",
+            "question": "Where was the chromedriver executable installed?",
+            "type": "radio",
+            "answers": [
+              "/_drivers",
+              "/bin/debug folder",
+              ".drivers",
+              "/bin/debug/netcoreapp folder"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question3",
+            "question": "A method decorated with the [SetUp] attribute is run before ANY tests are run.",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question4",
+            "answers": ["Contains", "Ends With", "Equals", "Starts With"],
+            "question": "When finding elements using CSS, what does the `*=` operator mean?",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question5",
+            "question": "When you have an element in the Dev Tools Console, how do you get its text?",
+            "type": "radio",
+            "answers": [".innerText", ".text()", "getInnerText", ".getText"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question6",
+            "type": "radio",
+            "answers": [".Click()", ".click", ".click()", ".Click"],
+            "question": "When you have an element in the Dev Tools Console, how do you click it?",
+            "correctAnswerIndex": 2
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter3",
+        "questions": [
+          {
+            "id": "question1",
+            "answers": ["true", "false"],
+            "question": "The Page Map Pattern is required for the Page Object Model?",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question2",
+            "question": "In the Page Map Pattern, what question does the Page Map answer?",
+            "type": "radio",
+            "answers": [
+              "What is on the page?",
+              "What are the locations of elements on the page?",
+              "What can the user do on the page?",
+              "How many elements are on the page?"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question3",
+            "type": "radio",
+            "answers": [
+              "How should the page be structured?",
+              "Which tests should I write for the page?",
+              "What is on the page?",
+              "What can the user do on the page?"
+            ],
+            "question": "In the Page Map Pattern, what question does the Page Object answer?",
+            "correctAnswerIndex": 3
+          },
+          {
+            "id": "question4",
+            "question": "If your page was called HomePage, what should be the name of your Page Map?",
+            "type": "radio",
+            "answers": ["HomePageMap", "HomeMapPage", "MapHomePage", "HomeMap"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question5",
+            "question": "The Page class and PageMap class can live in the same file.",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question6",
+            "answers": ["true", "false"],
+            "question": "Royale.Tests references Royale which references Framework.",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question7",
+            "answers": ["true", "false"],
+            "question": "The constructor method needs to be the same name as the class.",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question8",
+            "question": "When declaring a Page Map inside its Page class, which pattern is recommended?",
+            "type": "radio",
+            "answers": [
+              "public PageMap Map;",
+              "public readonly PageMap Map;",
+              "public readonly PageMap PageMap;",
+              "public PageMap PageMap;"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question9",
+            "question": "What does the abstract keyword mean?",
+            "type": "radio",
+            "answers": [
+              "It cannot be instantiated, only inherited",
+              "It can only be used in Test classes",
+              "It is a singleton that can be shared",
+              "It cannot be inherited, only instantiated"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter4",
+        "questions": [
+          {
+            "id": "question1",
+            "answers": ["Method", "Property", "Field", "Constructor"],
+            "question": "What is the following member of a class called? `public string Name { get; set; }`",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question2",
+            "question": "What does the `virtual` keyword do?",
+            "type": "radio",
+            "answers": [
+              "The member is private to the class",
+              "The member cannot be overriden by the class that inherits it",
+              "The member can be overriden by the class that inherits it",
+              "The member lives in a virtual space"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question3",
+            "question": "Interfaces are rules or contracts that must be adhered to by any class that implements them",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question4",
+            "question": "Which NUnit attribute is used to make explicit test cases for a test method?",
+            "type": "radio",
+            "answers": [
+              "[TestCase]",
+              "[Case]",
+              "[Parameter]",
+              "[TestCaseSource]"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question5",
+            "question": "Which NUnit attribute is used to pass in a list of values and turn them into test cases?",
+            "type": "radio",
+            "answers": [
+              "[Parameters]",
+              "[TestSource]",
+              "[TestCaseSource]",
+              "[TestCases]"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question6",
+            "question": "Which NUnit attribute is used to mark a test method for parallel execution?",
+            "type": "radio",
+            "answers": [
+              "[Parallelizable]",
+              "[Concurrent]",
+              "[Parallel.Scope]",
+              "[Parallel]"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question7",
+            "answers": [
+              "$ dotnet test --filter foo",
+              "$ dotnet test --filter testcategory=foo",
+              "$ dotnet test --filter category=foo",
+              "$ dotnet test -f foo"
+            ],
+            "question": "Which command would run the tests with [Category(\"foo\")]?",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question8",
+            "answers": [
+              "driver.Quit() didn't work as expected",
+              "[TestCaseSource] interferes with the [TearDown] method",
+              "The [SetUp] method was only executed once",
+              "The driver is shared between the tests"
+            ],
+            "question": "Why did only one test pass while the other one failed and left the browser open?",
+            "type": "radio",
+            "correctAnswerIndex": 3
+          },
+          {
+            "id": "question9",
+            "question": "Why did only one test pass while the other one failed and left the browser open?",
+            "type": "radio",
+            "answers": [
+              "driver.Quit() didn't work as expected",
+              "[TestCaseSource] interferes with the [TearDown] method",
+              "The [SetUp] method was only executed once",
+              "The driver is shared between the tests"
+            ],
+            "correctAnswerIndex": 3
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter5",
+        "questions": [
+          {
+            "id": "question1",
+            "type": "radio",
+            "answers": [
+              "[MultiThread]",
+              "[StaticThead]",
+              "[ThreadStatic]",
+              "[Threaded]"
+            ],
+            "question": "Which attribute allows a static member to have a unique value per thread?",
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question2",
+            "type": "radio",
+            "answers": [
+              "Gets left expression if not null, else right expression",
+              "Gets left expression if true, else right expression",
+              "Gets left expression if greater than the right expression",
+              "Gets left expression if no exception is thrown"
+            ],
+            "question": "What does the ?? operator do?",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question3",
+            "type": "radio",
+            "answers": [
+              "The current, unique instance of Driver",
+              "The singleton instance of _driver",
+              "The current, unique instance of _driver attached to a thread or process",
+              "The static Driver"
+            ],
+            "question": "What does Driver.Current represent?",
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question4",
+            "question": "What Type is _driver?",
+            "type": "radio",
+            "answers": [
+              "Driver",
+              "IWebDriver",
+              "Selenium.WebDriver",
+              "WebDriver"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question5",
+            "question": "We customized what our Driver.Goto() method could do. Which functionality did it not have?",
+            "type": "radio",
+            "answers": [
+              "Print the URL when in debugging the tests",
+              "Append .com if it was not already included in the URL",
+              "Prefix http if it was not already included in the URL",
+              "Navigate to the URL"
+            ],
+            "correctAnswerIndex": 1
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter6",
+        "questions": [
+          {
+            "id": "question1",
+            "question": "Which package did we install to work with JSON?",
+            "type": "radio",
+            "answers": [
+              "Newtonsoft.Json",
+              "PackSharp.Json",
+              "MewtwoSoft.Json",
+              "Csharp.Json"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question2",
+            "type": "radio",
+            "answers": ["RestApi", "PackSharp", "HttpClient", "RestSharp"],
+            "question": "Which package did we install to work with REST APIs?",
+            "correctAnswerIndex": 3
+          },
+          {
+            "id": "question3",
+            "question": "Turning a JSON string into an object is called",
+            "type": "radio",
+            "answers": [
+              "Transforming",
+              "Deserializing",
+              "Parsing",
+              "Serializing"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question4",
+            "type": "radio",
+            "answers": [
+              "$ dotnet packages",
+              "$ dotnet restore",
+              "$ dotnet update",
+              "$ dotnet restores"
+            ],
+            "question": "Which command restores packages in the solution?",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question5",
+            "answers": [
+              "--workers",
+              "NUnit.NumberOfTestWorkers",
+              "NUnit.Threads",
+              "--threads"
+            ],
+            "question": "Which argument is used to set the number of test workers in the CLI?",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter7",
+        "questions": [
+          {
+            "id": "question1",
+            "question": "How do you access the elements of a Page Object?",
+            "type": "radio",
+            "answers": [
+              "Page.Element",
+              "Page.Map.Element",
+              "You can't since they are hidden behind the Page Map",
+              "You must make a new PageMap() in the test"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question2",
+            "question": "After making a new Page Object, what's the next thing you should do?",
+            "type": "radio",
+            "answers": [
+              "High-five your co-workers",
+              "Add it to the Pages wrapper",
+              "Push changes to master",
+              "Add it to the Driver class"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question3",
+            "question": "What is the default filter for $ dotnet test?",
+            "type": "radio",
+            "answers": ["Class Name", "Test Name", "Priority", "Category"],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question4",
+            "question": "By default, what is WebDriverWait's polling interval?",
+            "type": "radio",
+            "answers": [
+              "5 seconds",
+              "1000 milliseconds",
+              "10 seconds",
+              "500 milliseconds"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "id": "question5",
+            "type": "radio",
+            "answers": [
+              "\"wait until other stores button is not displayed\"",
+              "\"wait until other stores button is displayed\""
+            ],
+            "question": "Driver.Wait.Until(drvr => !Map.OtherStoresButton.Displayed) reads as:",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question6",
+            "question": "\"other element would receive or intercepted the click\" is an error that usually means:",
+            "type": "radio",
+            "answers": [
+              "Another element is on top of the element you want to click on",
+              "Your element is moving on the page",
+              "Your locator is invalid",
+              "Your locator is locating a different element"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter8",
+        "questions": [
+          {
+            "id": "question1",
+            "answers": [
+              "File.CreateFile()",
+              "Directory.CreateFile()",
+              "File.CreateText()",
+              "Directory.CreateText()"
+            ],
+            "question": "Which method created the log file?",
+            "type": "radio",
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question2",
+            "type": "radio",
+            "answers": [
+              "Deletes this directory and any other directories with the same name",
+              "Deletes this directory and only its files",
+              "Deletes this directory and all subdirectories and files within it as well",
+              "Deletes this directory and only its subdirectories"
+            ],
+            "question": "What does the \"recursive: true\" argument do in the Directory.Delete() method?",
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question3",
+            "question": "What is the difference between WriteLine() and Write()?",
+            "type": "radio",
+            "answers": [
+              "First writes a new line and second appends on the current line",
+              "First writes to files and second writes to console",
+              "First writes a new line and second writes to console",
+              "First writes to console and second writes to files"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question4",
+            "type": "radio",
+            "answers": [
+              "$ before quotes and inject with {}",
+              "f before quotes and inject with {}",
+              "inject with ${} in the quotes",
+              "You can't do that in C#"
+            ],
+            "question": "How do you do string interpolation in C#?",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question5",
+            "question": "Which NUnit class allows us to get information about the current running test?",
+            "type": "radio",
+            "answers": ["TestContext", "Test", "CurrentTest", "Context"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question6",
+            "answers": [
+              "[OneTimeSetUp]",
+              "[BeforeAll]",
+              "[FixtureSetUp]",
+              "[BeforeAny]"
+            ],
+            "question": "Which NUnit attribute executes the method before any tests run?",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question7",
+            "answers": [
+              "The SetUp method",
+              "The Constructor method",
+              "The Test method",
+              "The TearDown method"
+            ],
+            "question": "FW.SetLogger() creates a new instance of Logger. Which method should it start in?",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question8",
+            "type": "radio",
+            "answers": [
+              "When one method is quicker than another method",
+              "When multiple things are trying to work with the same data at the same time",
+              "When multiple merges cause merge conflicts",
+              "When multiple things are trying to get garbage collected at the same time"
+            ],
+            "question": "What is a Race Condition?",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question9",
+            "type": "radio",
+            "answers": [
+              "A mechanism to delete threads or processes that are too slow",
+              "A mechanism that forces threads or processes to wait in line and go one by one",
+              "A mechanism to optimize writing to files",
+              "A mechanism to delay a thread or process until a condition is true"
+            ],
+            "question": "What is a \"lock\" in C#?",
+            "correctAnswerIndex": 1
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter9",
+        "questions": [
+          {
+            "id": "question1",
+            "type": "radio",
+            "answers": [
+              "Element extends IWebElement",
+              "Element : IWebElement",
+              "Element :: IWebElement",
+              "Element implements IWebElement"
+            ],
+            "question": "If I wanted Element to implement IWebElement, which would I use?",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question2",
+            "question": "How do you require a name value whenever you make a new instance of Element?",
+            "type": "radio",
+            "answers": [
+              "Create a public string Name { get; set; } property",
+              "In the constructor, add string name to its parameters",
+              "In the constructor, have _name = name",
+              "Create a private readonly string Name; field"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question3",
+            "type": "radio",
+            "answers": [
+              "Elements implements ReadOnlyCollection<IWebElement>",
+              "Elements :: ReadOnlyCollection<IWebElement>",
+              "Elements extends ReadOnlyCollection<IWebElement>",
+              "Elements : ReadOnlyCollection<IWebElement>"
+            ],
+            "question": "If I wanted Elements to inherit ReadOnlyCollection<IWebElement>, which would I use?",
+            "correctAnswerIndex": 3
+          },
+          {
+            "id": "question4",
+            "type": "radio",
+            "answers": [
+              "Every object in C# has a Count property",
+              "Elements comes with Count pre-defined",
+              "Magic obviously",
+              "Count is a property in the base class"
+            ],
+            "question": "How is our Elements class using Count when it isn't defined anywhere in the file?",
+            "correctAnswerIndex": 3
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter10",
+        "questions": [
+          {
+            "id": "question1",
+            "answers": [
+              "It is executed if none of the cases match",
+              "It is executed if all cases match",
+              "It is executed if multiple cases match",
+              "It is always executed after the cases"
+            ],
+            "question": "What does default do in a switch block?",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question2",
+            "question": "Where did we save the framework-config.json file?",
+            "type": "radio",
+            "answers": [
+              "In the Royal project",
+              "In the Royale.Tests project",
+              "Workspace Root",
+              "In the Framework project"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question3",
+            "answers": [
+              "\"browser\": \"chrome\"",
+              "\"browser\" = \"chrome\"",
+              "\"browser\" = chrome",
+              "browser: \"chrome"
+            ],
+            "question": "How did we define the key-value pairs in our JSON?",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question4",
+            "answers": ["pp", "prop", "property", "Shift + prop"],
+            "question": "What is the Code Snippet (or \"shortcut\") to create properties in a class?",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question5",
+            "question": "The framework config only needs to be intialized once per test run",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 0
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter11",
+        "questions": [
+          {
+            "id": "question1",
+            "question": "Where did we put our TestBase class?",
+            "type": "radio",
+            "answers": [
+              "Royale.Tests.Base",
+              "Base.Base",
+              "Royale.Base",
+              "Framework.Base"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question2",
+            "question": "CardTests has the setup and teardown methods because it inherits TestBase",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question3",
+            "answers": [
+              "TestContext.CurrentContext.Outcome",
+              "TestContext.CurrentContext.TestOutcome",
+              "TestContext.CurrentContext.Result.Outcome.Status",
+              "TestContext.CurrentContext.Status"
+            ],
+            "question": "How do you get the current test's outcome status?",
+            "type": "radio",
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": "question4",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "question": "When taking a screenshot, you don't need to provide the file path to save to",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question5",
+            "answers": ["true", "false"],
+            "question": "The --start-maximized option argument works for all browsers and platforms",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          }
+        ]
+      },
+      {
+        "chapterId": "chapter12",
+        "questions": [
+          {
+            "id": "question1",
+            "question": "While ExpectedConditions is easy to use, it's not being maintained",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question2",
+            "answers": ["true", "false"],
+            "question": "ExpectedConditions doesn't work and is a BAD way to go",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question3",
+            "question": "Use the ExpectedConditions class from OpenQA.Selenium.Support.UI",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question4",
+            "question": "Which function would not work as a WaitCondition?",
+            "type": "radio",
+            "answers": [
+              "Func<IWebDriver, IWebElement>",
+              "Func<IWebElement, bool>",
+              "Func<IWebDriver, bool>",
+              "Func<IWebDriver, Elements>"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question5",
+            "type": "radio",
+            "answers": [
+              "StaleElementReferenceException",
+              "NoSuchElementFoundException",
+              "ArgumentException",
+              "ElementNotVisibleException"
+            ],
+            "question": "Which exception told us that the element disappeared from the page?",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question6",
+            "answers": ["true", "false"],
+            "question": "Returning null causes the wait.Until to poll the DOM again",
+            "type": "radio",
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": "question7",
+            "answers": ["true", "false"],
+            "question": "Returning true causes the wait.Until to poll the DOM again",
+            "type": "radio",
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": "question8",
+            "question": "You can only have one catch in a try/catch block",
+            "type": "radio",
+            "answers": ["true", "false"],
+            "correctAnswerIndex": 1
+          }
+        ]
+      }
+    ]
   }
 ]
