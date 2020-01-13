@@ -3,7 +3,7 @@ import urljoin from "url-join";
 import { Course, Question, SubmitQuestionsResult, Chapter } from "./course";
 import * as fs from "fs";
 import _ from "lodash";
-import { authenticate, getUserCredentials } from "./utils"
+import { authenticate, getUserCredentials } from "./utils";
 
 const credentials = getUserCredentials();
 
@@ -15,15 +15,16 @@ const credentials = getUserCredentials();
         previouslyScrapedCourses = JSON.parse(fs.readFileSync("courses.json", "utf8"));
     }
 
-    const newCourses = await getNewLiveCourses(baseUrl, previouslyScrapedCourses);
+    const newLiveCourses = await getNewLiveCourses(baseUrl, previouslyScrapedCourses);
 
-    const newCoursesWithAnswers = await Promise.all(newCourses.map(async newCourse => {
-        const newCourseWithQuesions = await getChaptersAndQuestions(baseUrl, newCourse);
-        const newCourseWithAnswers = await getAnswers(baseUrl, token, newCourseWithQuesions);
-        return newCourseWithAnswers;
-    }));
+    const newCourses = [];
+    for await (const newLiveCourse of newLiveCourses) {
+        const newLiveCourseWithQuestions = await getChaptersAndQuestions(baseUrl, newLiveCourse);
+        const newLiveCourseWithQuestionsAndAnswers = await getAnswers(baseUrl, token, newLiveCourseWithQuestions);
+        newCourses.push(newLiveCourseWithQuestionsAndAnswers);
+    }
 
-    fs.writeFileSync("courses.json", JSON.stringify([...previouslyScrapedCourses, ...newCoursesWithAnswers]));
+    fs.writeFileSync("courses.json", JSON.stringify([...previouslyScrapedCourses, ...newCourses]));
 })();
 
 async function getNewLiveCourses(baseUrl: string, previouslyScrapedCourses: Course[]) {
@@ -36,7 +37,10 @@ async function getNewLiveCourses(baseUrl: string, previouslyScrapedCourses: Cour
         new Error("No live courses found");
     }
 
-    const newLiveCourses = liveCourses.filter((liveCourse) => !previouslyScrapedCourses.some(previouslyScrapedCourse=> previouslyScrapedCourse.id === liveCourse.id))
+    const newLiveCourses = liveCourses.filter(
+        liveCourse =>
+            !previouslyScrapedCourses.some(previouslyScrapedCourse => previouslyScrapedCourse.id === liveCourse.id)
+    );
 
     return newLiveCourses;
 }
@@ -51,12 +55,14 @@ async function getChaptersAndQuestions(baseUrl: string, course: Course) {
     if (matches1 && matches2) {
         const matches = matches1.concat(matches2);
         if (matches.length > 0) {
-            const chapters = await Promise.all(_.uniq(matches).map(async match => {
-                const questions = await getQuestionsForChapter(baseUrl, course, `chapter${match}`);
-                if (questions.length > 0) {
-                    return { chapterId: `chapter${match}`, questions } as Chapter;
-                }
-            }));
+            const chapters = await Promise.all(
+                _.uniq(matches).map(async match => {
+                    const questions = await getQuestionsForChapter(baseUrl, course, `chapter${match}`);
+                    if (questions.length > 0) {
+                        return { chapterId: `chapter${match}`, questions } as Chapter;
+                    }
+                })
+            );
             const filteredChapters = chapters.filter(chapter => chapter != null) as Chapter[];
             if (filteredChapters && filteredChapters.length > 0) {
                 course.chapters = filteredChapters;
@@ -70,15 +76,23 @@ async function getChaptersAndQuestions(baseUrl: string, course: Course) {
 
 async function getAnswers(baseUrl: string, token: string, course: Course) {
     if (course.chapters) {
-        for await (const chapter of course.chapters) {
-            if (chapter.questions) {
-                for await (const question of chapter.questions) {
-                    console.log(`Scraping: ${course.courseId}\t${chapter.chapterId}\t${question.id}`);
-                    const answerIndex = await getAnswerForQuestion(baseUrl, token, course, chapter.chapterId, question);
-                    question.correctAnswerIndex = answerIndex;
+        await Promise.all(
+            course.chapters.map(async chapter => {
+                if (chapter.questions) {
+                    for await (const question of chapter.questions) {
+                        console.log(`Finding answer for: ${course.courseId}\t${chapter.chapterId}\t${question.id}`);
+                        const answerIndex = await getAnswerForQuestion(
+                            baseUrl,
+                            token,
+                            course,
+                            chapter.chapterId,
+                            question
+                        );
+                        question.correctAnswerIndex = answerIndex;
+                    }
                 }
-            }
-        }
+            })
+        );
     }
 
     return course;
@@ -86,19 +100,27 @@ async function getAnswers(baseUrl: string, token: string, course: Course) {
 
 async function getQuestionsForChapter(baseUrl: string, course: Course, chapter: string) {
     const endpoint = urljoin(baseUrl, "quizzes", course.courseId, chapter);
+    console.log(`Getting questions for: ${course.courseId}\t${chapter}`);
     const response = await fetch(endpoint);
-    return JSON.parse(await response.text()) as Question[]
+    return JSON.parse(await response.text()) as Question[];
 }
 
-async function getAnswerForQuestion(baseUrl: string, token: string, course: Course, chapter: string, question: Question) {
-    const endpoint = urljoin(baseUrl, "validateQuizzes", course.courseId, chapter)
+async function getAnswerForQuestion(
+    baseUrl: string,
+    token: string,
+    course: Course,
+    chapter: string,
+    question: Question
+) {
+    const endpoint = urljoin(baseUrl, "validateQuizzes", course.courseId, chapter);
 
     for (let counter = 0; counter < question.answers.length; counter++) {
         const response = await fetch(endpoint, {
-            method: "POST", headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${token}`
+            method: "POST",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${token}`
             },
             body: JSON.stringify({ [question.id]: counter })
         });

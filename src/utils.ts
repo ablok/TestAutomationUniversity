@@ -23,13 +23,15 @@ async function getTAUInfo() {
     return { baseUrl: baseUrlMatch[0], apiKey: apiKeyMatch[0] };
 }
 
-async function getBearerToken(apiKey: string, email:string, password: string) {
-    const response = await fetch(`https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${apiKey}`,
-        { method: "POST", body: JSON.stringify({ email, password, returnSecureToken: true }) });
+async function getBearerToken(apiKey: string, email: string, password: string) {
+    const response = await fetch(
+        `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${apiKey}`,
+        { method: "POST", body: JSON.stringify({ email, password, returnSecureToken: true }) }
+    );
     return JSON.parse(await response.text()).idToken;
 }
 
-export async function authenticate(email:string, password: string) {
+export async function authenticate(email: string, password: string) {
     const { apiKey, baseUrl } = await getTAUInfo();
     const token = await getBearerToken(apiKey, email, password);
     return { baseUrl, token };
