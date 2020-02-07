@@ -19422,5 +19422,444 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course34",
+        "courseId": "course34",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Cucumber with JavaScript",
+        "titleSlug": "cucumber-javascript-tutorial",
+        "teacher": {
+            "name": "Gavin Samuels",
+            "linkedIn": "",
+            "photoURL": "gavin_samuels.png",
+            "profilePath": "gavin_samuels",
+            "twitter": "gavin_io"
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn how to validate BDD specifications with Cucumber and JavaScript",
+        "group": "foundational_testing",
+        "releaseDate": "01/31/2020",
+        "duration": 82,
+        "chaptersCount": 6,
+        "learningPaths": [
+            "learningPathUIJS"
+        ],
+        "status": "live",
+        "credits": 600,
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "correctAnswer": 1,
+                        "answers": [
+                            "Sample-based",
+                            "Example-based",
+                            "Agile",
+                            "Waterfall"
+                        ],
+                        "question": "BDD is an __________ method of developing software.",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "correctAnswer": 2,
+                        "answers": [
+                            "Scrum Master, Developer, CEO",
+                            "CTO, CFO, CEO",
+                            "Product Owner, Tester, Developer",
+                            "Tester, Project Manager, CEO"
+                        ],
+                        "question": "The 3 amigos are:",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Examples _____",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "Describe how features should be implemented",
+                            "Describe the effort to create a feature",
+                            "Describe how an application should look",
+                            "Describe how a system should behave"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "All of the following are benefits of BDD except:",
+                        "type": "radio",
+                        "correctAnswer": 1,
+                        "answers": [
+                            "Collaboration",
+                            "Project planning is shorter",
+                            "Shared Understanding",
+                            "Entire Team Understand features"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which of the following is true for BDD:",
+                        "type": "radio",
+                        "correctAnswer": 0,
+                        "answers": [
+                            "Generated examples can be used to drive test automation.",
+                            "It makes automation more difficult.",
+                            "Prevents team members from working remotely.",
+                            "Focuses on implementation of features."
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "The file used to store Gherkin are known as:",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "Example Files",
+                            "Scenario Files",
+                            "Story Files",
+                            "Feature FIles"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "All of the following are keywords in Gherkin expect",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "Background",
+                            "Example",
+                            "When",
+                            "Featured"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "question": "All of the following are examples of steps except",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "And",
+                            "Given",
+                            "Then",
+                            "Scenario"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "correctAnswer": 0,
+                        "answers": [
+                            "And",
+                            "Given",
+                            "When",
+                            "Feature"
+                        ],
+                        "question": "Which of the following can follow a Then step",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which of the following best practices are false",
+                        "type": "radio",
+                        "correctAnswer": 0,
+                        "answers": [
+                            "Steps must follow step-by-step actions of a user",
+                            "Steps should be modular and reusable",
+                            "Each scenario should represent one behavior",
+                            "Utilize Backgrounds & Scenario Outlines as much as possible."
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which of the following is false about Cucumber",
+                        "type": "radio",
+                        "correctAnswer": 1,
+                        "answers": [
+                            "Interprets Feature file",
+                            "It supports TDD",
+                            "Maps Gherkin to predefined logic",
+                            "Validates statements for correct syntax"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Can lead to frustration if not coupled with correct BDD practices.",
+                            "Tests are understood by entire team",
+                            "Encourages continued collaboration among team",
+                            "Allows for tests to be refactored easily"
+                        ],
+                        "question": "Which of the following is not a benefit of Cucumber",
+                        "type": "radio",
+                        "correctAnswer": 0,
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "Cucumber is great if only used as an automation tool",
+                            "Cucumber is great if implemented half way through a  project",
+                            "Cucumber is ideal for a 1 month project",
+                            "BDD training is important for team interested in using it"
+                        ],
+                        "question": "Which of the following is true",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "correctAnswer": 1,
+                        "answers": [
+                            "Cucumber requires Chrome to work",
+                            "Regular expressions are important to know when using Cucumber",
+                            "Cucumber is perfect for every project",
+                            "Gherkin is not understood by Cucumber"
+                        ],
+                        "question": "Which of these statements are true",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "_________ communicate directly with Feature files",
+                        "type": "radio",
+                        "correctAnswer": 2,
+                        "answers": [
+                            "Page Objects",
+                            "Selenium",
+                            "Step Definitions",
+                            "Browser"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "___________ are files that should store elements and methods related to a page",
+                        "type": "radio",
+                        "correctAnswer": 0,
+                        "answers": [
+                            "Page Objects",
+                            "Feature Files",
+                            "Step Definitions",
+                            "Support Files"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Support Files",
+                            "Selenium",
+                            "Gherkin Statements",
+                            "WebdriverIO"
+                        ],
+                        "question": "______________ should feed into Feature files",
+                        "type": "radio",
+                        "correctAnswer": 2,
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "correctAnswer": 1,
+                        "answers": [
+                            "Gherkin",
+                            "wdio-cucumber-framework",
+                            "Selenium",
+                            "Browser"
+                        ],
+                        "question": "_____________ is responsible for communicating between WebdriverIO and Cucumber",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "correctAnswer": 0,
+                        "answers": [
+                            "require",
+                            "baseURL",
+                            "port",
+                            "beforeFeature"
+                        ],
+                        "question": "The __________ property in the CucumberOpts object is where we can load our step definitions.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "correctAnswer": 2,
+                        "answers": [
+                            "baseURL",
+                            "require",
+                            "specs",
+                            "beforeSession"
+                        ],
+                        "question": "The __________ property is where we identify our test files",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question7",
+                        "correctAnswer": 2,
+                        "answers": [
+                            "Number",
+                            "Float",
+                            "Regular expression",
+                            "boolean"
+                        ],
+                        "question": "The first parameter in a step definition function can be a string or __________",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "correctAnswer": 1,
+                        "answers": [
+                            "Step",
+                            "Scenario",
+                            "Given Step",
+                            "Feature"
+                        ],
+                        "question": "The steps in the background will be repeated for each __________",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "--file",
+                            "--feature",
+                            "--only",
+                            "--spec"
+                        ],
+                        "question": "You can run an individual feature files by using the ________ flag before the path to the file",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "question": "WebdriverIO needs to know where _______ files are located",
+                        "type": "radio",
+                        "correctAnswer": 2,
+                        "answers": [
+                            "Data Files and Feature Files",
+                            "Page Objects and Step Definitions",
+                            "Feature files and Step Definitions",
+                            "Step Definitions andData Files"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "@",
+                            "#regression",
+                            "dev",
+                            "@int"
+                        ],
+                        "question": "Which of the following is a valid tag",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Applitools is a tool to accomplish _________",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "Performance testing",
+                            "Functional tests",
+                            "Unit testing",
+                            "Visual testing"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "correctAnswer": 0,
+                        "answers": [
+                            "baseline",
+                            "checkWindow",
+                            "checkpoint",
+                            "viewport"
+                        ],
+                        "question": "Applitools compares the screenshot in a test with a _________ image",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "correctAnswer": 0,
+                        "answers": [
+                            "API Key",
+                            "Mobile Device",
+                            "Firefox Browser",
+                            "Text editor"
+                        ],
+                        "question": "You need a/an ____________ to be able to use Applitools",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "correctAnswer": 3,
+                        "answers": [
+                            "Ignore regions of a page for comparison",
+                            "Compare differences side-by-side across different browsers",
+                            "Add annotations to screenshots",
+                            "Penetration testing"
+                        ],
+                        "question": "You can do all of the following with Applitools except",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            }
+        ]
     }
 ]
