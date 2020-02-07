@@ -19,7 +19,7 @@ const credentials = getUserCredentials();
 
     const newCourses = [];
     for await (const newLiveCourse of newLiveCourses) {
-        const newLiveCourseWithQuestions = await getChaptersAndQuestions(baseUrl, newLiveCourse);
+        const newLiveCourseWithQuestions = await getChaptersAndQuestions(baseUrl, token, newLiveCourse);
         const newLiveCourseWithQuestionsAndAnswers = await getAnswers(baseUrl, token, newLiveCourseWithQuestions);
         newCourses.push(newLiveCourseWithQuestionsAndAnswers);
     }
@@ -45,7 +45,7 @@ async function getNewLiveCourses(baseUrl: string, previouslyScrapedCourses: Cour
     return newLiveCourses;
 }
 
-async function getChaptersAndQuestions(baseUrl: string, course: Course) {
+async function getChaptersAndQuestions(baseUrl: string, token: string,  course: Course) {
     const endpoint = urljoin("https://testautomationu.applitools.com", course.titleSlug);
     const response = await fetch(endpoint);
     const html = await response.text();
@@ -57,7 +57,7 @@ async function getChaptersAndQuestions(baseUrl: string, course: Course) {
         if (matches.length > 0) {
             const chapters = await Promise.all(
                 _.uniq(matches).map(async match => {
-                    const questions = await getQuestionsForChapter(baseUrl, course, `chapter${match}`);
+                    const questions = await getQuestionsForChapter(baseUrl, token, course, `chapter${match}`);
                     if (questions.length > 0) {
                         return { chapterId: `chapter${match}`, questions } as Chapter;
                     }
@@ -98,10 +98,16 @@ async function getAnswers(baseUrl: string, token: string, course: Course) {
     return course;
 }
 
-async function getQuestionsForChapter(baseUrl: string, course: Course, chapter: string) {
+async function getQuestionsForChapter(baseUrl: string, token: string, course: Course, chapter: string) {
     const endpoint = urljoin(baseUrl, "quizzes", course.courseId, chapter);
-    console.log(`Getting questions for: ${course.courseId}\t${chapter}`);
-    const response = await fetch(endpoint);
+    const response = await fetch(endpoint, {
+        method: "GET",
+        headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`
+        },
+    });
     return JSON.parse(await response.text()) as Question[];
 }
 
