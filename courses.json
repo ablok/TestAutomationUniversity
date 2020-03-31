@@ -19861,5 +19861,801 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course44",
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn Python programming",
+        "group": "foundational_testing",
+        "releaseDate": "03/26/2020",
+        "duration": 120,
+        "chaptersCount": 9,
+        "learningPaths": [
+            "learningPathUIPython",
+            "learningPathMobilePython"
+        ],
+        "status": "live",
+        "credits": 900,
+        "courseId": "course44",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Python Programming",
+        "titleSlug": "python-tutorial",
+        "teacher": {
+            "photoURL": "jess_ingrassellino.png",
+            "profilePath": "jess_ingrassellino",
+            "twitter": "jess_ingrass",
+            "name": "Jess Ingrassellino",
+            "linkedIn": ""
+        },
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What is a variable naming convention?",
+                        "type": "radio",
+                        "answers": [
+                            "can start with a letter or underscore",
+                            "Must start with numbers",
+                            "can only be in all caps"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What is the purpose of a variable?",
+                        "type": "radio",
+                        "answers": [
+                            "to never be changed",
+                            "to have variations of information used in the program",
+                            "Store information to be used in the program"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What kind of information can be stored in a variable?",
+                        "type": "radio",
+                        "answers": [
+                            "strings",
+                            "integers and floats",
+                            "floats",
+                            "all data types and structures can be stored in variables"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What syntax is required for a single-line comment?",
+                        "type": "radio",
+                        "answers": [
+                            "###",
+                            "\"\"\"",
+                            "#"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "\"\"\" comment \"\"\"",
+                            "'' comment '''",
+                            "#",
+                            "either ''' comment ''' OR \"\"\" comment \"\"\""
+                        ],
+                        "question": "What syntax is required for a mult-line comment?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "no special syntax is required",
+                            "question mark",
+                            "double or single quotes"
+                        ],
+                        "question": "What syntax is required for strings?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question7",
+                        "question": "What method is used to format string output?",
+                        "type": "radio",
+                        "answers": [
+                            "no method is used",
+                            "format()",
+                            "stringformat"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question8",
+                        "answers": [
+                            "output()",
+                            "display()",
+                            "print()"
+                        ],
+                        "question": "What method is used to display output?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "def name():",
+                            "def name:",
+                            "name():",
+                            "def name() "
+                        ],
+                        "question": "What elements are required in the first line of a python function?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "How does python know what code goes inside the function?",
+                        "type": "radio",
+                        "answers": [
+                            "All code inside a function is inside of two curly braces",
+                            "All code inside a function is indented at least four spaces (one tab)",
+                            "All code inside a function is inside of curly braces"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "How do you call a function?",
+                        "type": "radio",
+                        "answers": [
+                            "Write the name of the function",
+                            "Write the unique name of the function followed by the parenthesis"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What is the function that allows us to get user information?",
+                        "type": "radio",
+                        "answers": [
+                            "input()",
+                            "get_input()",
+                            "raw_input()"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "integer ",
+                            "float",
+                            "string"
+                        ],
+                        "question": "What is the default format of data passed into an input function?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "float(input())",
+                            "str(input())",
+                            "int(raw_input())",
+                            "int(input())"
+                        ],
+                        "question": "How can you convert the data of an input function from a string to an integer?",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "A problem with the code",
+                            "A variable \"passed in\" to the function to be used in the function. ",
+                            "An argument whose position does not matter"
+                        ],
+                        "question": "What is a positional argument?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Arguments that use only words",
+                            "An argument that maps a keyword to a specific value"
+                        ],
+                        "question": "What is a keyword argument?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Positional arguments must come first.",
+                            "Keyword arguments should come first",
+                            "It doesn't matter which fomes first"
+                        ],
+                        "question": "Which comes first in a function: args or kwargs?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "That the function should be able to handle any number of positional arguments",
+                            "That the function should be able to handle any number of keyword arguments",
+                            "That the function should be able to handle any number of any kind of arguments"
+                        ],
+                        "question": "What does the special syntax *arg mean?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "That the function should be able to handle any number of any kind of arguments",
+                            "That the function should be able to handle any number of keyword arguments",
+                            "That the function should be able to handle any number of positional arguments"
+                        ],
+                        "question": "What does the special syntax **kwargs mean?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "question": "What must come first in a function, *args or **kwargs?",
+                        "type": "radio",
+                        "answers": [
+                            "**kwargs must come first",
+                            "order doesn't matter when using *args or **kwargs",
+                            "*args must come first"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "A statement that allows us to make decisions within our code based on a given set of conditions",
+                            "A condition where the code will not run",
+                            "A statement that always prints our code"
+                        ],
+                        "question": "What is a conditional?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "cond",
+                            "else",
+                            "if",
+                            "elif"
+                        ],
+                        "question": "What is required to start a conditional block?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "How do you use \"else\"?",
+                        "type": "radio",
+                        "answers": [
+                            "You should use else to start the conditional block",
+                            "You should use else whenever you want to catch any conditions not identified in \"if\" or \"elif\" statements. It can be used only once per conditional block",
+                            "You should use else throughout the conditional block, whenever you want."
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "An operator that allows for a comparison between two values",
+                            "An operator that sets equality between two values",
+                            "An operator that performs a mathematical operation"
+                        ],
+                        "question": "What is a comparison operator?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Does order matter in a conditional block?",
+                        "type": "radio",
+                        "answers": [
+                            "No",
+                            "Yes"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "answers": [
+                            "It depends on if you are using \"if\" or \"elif\"",
+                            "The conditional block continues until the else statement, no matter when the condition is met",
+                            "The code exits the conditional block "
+                        ],
+                        "question": "What happens when a condition inside of the conditional block is met?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question7",
+                        "question": "Does order matter in a python program?",
+                        "type": "radio",
+                        "answers": [
+                            "No, python can find any variable or function anywhere in the file, regardless",
+                            "It depends. If you use conditional blocks, then you can define your functions wherever you want in your code.",
+                            "Yes, python \"reads\" the program from top to bottom, and will cause errors if functions are called before they are created"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What is a for loop?",
+                        "type": "radio",
+                        "answers": [
+                            "A loop that goes on and on forever",
+                            "A loop that goes on while a given condition or set of conditions is true",
+                            "A loop that allows you to iterate over a specific number of items"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What does the `i`  mean in some for loop examples?",
+                        "type": "radio",
+                        "answers": [
+                            "It's a dynamic variable that represents an individual instance in the range or list of items in a for loop and it can be changed to any other word",
+                            "It doesn't have a meaning or purpose.",
+                            "It is used to represent an \"integer\" and cannot be changed to any other variable name"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "A loop that allows you to iterate over a specific number of items",
+                            "A loop that goes on while a given condition or set of conditions is true",
+                            "A loop that goes on and on forever"
+                        ],
+                        "question": "What is a while loop?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "Pass automatically skips over un-implemented parts of the code.",
+                            "The pass statement allows us to pass over the entire loop"
+                        ],
+                        "question": "What is a pass statement?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What is the continue statement?",
+                        "type": "radio",
+                        "answers": [
+                            "The continue statement allows us to pass over un-implemented parts of the code.",
+                            "The continue statement completely exits the loop",
+                            "The continue statement allows us to skip certain sections of a loop but allows the loop to keep going"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "The break statement exits the loop completely",
+                            "The break statement takes a break but keeps the loop going",
+                            "The break statement automatically passes over a section of the loop even if it has no code."
+                        ],
+                        "question": "What is the break statement?",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "new_list = []",
+                            "new_list = {}",
+                            "new_list = ()"
+                        ],
+                        "question": "What is the proper syntax to create a new list?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "How are items in a list separated?",
+                        "type": "radio",
+                        "answers": [
+                            ":",
+                            ";",
+                            ","
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "All types of data can be in a single list",
+                            "Only like types of data can be in a single list"
+                        ],
+                        "question": "Whart kinds of data can be in a single list?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What is the list.extend() method?",
+                        "type": "radio",
+                        "answers": [
+                            "Allows us to extend one list by another list",
+                            "Allows us to extend the number of items in a list by a specific amount",
+                            "Allows us to extend a list forever"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Allows us to remove only strings from a list",
+                            "Allows us to remove a list item by using an exact match of the item",
+                            "Allows us to remove a list item by using the item index"
+                        ],
+                        "question": "list.remove()",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "A reference to the items in a list using a special item name",
+                            "A reference to integer or floats in a list",
+                            "Numeric reference to an item in a list. Counting starts at zero."
+                        ],
+                        "question": "What is an index?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "answers": [
+                            "A way to sort lists of mixed data-types",
+                            "A way to sort lists containing items of like data types"
+                        ],
+                        "question": "What is the sort() method?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question8",
+                        "answers": [
+                            "Allows us to remove a list item by using the list index",
+                            "A way to sort lists of mixed data-types",
+                            "Allows us to remove a list item by using an exact match of the item"
+                        ],
+                        "question": "What is the list.pop() method?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question9",
+                        "question": "What does the python \"in\" keyword do?",
+                        "type": "radio",
+                        "answers": [
+                            "Allows us to check if an item is a member of the list",
+                            "Allows us to count the number of items in the list",
+                            "Allows us to put items in a list"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "A type of data structure that stores information in key value pairs",
+                            "A type of data structure that stores only integers",
+                            "A type of data structure that stores only strings"
+                        ],
+                        "question": "What is a dictionary?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "Yes, dictionaries are mutable",
+                            "No, dictionaries are not mutable?"
+                        ],
+                        "question": "Can you interact with dictionaries?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What is the proper syntax to create a new dictionary?",
+                        "type": "radio",
+                        "answers": [
+                            "new_dictionary = {}",
+                            "new_dictionary = ()",
+                            "new_dictionary = []"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "How are keys and values made in a dictionary?",
+                        "type": "radio",
+                        "answers": [
+                            "Keys and values are separated buy a comma",
+                            "Keys and values are separated by a colon",
+                            "Keys and values are separated by an equals sign."
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What is the dictionary.get() method?",
+                        "type": "radio",
+                        "answers": [
+                            "Returns the value of a dictionary key",
+                            "Returns the key of a dictionary value"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "What is the dictionary.items() method?",
+                        "type": "radio",
+                        "answers": [
+                            "Acts on entire dictionary and returns all keys and values",
+                            "Acts on entire dictionary and only returns values in the dictionary",
+                            "Acts on entire dictionary and only returns keys in the dictionary"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question7",
+                        "question": "What is the dictionary.keys method?",
+                        "type": "radio",
+                        "answers": [
+                            "Acts on entire dictionary and returns all keys and values",
+                            "Acts on entire dictionary and only returns values in the dictionary",
+                            "Acts on entire dictionary and only returns keys in the dictionary"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question8",
+                        "type": "radio",
+                        "answers": [
+                            "pop() ",
+                            "remove()"
+                        ],
+                        "question": "How do we remove an item in the dictionary?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question9",
+                        "question": "setdefault()",
+                        "type": "radio",
+                        "answers": [
+                            "Retrieves the value for a specific key or add a new key and default value into the dictionary",
+                            "Only retrieves default values for any given key",
+                            "Returns default values for every key in the dictionary"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "A special file that is used to organize methods",
+                            "A lesson about python",
+                            "A way to group related functions and variables"
+                        ],
+                        "question": "What is a class?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What is a class variable?",
+                        "type": "radio",
+                        "answers": [
+                            "A variable that only contains integers or floats for the class",
+                            "A variable that is available to every class method",
+                            "A variable that is only available to a specific method"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "A varable that contains only strings for the class",
+                            "A variable that is only available to a specific method",
+                            "A variable that is available to every class method"
+                        ],
+                        "question": "What is an instance variable?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "A method that makes other methods",
+                            "A method that acts as a constructor, allowing for an object to be created with specific parameters",
+                            "A variable that acts as a constructor"
+                        ],
+                        "question": "What is __init__?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What is self?",
+                        "type": "radio",
+                        "answers": [
+                            "Self makes all class methods available to every object that is created by a class",
+                            "A variable that keeps track of how many arguments are passed into the __init__ function",
+                            "A method that acts as a constructor, allowing for an object to be created with specific parameters"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "What is the proper syntax for a new class?",
+                        "type": "radio",
+                        "answers": [
+                            "CLASS New()",
+                            "class New:",
+                            "Class New():"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "answers": [
+                            "def __init__(arguments):",
+                            " __init__(self, arguments):",
+                            "def __init__(self, arguments):"
+                        ],
+                        "question": "What is the syntax for the first line of the init method?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question8",
+                        "answers": [
+                            "Assign a variable to create a new class object, but allow the arguments to be empty",
+                            "Assign a variable to create a new class object, then pass in arguments to construct the object"
+                        ],
+                        "question": "How do we create a new class object?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question9",
+                        "answers": [
+                            "new_object()",
+                            "new_object.class_method",
+                            "new_object.class_method()"
+                        ],
+                        "question": "How do we use a class method?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter9",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Inheritance allows us to override an old class with a new class",
+                            "Inheritance lets us use the attributes and methods from an existing class in a new class"
+                        ],
+                        "question": "What is inheritance?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "__init__(attributes_of_parent):",
+                            "super.__init__(attributes_of_paren):",
+                            "super(self, attributes_of_parent)"
+                        ],
+                        "question": "What is the syntax for the __init__ method when inheritance is involved?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "No",
+                            "Yes"
+                        ],
+                        "question": "Can the parent class use methods from the child class?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What is multiple inheritance?",
+                        "type": "radio",
+                        "answers": [
+                            "When a parent class inherits elements of a child class",
+                            "When a child or derived class inherits from 2 or more parent classes"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What are issues with multiple inheritance?",
+                        "type": "radio",
+                        "answers": [
+                            "The only issue is that there are too many choices for a child class to inherit from",
+                            "Common attributes shared among multiple classes, and method resolution order",
+                            "There are no issues. Multiple inheritance is the most flexible way to keep code DRY"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "answers": [
+                            "A feature that allows child methods to override parent methods with the same name",
+                            "When one class morphs into another class ",
+                            "A feature that allows multiple methods with the same name to exist in the same class"
+                        ],
+                        "question": "What is polymorphism?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            }
+        ]
     }
 ]
