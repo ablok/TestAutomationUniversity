@@ -19863,13 +19863,309 @@
         ]
     },
     {
-        "id": "course44",
-        "level": "beginner",
+        "id": "course43",
         "sortOrder": 8,
-        "abstract": "Learn Python programming",
+        "abstract": "Learn how to validate BDD specifications with Cucumber and Java",
         "group": "foundational_testing",
-        "releaseDate": "03/26/2020",
-        "duration": 120,
+        "releaseDate": "04/03/2020",
+        "duration": 58,
+        "chaptersCount": 5,
+        "learningPaths": [
+            "learningPathUIJava",
+            "learningPathMobileJava",
+            "learningPathApiJava"
+        ],
+        "status": "live",
+        "credits": 500,
+        "courseId": "course43",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner",
+            "cucumber",
+            "java",
+            "bdd"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Cucumber with Java",
+        "titleSlug": "cucumber-java-tutorial",
+        "teacher": {
+            "photoURL": "giridhar_rajkumar.png",
+            "profilePath": "giridhar_rajkumar",
+            "twitter": "vgrk2017",
+            "name": "Giridhar Rajkumar",
+            "linkedIn": ""
+        },
+        "level": "beginner",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "BDD is abbreviated as Behaviour Driven Development",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "Tester, Designer, Architect",
+                            "Developer, Architect, Document Writer",
+                            "Business Analysts, Developers, Testers",
+                            "Product Owner, Business Analyst, Manager"
+                        ],
+                        "question": "The Three Amigos consist of:",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "BDD is NOT a collaborative culture of working rather involves only individual contributors",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "BDD is a programming language like Java, C# etc.,",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Requirements in BDD terminology is called _____ ",
+                        "type": "radio",
+                        "answers": [
+                            "Use Cases",
+                            "Requirements only",
+                            "Acceptance Criteria",
+                            "Business Cases"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Cucumber is an IDE (Integrated Development Environment)",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "There are a total of _____ types of Step annotations in Gherkin language",
+                        "type": "radio",
+                        "answers": [
+                            "2",
+                            "4",
+                            "3",
+                            "5"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            ".feature",
+                            ".featurefile",
+                            ".spec",
+                            ".file"
+                        ],
+                        "question": "What's the file type of feature files? ",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Scenario Outline supports arguments/parameters",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "@BeforeStep",
+                            "@BeforeScenario",
+                            "@Before",
+                            "@BeforeHook"
+                        ],
+                        "question": "This hook will execute the steps before Scenario",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Cucumber is a browser automation tool",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Step Definitions are plain English text",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which browser automation tool best suits Cucumber",
+                        "type": "radio",
+                        "answers": [
+                            "UFT",
+                            "Gauge",
+                            "Taiko",
+                            "Selenium"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Dependency injection can be used to share state between step definitions",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Feature File",
+                            "Gherkins",
+                            "pom.xml",
+                            "Step Definition"
+                        ],
+                        "question": "Where do I need to specify the Cucumber dependencies in a Maven project",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Parallel execution is a way of executing tests in parallel",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "JUnit supports execution of feature files",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "TestNG only supports parallelism with features files",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "There is no plugin needed",
+                            "selenium-plugin",
+                            "maven-surefire-plugin",
+                            "cucumber-plugin"
+                        ],
+                        "question": "What is the plugin to be added to execute tests in parallel",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "json-reporting",
+                            "maven-cucumber-reporting",
+                            "html-reporting",
+                            "pretty-reporting"
+                        ],
+                        "question": "What is the plugin we use to generate reporting?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What is the command we use to generate reports after execution?",
+                        "type": "radio",
+                        "answers": [
+                            "java verify",
+                            "mvn cucumber",
+                            "mvn generate report",
+                            "mvn verify"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "A cucumber report will show only the Feature level test results",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "course44",
         "chaptersCount": 9,
         "learningPaths": [
             "learningPathUIPython",
@@ -19886,36 +20182,42 @@
         "title": "Python Programming",
         "titleSlug": "python-tutorial",
         "teacher": {
+            "name": "Jess Ingrassellino",
+            "linkedIn": "",
             "photoURL": "jess_ingrassellino.png",
             "profilePath": "jess_ingrassellino",
-            "twitter": "jess_ingrass",
-            "name": "Jess Ingrassellino",
-            "linkedIn": ""
+            "twitter": "jess_ingrass"
         },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn Python programming",
+        "group": "foundational_testing",
+        "releaseDate": "03/26/2020",
+        "duration": 120,
         "chapters": [
             {
                 "chapterId": "chapter1",
                 "questions": [
                     {
                         "id": "question1",
-                        "question": "What is a variable naming convention?",
-                        "type": "radio",
                         "answers": [
                             "can start with a letter or underscore",
                             "Must start with numbers",
                             "can only be in all caps"
                         ],
+                        "question": "What is a variable naming convention?",
+                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question2",
-                        "question": "What is the purpose of a variable?",
-                        "type": "radio",
                         "answers": [
                             "to never be changed",
                             "to have variations of information used in the program",
                             "Store information to be used in the program"
                         ],
+                        "question": "What is the purpose of a variable?",
+                        "type": "radio",
                         "correctAnswerIndex": 2
                     },
                     {
@@ -19932,17 +20234,18 @@
                     },
                     {
                         "id": "question4",
-                        "question": "What syntax is required for a single-line comment?",
-                        "type": "radio",
                         "answers": [
                             "###",
                             "\"\"\"",
                             "#"
                         ],
+                        "question": "What syntax is required for a single-line comment?",
+                        "type": "radio",
                         "correctAnswerIndex": 2
                     },
                     {
                         "id": "question5",
+                        "question": "What syntax is required for a mult-line comment?",
                         "type": "radio",
                         "answers": [
                             "\"\"\" comment \"\"\"",
@@ -19950,7 +20253,6 @@
                             "#",
                             "either ''' comment ''' OR \"\"\" comment \"\"\""
                         ],
-                        "question": "What syntax is required for a mult-line comment?",
                         "correctAnswerIndex": 3
                     },
                     {
@@ -19966,24 +20268,24 @@
                     },
                     {
                         "id": "question7",
-                        "question": "What method is used to format string output?",
-                        "type": "radio",
                         "answers": [
                             "no method is used",
                             "format()",
                             "stringformat"
                         ],
+                        "question": "What method is used to format string output?",
+                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question8",
+                        "question": "What method is used to display output?",
+                        "type": "radio",
                         "answers": [
                             "output()",
                             "display()",
                             "print()"
                         ],
-                        "question": "What method is used to display output?",
-                        "type": "radio",
                         "correctAnswerIndex": 2
                     }
                 ]
@@ -19993,6 +20295,7 @@
                 "questions": [
                     {
                         "id": "question1",
+                        "question": "What elements are required in the first line of a python function?",
                         "type": "radio",
                         "answers": [
                             "def name():",
@@ -20000,28 +20303,27 @@
                             "name():",
                             "def name() "
                         ],
-                        "question": "What elements are required in the first line of a python function?",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question2",
-                        "question": "How does python know what code goes inside the function?",
                         "type": "radio",
                         "answers": [
                             "All code inside a function is inside of two curly braces",
                             "All code inside a function is indented at least four spaces (one tab)",
                             "All code inside a function is inside of curly braces"
                         ],
+                        "question": "How does python know what code goes inside the function?",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question3",
-                        "question": "How do you call a function?",
-                        "type": "radio",
                         "answers": [
                             "Write the name of the function",
                             "Write the unique name of the function followed by the parenthesis"
                         ],
+                        "question": "How do you call a function?",
+                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
@@ -20037,17 +20339,18 @@
                     },
                     {
                         "id": "question5",
-                        "type": "radio",
                         "answers": [
                             "integer ",
                             "float",
                             "string"
                         ],
                         "question": "What is the default format of data passed into an input function?",
+                        "type": "radio",
                         "correctAnswerIndex": 2
                     },
                     {
                         "id": "question6",
+                        "question": "How can you convert the data of an input function from a string to an integer?",
                         "type": "radio",
                         "answers": [
                             "float(input())",
@@ -20055,7 +20358,6 @@
                             "int(raw_input())",
                             "int(input())"
                         ],
-                        "question": "How can you convert the data of an input function from a string to an integer?",
                         "correctAnswerIndex": 3
                     }
                 ]
@@ -20065,56 +20367,56 @@
                 "questions": [
                     {
                         "id": "question1",
+                        "question": "What is a positional argument?",
                         "type": "radio",
                         "answers": [
                             "A problem with the code",
                             "A variable \"passed in\" to the function to be used in the function. ",
                             "An argument whose position does not matter"
                         ],
-                        "question": "What is a positional argument?",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question2",
+                        "type": "radio",
                         "answers": [
                             "Arguments that use only words",
                             "An argument that maps a keyword to a specific value"
                         ],
                         "question": "What is a keyword argument?",
-                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question3",
+                        "question": "Which comes first in a function: args or kwargs?",
                         "type": "radio",
                         "answers": [
                             "Positional arguments must come first.",
                             "Keyword arguments should come first",
                             "It doesn't matter which fomes first"
                         ],
-                        "question": "Which comes first in a function: args or kwargs?",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question4",
+                        "question": "What does the special syntax *arg mean?",
                         "type": "radio",
                         "answers": [
                             "That the function should be able to handle any number of positional arguments",
                             "That the function should be able to handle any number of keyword arguments",
                             "That the function should be able to handle any number of any kind of arguments"
                         ],
-                        "question": "What does the special syntax *arg mean?",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question5",
+                        "question": "What does the special syntax **kwargs mean?",
+                        "type": "radio",
                         "answers": [
                             "That the function should be able to handle any number of any kind of arguments",
                             "That the function should be able to handle any number of keyword arguments",
                             "That the function should be able to handle any number of positional arguments"
                         ],
-                        "question": "What does the special syntax **kwargs mean?",
-                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
@@ -20135,13 +20437,13 @@
                 "questions": [
                     {
                         "id": "question1",
+                        "question": "What is a conditional?",
+                        "type": "radio",
                         "answers": [
                             "A statement that allows us to make decisions within our code based on a given set of conditions",
                             "A condition where the code will not run",
                             "A statement that always prints our code"
                         ],
-                        "question": "What is a conditional?",
-                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
@@ -20158,13 +20460,13 @@
                     },
                     {
                         "id": "question3",
-                        "question": "How do you use \"else\"?",
                         "type": "radio",
                         "answers": [
                             "You should use else to start the conditional block",
                             "You should use else whenever you want to catch any conditions not identified in \"if\" or \"elif\" statements. It can be used only once per conditional block",
                             "You should use else throughout the conditional block, whenever you want."
                         ],
+                        "question": "How do you use \"else\"?",
                         "correctAnswerIndex": 1
                     },
                     {
@@ -20180,12 +20482,12 @@
                     },
                     {
                         "id": "question5",
-                        "question": "Does order matter in a conditional block?",
                         "type": "radio",
                         "answers": [
                             "No",
                             "Yes"
                         ],
+                        "question": "Does order matter in a conditional block?",
                         "correctAnswerIndex": 1
                     },
                     {
@@ -20228,45 +20530,45 @@
                     },
                     {
                         "id": "question2",
-                        "question": "What does the `i`  mean in some for loop examples?",
-                        "type": "radio",
                         "answers": [
                             "It's a dynamic variable that represents an individual instance in the range or list of items in a for loop and it can be changed to any other word",
                             "It doesn't have a meaning or purpose.",
                             "It is used to represent an \"integer\" and cannot be changed to any other variable name"
                         ],
+                        "question": "What does the `i`  mean in some for loop examples?",
+                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question3",
+                        "question": "What is a while loop?",
                         "type": "radio",
                         "answers": [
                             "A loop that allows you to iterate over a specific number of items",
                             "A loop that goes on while a given condition or set of conditions is true",
                             "A loop that goes on and on forever"
                         ],
-                        "question": "What is a while loop?",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question4",
+                        "question": "What is a pass statement?",
+                        "type": "radio",
                         "answers": [
                             "Pass automatically skips over un-implemented parts of the code.",
                             "The pass statement allows us to pass over the entire loop"
                         ],
-                        "question": "What is a pass statement?",
-                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question5",
-                        "question": "What is the continue statement?",
                         "type": "radio",
                         "answers": [
                             "The continue statement allows us to pass over un-implemented parts of the code.",
                             "The continue statement completely exits the loop",
                             "The continue statement allows us to skip certain sections of a loop but allows the loop to keep going"
                         ],
+                        "question": "What is the continue statement?",
                         "correctAnswerIndex": 2
                     },
                     {
@@ -20298,77 +20600,77 @@
                     },
                     {
                         "id": "question2",
-                        "question": "How are items in a list separated?",
                         "type": "radio",
                         "answers": [
                             ":",
                             ";",
                             ","
                         ],
+                        "question": "How are items in a list separated?",
                         "correctAnswerIndex": 2
                     },
                     {
                         "id": "question3",
+                        "type": "radio",
                         "answers": [
                             "All types of data can be in a single list",
                             "Only like types of data can be in a single list"
                         ],
                         "question": "Whart kinds of data can be in a single list?",
-                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question4",
-                        "question": "What is the list.extend() method?",
-                        "type": "radio",
                         "answers": [
                             "Allows us to extend one list by another list",
                             "Allows us to extend the number of items in a list by a specific amount",
                             "Allows us to extend a list forever"
                         ],
+                        "question": "What is the list.extend() method?",
+                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question5",
+                        "question": "list.remove()",
+                        "type": "radio",
                         "answers": [
                             "Allows us to remove only strings from a list",
                             "Allows us to remove a list item by using an exact match of the item",
                             "Allows us to remove a list item by using the item index"
                         ],
-                        "question": "list.remove()",
-                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question6",
-                        "type": "radio",
                         "answers": [
                             "A reference to the items in a list using a special item name",
                             "A reference to integer or floats in a list",
                             "Numeric reference to an item in a list. Counting starts at zero."
                         ],
                         "question": "What is an index?",
+                        "type": "radio",
                         "correctAnswerIndex": 2
                     },
                     {
                         "id": "question7",
+                        "question": "What is the sort() method?",
                         "type": "radio",
                         "answers": [
                             "A way to sort lists of mixed data-types",
                             "A way to sort lists containing items of like data types"
                         ],
-                        "question": "What is the sort() method?",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question8",
+                        "type": "radio",
                         "answers": [
                             "Allows us to remove a list item by using the list index",
                             "A way to sort lists of mixed data-types",
                             "Allows us to remove a list item by using an exact match of the item"
                         ],
                         "question": "What is the list.pop() method?",
-                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
@@ -20389,55 +20691,55 @@
                 "questions": [
                     {
                         "id": "question1",
-                        "type": "radio",
                         "answers": [
                             "A type of data structure that stores information in key value pairs",
                             "A type of data structure that stores only integers",
                             "A type of data structure that stores only strings"
                         ],
                         "question": "What is a dictionary?",
+                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question2",
+                        "question": "Can you interact with dictionaries?",
                         "type": "radio",
                         "answers": [
                             "Yes, dictionaries are mutable",
                             "No, dictionaries are not mutable?"
                         ],
-                        "question": "Can you interact with dictionaries?",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question3",
-                        "question": "What is the proper syntax to create a new dictionary?",
                         "type": "radio",
                         "answers": [
                             "new_dictionary = {}",
                             "new_dictionary = ()",
                             "new_dictionary = []"
                         ],
+                        "question": "What is the proper syntax to create a new dictionary?",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question4",
-                        "question": "How are keys and values made in a dictionary?",
-                        "type": "radio",
                         "answers": [
                             "Keys and values are separated buy a comma",
                             "Keys and values are separated by a colon",
                             "Keys and values are separated by an equals sign."
                         ],
+                        "question": "How are keys and values made in a dictionary?",
+                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question5",
-                        "question": "What is the dictionary.get() method?",
-                        "type": "radio",
                         "answers": [
                             "Returns the value of a dictionary key",
                             "Returns the key of a dictionary value"
                         ],
+                        "question": "What is the dictionary.get() method?",
+                        "type": "radio",
                         "correctAnswerIndex": 0
                     },
                     {
@@ -20464,12 +20766,12 @@
                     },
                     {
                         "id": "question8",
+                        "question": "How do we remove an item in the dictionary?",
                         "type": "radio",
                         "answers": [
                             "pop() ",
                             "remove()"
                         ],
-                        "question": "How do we remove an item in the dictionary?",
                         "correctAnswerIndex": 0
                     },
                     {
@@ -20512,67 +20814,67 @@
                     },
                     {
                         "id": "question3",
+                        "type": "radio",
                         "answers": [
                             "A varable that contains only strings for the class",
                             "A variable that is only available to a specific method",
                             "A variable that is available to every class method"
                         ],
                         "question": "What is an instance variable?",
-                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question4",
+                        "question": "What is __init__?",
+                        "type": "radio",
                         "answers": [
                             "A method that makes other methods",
                             "A method that acts as a constructor, allowing for an object to be created with specific parameters",
                             "A variable that acts as a constructor"
                         ],
-                        "question": "What is __init__?",
-                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question5",
-                        "question": "What is self?",
                         "type": "radio",
                         "answers": [
                             "Self makes all class methods available to every object that is created by a class",
                             "A variable that keeps track of how many arguments are passed into the __init__ function",
                             "A method that acts as a constructor, allowing for an object to be created with specific parameters"
                         ],
+                        "question": "What is self?",
                         "correctAnswerIndex": 0
                     },
                     {
                         "id": "question6",
-                        "question": "What is the proper syntax for a new class?",
                         "type": "radio",
                         "answers": [
                             "CLASS New()",
                             "class New:",
                             "Class New():"
                         ],
+                        "question": "What is the proper syntax for a new class?",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question7",
+                        "question": "What is the syntax for the first line of the init method?",
+                        "type": "radio",
                         "answers": [
                             "def __init__(arguments):",
                             " __init__(self, arguments):",
                             "def __init__(self, arguments):"
                         ],
-                        "question": "What is the syntax for the first line of the init method?",
-                        "type": "radio",
                         "correctAnswerIndex": 2
                     },
                     {
                         "id": "question8",
+                        "type": "radio",
                         "answers": [
                             "Assign a variable to create a new class object, but allow the arguments to be empty",
                             "Assign a variable to create a new class object, then pass in arguments to construct the object"
                         ],
                         "question": "How do we create a new class object?",
-                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
@@ -20593,23 +20895,23 @@
                 "questions": [
                     {
                         "id": "question1",
+                        "type": "radio",
                         "answers": [
                             "Inheritance allows us to override an old class with a new class",
                             "Inheritance lets us use the attributes and methods from an existing class in a new class"
                         ],
                         "question": "What is inheritance?",
-                        "type": "radio",
                         "correctAnswerIndex": 1
                     },
                     {
                         "id": "question2",
+                        "question": "What is the syntax for the __init__ method when inheritance is involved?",
                         "type": "radio",
                         "answers": [
                             "__init__(attributes_of_parent):",
                             "super.__init__(attributes_of_paren):",
                             "super(self, attributes_of_parent)"
                         ],
-                        "question": "What is the syntax for the __init__ method when inheritance is involved?",
                         "correctAnswerIndex": 1
                     },
                     {
@@ -20624,12 +20926,12 @@
                     },
                     {
                         "id": "question4",
-                        "question": "What is multiple inheritance?",
                         "type": "radio",
                         "answers": [
                             "When a parent class inherits elements of a child class",
                             "When a child or derived class inherits from 2 or more parent classes"
                         ],
+                        "question": "What is multiple inheritance?",
                         "correctAnswerIndex": 1
                     },
                     {
@@ -20653,6 +20955,1154 @@
                         "question": "What is polymorphism?",
                         "type": "radio",
                         "correctAnswerIndex": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "course45",
+        "title": "Mobile Automation with Appium in JavaScript",
+        "titleSlug": "appium-javascript-tutorial",
+        "teacher": {
+            "photoURL": "orane_findley.jpg",
+            "profilePath": "orane_findley",
+            "twitter": "orane_findley",
+            "name": "Orane Findley",
+            "linkedIn": ""
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn how to automate tests for mobile applications with Appium",
+        "group": "foundational_testing",
+        "releaseDate": "04/09/2020",
+        "duration": 82,
+        "chaptersCount": 7,
+        "learningPaths": [
+            "learningPathMobileJS"
+        ],
+        "status": "live",
+        "credits": 700,
+        "courseId": "course45",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner",
+            "appium",
+            "javascript",
+            "mobile",
+            "js"
+        ],
+        "groupName": "Foundational Testing",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "Appium is an open-source tool for automating web applications.",
+                            "Appium is an open-source tool for automating only native applications on iOS & Android platforms.",
+                            "Appium is a paid tool for automating native, mobile web, and hybrid applications on iOS, Android, and Windows desktop platforms.",
+                            "Appium is an open-source tool for automating native, mobile web, and hybrid applications on iOS, Android, and Windows desktop platforms."
+                        ],
+                        "question": "What is Appium?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Appium is cross-platform, and allows you to write tests against multiple platforms using the same API.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Appium is just an HTTP server that waits for connections from a client, which then instructs Appium on what kind of session to start and what kind of automation behaviors to enact once a session is started. This means that you never use Appium just by itself. You always have to use it with a client library.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What are desired capabilities?",
+                        "type": "radio",
+                        "answers": [
+                            "DesiredCapabilities are guidelines in which th test must operate.",
+                            "DesiredCapabilities are options/properties that can be used to customize the device and/or browser which will execute the given test/s.",
+                            "DesiredCapabilities are parameters which will change the given test/s.",
+                            "DesiredCapabilities are options/properties that will have no effect on test execution."
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "A competitor of Appium server.",
+                            "A competitor of Selenium.",
+                            "A Javascript based client library that supports Appium. ",
+                            "None of the above"
+                        ],
+                        "question": "What is webdriverio?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "Internet",
+                            "nodejs & npm",
+                            "Selenium ",
+                            "Emulator/real device"
+                        ],
+                        "question": "Which of these are not required to run tests with Appium?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "answers": [
+                            "4273",
+                            "4724",
+                            "4732",
+                            "4723"
+                        ],
+                        "question": "What is the default port number of Appium?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question8",
+                        "question": "Android home is required in order to run tests with Appium.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "A type of element that can be found in Android apps.",
+                            "A type of element that can be found in IOS apps.",
+                            "None of the above",
+                            "A syntax or language for finding any element on the web page using XML path expression."
+                        ],
+                        "question": "Which of these best explains Xpath?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What is wrong with this Xpath example `android.widget.TextView[@resource-id=\"cancel-btn\"]`? ",
+                        "type": "radio",
+                        "answers": [
+                            "Nothing is wrong",
+                            "cancel-btn must be wrapped in single quotes",
+                            "@ sign should be removed",
+                            "Xpath must start with //"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "element.addValue(\"text\");",
+                            "addValue(\"text\");",
+                            "element.addValue();",
+                            "driver.addValue(\"text\");"
+                        ],
+                        "question": "Which example shows the correct usage of the function used to send keys to text fields?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which example shows the correct usage of the function used to clear keys from text fields?",
+                        "type": "radio",
+                        "answers": [
+                            "clearValue(\"element\");",
+                            "element.clearValue();",
+                            "driver.clearValue();",
+                            "clearValue();"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which example shows the correct usage of the function used to click?",
+                        "type": "radio",
+                        "answers": [
+                            "click(\"element\");",
+                            "element.click();",
+                            "driver.click();",
+                            "click();"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "answers": [
+                            "getText();",
+                            "driver.getText();",
+                            "getText(\"Text\");",
+                            "element.getText();"
+                        ],
+                        "question": "Which example shows the correct usage of the function used to get the text value of an element?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question7",
+                        "question": "When finding elements, when should one use the $$ instead of the $?",
+                        "type": "radio",
+                        "answers": [
+                            "Always",
+                            "When finding elements that have a text value. ",
+                            "When finding multiple elements with the same selector.",
+                            "Never"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which example shows the correct usage of the function used to go back?",
+                        "type": "radio",
+                        "answers": [
+                            "back();",
+                            "driver.back;",
+                            "driver.back();",
+                            "element.back()"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which of these functions will take a screenshot of whats on the current screen?",
+                        "type": "radio",
+                        "answers": [
+                            "driver.recieveScreenshot('./screenshot.png')",
+                            "driver.getScreenshot('./screenshot.png')",
+                            "driver.saveScreenshot('./screenshot.png')",
+                            "driver.screenshot('./screenshot.png')"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "It is impossible to store screenshots in the folder of your Appium project.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which of these is the correct implementation of the function used to get the screen orientation?",
+                        "type": "radio",
+                        "answers": [
+                            "driver.orientation();",
+                            "driver.getLandscape();",
+                            "driver.getOrien();",
+                            "driver.getOrientation();"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Which of these is the correct implementation of the function used to set the orientation?",
+                        "type": "radio",
+                        "answers": [
+                            "driver.setOrientation(\"LANDSCAPE\");",
+                            "driver.setOrien(\"LANDSCAPE\");",
+                            "driver.orientation(\"LANDSCAPE\");",
+                            "driver.setLanscape();"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "PORTRAIT & LANDSCAPE are keywords that can be used in the set orientation function.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "Waits for the time specified.",
+                            "Waits forever.",
+                            "Waits until the Appium server times out.",
+                            "Waits until an element is found or the page is loaded or the timeout expires, whichever occurs first."
+                        ],
+                        "question": "Which statement best describes Explicit waits?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which statement best describes Implicit waits?",
+                        "type": "radio",
+                        "answers": [
+                            "Waits until an element is found or the page is loaded or the timeout expires, whichever occurs first.",
+                            "Waits for the time specified.",
+                            "Waits forever.",
+                            "Waits until the Appium server times out."
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What is the main difference between Explicit & Implicit waits?",
+                        "type": "radio",
+                        "answers": [
+                            "Explicit waits, waits for the specified time only. While Implicit waits, waits on the time/condition specified.",
+                            "The time specified.",
+                            "Implicit waits, waits for the specified time only. While Explicit waits, waits on the time/condition specified.",
+                            "none"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Mixing implicit and explicit waits can cause unpredictable wait times.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Implicit",
+                            "Explicit"
+                        ],
+                        "question": "Which kind of wait is performed when the function pause() is called?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "question": "If an Explicit wait is used just before finding an element Appium will ignore the wait time and proceed to the next statement as soon as it finds the element.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "question": "If an Implicit wait is used just before finding an element Appium will ignore the wait time and proceed to the next statement as soon as it finds the element.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question8",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Implicit waits are built in within webdriverio commands by default to help minize the test failures of elements not loaded on screen instantly.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which of these is the correct implementation of the get attribute function?",
+                        "type": "radio",
+                        "answers": [
+                            "element.attribute(\"attributeName\");",
+                            "driver.getAttribute(\"attributeName\");",
+                            "element.getAttribute();",
+                            "element.getAttribute(\"attributeName\");"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What is the main usage of the getAttribute function?",
+                        "type": "radio",
+                        "answers": [
+                            "Gets all elements with attributes.",
+                            "Returns true/false if an element contains the attribute in question.",
+                            "None of the above",
+                            "Get the value of a specific atrribute from an element."
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "The getAttribute function will ALWAYS return the value of the attribute specified on an element.",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Time in milliseconds",
+                            "Attribute Name",
+                            "Element",
+                            "None"
+                        ],
+                        "question": "What parameter must be provided to the getAttribute function?",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "This function returns true/false if the element in question is currently active.",
+                            "This function returns true/false if the element in question can be found and interacted with.",
+                            "This function returns true/false if the element in question is currently visible with in view.",
+                            "This function returns true/false if the element in question is currently visible with in view."
+                        ],
+                        "question": "Which of these best explains isSelected?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "This function returns true/false if the element in question is currently visible with in view.",
+                            "This function returns true/false if the element in question is currently active.",
+                            "This function returns true/false if the element in question is currently visible with in view.",
+                            "This function returns true/false if the element in question can be found and interacted with."
+                        ],
+                        "question": "Which of these best explains isEnabled?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "This function returns true/false if the element in question can be found and interacted with.",
+                            "This function returns true/false if the element in question is currently visible with in view.",
+                            "This function returns true/false if the element in question is currently active.",
+                            "This function returns true/false if the element in question can be found in DOM."
+                        ],
+                        "question": "Which of these best explains isDisplayed?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "What will be the output of isSelected if it is ran against the element of the current tab?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "What will be the output of isEnabled if it is ran against an element that is currently not in view?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "What will be the output of isDisplayed if it is ran against an element that is currently not in view but can be found in the DOM?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "question": "If isSelected, isEnabled & isDisplayed is ran against an element that does not exist, what will be the output of all functions?",
+                        "type": "radio",
+                        "answers": [
+                            "false",
+                            "Undefined",
+                            "true"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "A block of code that gets executed once before the current test suite.",
+                            "A block of code that gets executed once after the current test suite.",
+                            "A block of code that gets executed before each test within the current test suite.",
+                            "A block of code that gets executed after each test with in the current test suite."
+                        ],
+                        "question": "Which of these best explains the usage of beforeEach function?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which of these best explains the usage of before function?",
+                        "type": "radio",
+                        "answers": [
+                            "A block of code that gets executed once after the current test suite.",
+                            "A block of code that gets executed after each test with in the current test suite.",
+                            "A block of code that gets executed once before the current test suite.",
+                            "A block of code that gets executed before each test with in the current test suite."
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "A block of code that gets executed once before the current test suite.",
+                            "A block of code that gets executed after each test with in the current test suite.",
+                            "A block of code that gets executed once after the current test suite.",
+                            "A block of code that gets executed before each test with in the current test suite."
+                        ],
+                        "question": "Which of these best explains the usage of afterEach function?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "A block of code that gets executed before each test with in the current test suite.",
+                            "A block of code that gets executed after each test with in the current test suite.",
+                            "A block of code that gets executed once before the current test suite.",
+                            "A block of code that gets executed once after the current test suite."
+                        ],
+                        "question": "Which of these best explains the usage of after function?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "question": "It is good practise to ensure that all tests have atleast one assertion.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "question": "Test data files are used to separate test data from the actual test and make it easier to change test data used in tests.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "course46",
+        "teacher": {
+            "profilePath": "andrew_knight",
+            "twitter": "AutomationPanda",
+            "name": "Andrew Knight",
+            "linkedIn": "",
+            "photoURL": "andrew_knight.jpg"
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn to automate tests using Selenium WebDriver and Python",
+        "group": "foundational_testing",
+        "releaseDate": "04/24/2020",
+        "duration": 73,
+        "chaptersCount": 9,
+        "learningPaths": [
+            "learningPathUIPython"
+        ],
+        "status": "live",
+        "credits": 900,
+        "courseId": "course46",
+        "category": "Foundational Test Automation Courses",
+        "tags": [
+            "beginner",
+            "python",
+            "selenium",
+            "webdriver"
+        ],
+        "groupName": "Foundational Testing",
+        "title": "Selenium WebDriver with Python",
+        "titleSlug": "selenium-webdriver-python-tutorial",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "We should always write test code before we write test steps.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What are common elements to verify on web pages?",
+                        "type": "radio",
+                        "answers": [
+                            "titles, links, and text fields",
+                            "cookies",
+                            "JavaScript variables",
+                            "browser bookmarks"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Subject-Predicate",
+                            "Input-Calculate-Output",
+                            "Given-When-Then",
+                            "Arrange-Act-Assert"
+                        ],
+                        "question": "What is the Gherkin format for writing tests?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "All Web UI test cases must be written in Gherkin.",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What is pytest?",
+                        "type": "radio",
+                        "answers": [
+                            "A cloud platform for executing Python tests",
+                            "One of the most popular Python general-purpose test frameworks",
+                            "A Python implementation of Selenium WebDriver",
+                            "Another name for Python’s “unittest” package"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "In what directory are test cases conventionally located?",
+                        "type": "radio",
+                        "answers": [
+                            "<project-root>/tests",
+                            "<project-root>/unittest",
+                            "<project-root>/pytest",
+                            "<project-root>/test"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "By default, how does pytest know if a function should be executed as a test case?",
+                        "type": "radio",
+                        "answers": [
+                            "Functions must have the “@test” decorator",
+                            "All functions in the search path are treated as test cases",
+                            "Functions must have the “test” prefix and be located in a module named “test_*.py” or “*_test.py”",
+                            "Functions must have “test” prefixed in their names"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "pytest marks the test result with a failure and keeps running other tests",
+                            "pytest marks the test result with a failure and aborts the test suite",
+                            "pytest marks the test result with a warning and keeps running other tests",
+                            "pytest immediately aborts the test suite before giving any result"
+                        ],
+                        "question": "What happens when an exception is raised but not handled within a test function?",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What is the name for the official Selenium WebDriver package in Python?",
+                        "type": "radio",
+                        "answers": [
+                            "webdriver",
+                            "SeleniumBase",
+                            "se_webdriver",
+                            "selenium"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Why should we use a virtual environment for managing a project’s dependencies?",
+                        "type": "radio",
+                        "answers": [
+                            "Trick question - virtual environments are used for source control",
+                            "Virtual envs let projects manage dependencies locally for their needs, regardless of the global system config",
+                            "Virtual envs add security features to Python packages",
+                            "Virtual envs are the only way to download public Python packages"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "A function for test setup only",
+                            "A function for pytest plugins",
+                            "A function for test setup, test cleanup, and dependency injection",
+                            "Another name for a test case function"
+                        ],
+                        "question": "What is a pytest fixture?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Why should each test set up and clean up its own exclusive WebDriver instance?",
+                        "type": "radio",
+                        "answers": [
+                            "Fixtures require it by their inherent design",
+                            "No other part of the pytest framework can do it",
+                            "Each test should execute independently of all other tests",
+                            "WebDriver initialization is fast and doesn’t cause a time delay"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Store an index to all pages in a Web app",
+                            "Provide locators and methods for interacting with a Web page or component",
+                            "Execute JavaScript directly from test automation code into the Web page under test",
+                            "Scrape and hold all the data on a Web page or component"
+                        ],
+                        "question": "What do page objects do?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Page object modules should be organized into Python packages for easy imports.",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Page object methods should not return any values.",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What instance-level state should page object classes maintain?",
+                        "type": "radio",
+                        "answers": [
+                            "Only a reference to the WebDriver instance",
+                            "Values of fields currently displayed on the page",
+                            "A reference to each element object",
+                            "None - they should be stateless"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Web UI test case functions can and should be written almost entirely using page object calls.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Web UI test cases should always have only one assertion.",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which of the following is NOT a valid web element locator type?",
+                        "type": "radio",
+                        "answers": [
+                            "Partial name",
+                            "CSS selector",
+                            "XPath",
+                            "Name"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "Use a browser tool like Chrome DevTools",
+                            "Copy the Web page’s contents into a text editor",
+                            "Ask another developer",
+                            "Go to the code’s repository and look for .html files"
+                        ],
+                        "question": "How can someone inspect the HTML code of a live Web page?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What are the two parts of a locator tuple?",
+                        "type": "radio",
+                        "answers": [
+                            "Locator query string and numerical count",
+                            "Locator type and numerical query",
+                            "Locator type and endpoint",
+                            "Locator type and query string"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "As instance-level attributes (e.g. “self.locator_name”)",
+                            "Directly into interaction methods",
+                            "As class-level attributes",
+                            "As global variables"
+                        ],
+                        "question": "How should locators be written in a Python page object?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "The Selenium WebDriver API for Python is very similar to the API for other languages like Java and C#.",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "navigate",
+                            "get",
+                            "load",
+                            "request"
+                        ],
+                        "question": "What WebDriver method will load a new web page in the browser using a URL?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What parameters does the “find_element” method take?",
+                        "type": "radio",
+                        "answers": [
+                            "Locator type and query string",
+                            "Locator query string only",
+                            "The empty element object to be populated",
+                            "Locator type, query string, and element count"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What value does the “find_element” method return?",
+                        "type": "radio",
+                        "answers": [
+                            "Locator type and query string",
+                            "The first located element or a raised exception if no element is found",
+                            "The first located element or “None” if no element is found",
+                            "A list of all located elements"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What value does the “find_elements” method return?",
+                        "type": "radio",
+                        "answers": [
+                            "The first two elements that match the locator query",
+                            "A list of all located elements or an empty list if no elements were found",
+                            "A list of exact XPaths to uniquely locate each element that matched the locator query",
+                            "A list of all located elements or a raised exception if no elements were found"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "WebDriver cannot click on, send keys to, or get text from an element until it appears (e.g. gets loaded) onto the target Web page.",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Browsers frequently release new, updated versions that could break older Web apps",
+                            "Each browser has its own small differences that could break Web apps",
+                            "Many people use old, outdated browser versions that could be overlooked by newer Web apps",
+                            "W3C requires all Web apps to be tested across all browsers"
+                        ],
+                        "question": "Which of the following is NOT a reason why Web apps should be tested on multiple browser configurations?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Test automation choices like the browser to test should not be hard-coded into the Python code.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What’s the difference between “regular” and “headless” Chrome?",
+                        "type": "radio",
+                        "answers": [
+                            "Headless Chrome is just a zombie Chrome process",
+                            "Headless Chrome runs as a background process to save system resources",
+                            "Headless Chrome does not run any JavaScript on the page to speed up page loads",
+                            "Headless Chrome does not visibly render the pages to run slightly more efficiently"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "In pytest, fixtures can call other fixtures.",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "When actors access the same resource at different times without following an order of operations",
+                            "A performance bug when a Web page loads too quickly",
+                            "When actors access the same resource at the same time without following an order of operations",
+                            "A Selenium WebDriver timeout"
+                        ],
+                        "question": "What is a race condition?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Certain race conditions can happen in some browsers but not others.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Implicit waits default to 0 seconds, while explicit waits default to 30 seconds",
+                            "Implicit waits do not need to be configured, while explicit waits must be configured",
+                            "Implicit waits are set once for all interactions, while explicit waits must be specified per each interaction",
+                            "Implicit waits are written in JSON, while explicit waits are written in Python"
+                        ],
+                        "question": "What is the difference between Selenium WebDriver’s implicit waits and explicit waits?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "question": "A test automation solution may safely use both implicit and explicit waits.",
+                        "type": "radio",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Rerunning tests",
+                            "Adding or tuning explicit waits",
+                            "Reordering test steps or interaction calls",
+                            "Adding or tuning implicit waits"
+                        ],
+                        "question": "Which of the following is NOT a possible way to fix race conditions?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter9",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "question": "Web UI tests typically take about 1s to run.",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What pytest plugin can run tests in parallel?",
+                        "type": "radio",
+                        "answers": [
+                            "pytest-multi-parallel",
+                            "pytest-threads",
+                            "pytest-dist",
+                            "pytext-xdist"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "No limit - only bound by the machine(s) running the tests",
+                            "64",
+                            "10",
+                            "3"
+                        ],
+                        "question": "What is the maximum number of tests that pytest can run in parallel?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "answers": [
+                            "Zombie processes remain on the system under test and lock other resources",
+                            "Request packets get dropped",
+                            "Collisions corrupt the file system",
+                            "Tests that share any state can undo each other and give false results"
+                        ],
+                        "question": "Why are collisions dangerous for parallel testing?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "Selenium WebDriver+",
+                            "Selenium Remote",
+                            "Selenium Grid",
+                            "Selenium Cloud"
+                        ],
+                        "question": "What free, open source tool can set up multiple machines to distribute and run Selenium-WebDriver-based tests at large scale?",
+                        "correctAnswerIndex": 2
                     }
                 ]
             }
