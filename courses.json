@@ -22107,5 +22107,1161 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course42",
+        "courseId": "course42",
+        "category": "Automated Visual Testing Courses",
+        "tags": [
+            "beginner",
+            "python",
+            "applitools",
+            "visual",
+            "visual testing"
+        ],
+        "groupName": "Visual Testing",
+        "title": "Automated Visual Testing with Python",
+        "titleSlug": "visual-testing-python",
+        "teacher": {
+            "photoURL": "gaurav_singh.png",
+            "profilePath": "gaurav_singh",
+            "twitter": "automationhacks",
+            "name": "Gaurav Singh",
+            "linkedIn": ""
+        },
+        "level": "beginner",
+        "sortOrder": 8,
+        "abstract": "Learn how to automate visual testing in Python with Applitools",
+        "group": "visual_testing",
+        "releaseDate": "05/08/2020",
+        "duration": 58,
+        "chaptersCount": 11,
+        "learningPaths": [
+            "learningPathUIPython"
+        ],
+        "status": "live",
+        "credits": 1100,
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "To verify color, UI’s presentation,  and look and feel",
+                            "To check elements ids",
+                            "To check apps performance",
+                            "To check apps security"
+                        ],
+                        "question": "Why is visual testing needed?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "App performance",
+                            "Text inside of elements",
+                            "Layout, orientation, look and feel, overlapping controls",
+                            "Element's presence"
+                        ],
+                        "question": "What kind of bugs are typically missed by normal functional automation?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "How does a visual bug impact the end user?",
+                        "type": "radio",
+                        "answers": [
+                            "Prevent end user from completing some actions on the app because of overlapping controls",
+                            "Discouraged from use of the app because of poor UI",
+                            "Might encourage end user to try a competitor's app which has a better UI",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "Text overlaps buttons or UI control",
+                            "UI control overlaps a header section",
+                            "Incorrectly localized texts on the app because of a bug in the localisation library",
+                            "Logo image appears blurry"
+                        ],
+                        "question": "Which of the following is NOT an example of a visual bug?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Pip install env",
+                            "Pip virtualenv",
+                            "Pip install pipenv",
+                            "Pip freeze"
+                        ],
+                        "question": "What command is used to install pipenv?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Pipenv is a dependency manager for python apps?",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What command is used to install eyes module for selenium python?",
+                        "type": "radio",
+                        "answers": [
+                            "Pipenv install eyes",
+                            "Pipenv install eyes-selenium",
+                            "Pip update eyes",
+                            "Pipenv uninstall selenium"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What should we do after updating env variables in .bash_profile or .zshrc files?",
+                        "type": "radio",
+                        "answers": [
+                            "Save and quit and see results",
+                            "Quit without saving",
+                            "Save and quit followed by doing source with file names",
+                            "Quit the terminal"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "API key",
+                            "Plain text password",
+                            "Google Auth",
+                            "Twitter Auth"
+                        ],
+                        "question": "How does applitools integrate with any given automation framework?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Test results",
+                            "Environments",
+                            "Branch baselines",
+                            "User profile > My API key"
+                        ],
+                        "question": "Which of the below is the correct method to get API key from applitools?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Is this statement correct? Applitools needs a password along with the API key to authenticate and authorize a user?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Is this statement correct? Applitools API integration key is for one time use only?",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "eyes.setKey",
+                            "eyes.api_key",
+                            "eyes.Set_api_key",
+                            "eyes.Open_eyes"
+                        ],
+                        "question": "What command is used to set the api key on the object of Eyes class?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "eyes.open()",
+                            "eyes.close()",
+                            "eyes.quit()",
+                            "eyes.abort()"
+                        ],
+                        "question": "What command is used to open eyes instance?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What command is used to close the eyes instance?",
+                        "type": "radio",
+                        "answers": [
+                            "eyes.close()",
+                            "eyes.quit()",
+                            "eyes.abort()",
+                            "eyes.iGiveUp()"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "Easy to create",
+                            "Easy to destroy when done",
+                            "Does not pollute modules in base python",
+                            "All of the above"
+                        ],
+                        "question": "Why is using a python virtualenv a good idea over base python to install dependencies in?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What command is used to start an Applitools session for verification?",
+                        "type": "radio",
+                        "answers": [
+                            "eyes.open_eyes()",
+                            "eyes.close_eyes()",
+                            "eyes.open()",
+                            "eyes.close()"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Name of the function",
+                            "Name of the class",
+                            "Name of the assertion",
+                            "Name of the batch"
+                        ],
+                        "question": "What function does the tag serve in check_window()?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Terminal",
+                            "Applitools console",
+                            "Applitools eyes website",
+                            "Not sure"
+                        ],
+                        "question": "Where can we check the comparison results after test execution?",
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What function is used to validate the whole window in applitools SDK?",
+                        "type": "radio",
+                        "answers": [
+                            "check_window()",
+                            "uncheck_window()",
+                            "checkWindow()",
+                            "validate_window()"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "Once a baseline is created it can never be modified in the Applitools website?",
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "Content",
+                            "Exact",
+                            "Layout",
+                            "Strict"
+                        ],
+                        "question": "Which mode does a pixel by pixel comparison of baseline and checkpoint image?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which mode does not check the layout and only verifies if the text is okay?",
+                        "type": "radio",
+                        "answers": [
+                            "Content",
+                            "Exact",
+                            "Layout",
+                            "Strict"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Content",
+                            "Exact",
+                            "Layout",
+                            "Strict"
+                        ],
+                        "question": "Which mode can be used to verify the layout of the app?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "eyes.match_level = MatchLevel.LAYOUT",
+                            "eyes = Match_Level.CONTENT",
+                            "eyes.match_level = match_level.LAYOUT",
+                            "None of the above"
+                        ],
+                        "question": "We can set match levels using which statement below?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Content",
+                            "Exact",
+                            "Layout",
+                            "Strict"
+                        ],
+                        "question": "What is the default MatchLevel?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "What property can be set on eyes to eyes instance to allow capture of full page screenshots?",
+                        "type": "radio",
+                        "answers": [
+                            "eyes.force_full_page_screenshot",
+                            "eyes.force_page_screenshot",
+                            "eyes.force_screenshot",
+                            "eyes.check_region"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "Check_region",
+                            "Check_window",
+                            "Check_element",
+                            "All of the above"
+                        ],
+                        "question": "What checkpoint can be used to verify a region within the page?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "By",
+                            "WebElement",
+                            "By and WebElement",
+                            "None of the above"
+                        ],
+                        "question": "Which of the following options can we pass Region instance as?",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "question": "What checkpoint can we use to verify a region inside an IFrame?",
+                        "type": "radio",
+                        "answers": [
+                            "Check_region",
+                            "Check_region_in_frame",
+                            "Check_frame_in_region",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What are the different types of checkpoints available in applitools python SDK?",
+                        "type": "radio",
+                        "answers": [
+                            "Check_region",
+                            "Check_region_in_frame",
+                            "Check_window",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "Suite",
+                            "Batch",
+                            "Tests",
+                            "None of the above"
+                        ],
+                        "question": "What is a group of tests called in Applitools?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Which of the below choices is the correct way of setting a batch on the eyes instance?",
+                        "type": "radio",
+                        "answers": [
+                            "eyes.batch = BatchInfo(batch_name)",
+                            "eyes.batch = BatchInfo.name",
+                            "eyes.batch = Batch_Info(batch_name)",
+                            "eyes.batch = batch(batch_name)"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What is the correct way to get the name of the test function inside a pytest fixture?",
+                        "type": "radio",
+                        "answers": [
+                            "request.function_name",
+                            "request.function.__name__",
+                            "request.function.name()",
+                            "request.__name__"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "question": "By default, what is the batch name if we run a single test without setting batch name on eyes instance?",
+                        "type": "radio",
+                        "answers": [
+                            "Class name",
+                            "Test name",
+                            "Random UUID",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter9",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Visual testing can only verify screenshots and not pdf files",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Applitools provides what utility to compare pdf files to existing baselines?",
+                        "type": "radio",
+                        "answers": [
+                            "ImagingTester",
+                            "ImageTester",
+                            "VisualTester",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "What does -f argument to image tester do?",
+                        "type": "radio",
+                        "answers": [
+                            "Provide API key",
+                            "Provide what type of match level to use while doing comparison",
+                            "Provide the file or folder to verify files",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "ImageTester can only work with automation projects written in Java?",
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "What purpose does -k argument serve for Image tester utility?",
+                        "type": "radio",
+                        "answers": [
+                            "Kill all existing validation process",
+                            "Keep all the results safely",
+                            "Provide Applitools API key",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question6",
+                        "question": "What can we do to prevent certain areas of the screenshot from being validated?",
+                        "type": "radio",
+                        "answers": [
+                            "Delete the test",
+                            "Ignore the region",
+                            "Accept the baseline",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "question": "Is this statement correct: We should only use visual assertions for our UI tests and ignore functional validations?",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter10",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which of the following is not a valid section in applitools test manager?",
+                        "type": "radio",
+                        "answers": [
+                            "Test results",
+                            "Apps & Tests",
+                            "Environments",
+                            "Views"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "question": "In applitools test manager, we can accept multiple differences between baselines and checkpoint images at the same time?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Applitools test manager supports which of the below views?",
+                        "type": "radio",
+                        "answers": [
+                            "Batch steps view",
+                            "Batch details view",
+                            "Batch summary view",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "Which feature allows us to see the CSS differences between baseline and checkpoint images?",
+                        "type": "radio",
+                        "answers": [
+                            "Diff",
+                            "Test results",
+                            "Root cause analysis",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "answers": [
+                            "Ignore region",
+                            "Floating region",
+                            "Content region",
+                            "Overlapping region"
+                        ],
+                        "question": "Which of the below are invalid annotations to apply for a checkpoint?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question6",
+                        "question": "Applitools test manager allows us to preview different types of match levels to see how the baseline and checkpoint images would be compared if they were applied?",
+                        "type": "radio",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter11",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "answers": [
+                            "Java",
+                            "Javascript",
+                            "Python",
+                            "All of the above"
+                        ],
+                        "question": "Which of these languages are supported by applitools web SDKs?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "Use CLI/Screenshots SDK",
+                            "GitHub integration",
+                            "Use mobile SDK",
+                            "None of the above"
+                        ],
+                        "question": "How can we use Applitools visual testing if our languages SDK is not supported?",
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "answers": [
+                            "Circle CI",
+                            "Travis",
+                            "Jenkins",
+                            "All of the above"
+                        ],
+                        "question": "Applitools supports which of these CI integrations?",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "answers": [
+                            "Applitools visual UI tests are automatically configured to use and save baselines in branches whose name is derived from the Git branch names.",
+                            "All visual UI tests that are in a specific CI build, are automatically batched together, with a batch name that includes the Git commit information.",
+                            "The GitHub pull request panel includes a status indicating the latest visual UI test results and merge status.",
+                            "All of the above"
+                        ],
+                        "question": "We can perform which of the below operations as part of Github integration of applitools?",
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "course40",
+        "groupName": "Foundational Testing",
+        "category": "Foundational Test Automation Courses",
+        "level": "beginner",
+        "titleSlug": "nunit-tutorial",
+        "group": "foundational_testing",
+        "learningPaths": [
+            "learningPathUICS"
+        ],
+        "releaseDate": "06/05/2020",
+        "chaptersCount": 8,
+        "tags": [
+            "beginner",
+            "csharp",
+            "c#",
+            "nunit",
+            "c++",
+            "visual basic"
+        ],
+        "duration": 79,
+        "status": "live",
+        "courseId": "course40",
+        "teacher": {
+            "profilePath": "brendan_connolly",
+            "twitter": "theBConnolly",
+            "linkedIn": "",
+            "photoURL": "brendan_connolly.jpg",
+            "name": "Brendan Connolly"
+        },
+        "credits": 800,
+        "sortOrder": 8,
+        "title": "Introduction to NUnit",
+        "abstract": "Learn to execute and verify your automated tests with nUnit",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "What languages does NUnit support?",
+                        "answers": [
+                            "C#",
+                            "F#",
+                            "Visual Basic",
+                            "C++",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 4
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What kinds of tests can you write using NUnit?",
+                        "answers": [
+                            "Unit tests",
+                            "Integration tests",
+                            "API Tests",
+                            "End to End Tests",
+                            "All of the above"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 4
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "NUnit started as a port of a Java testing framework",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "You can write tests with NUnit on Windows, MacOs and Linux",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "You have to use Visual Studio if you want to use nunit",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "You have to have an IDE to use nunit templates",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "NUnit Tests test methods should be _____",
+                        "answers": [
+                            "private",
+                            "internal",
+                            "public",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "Add the ____ attribute to identify a method as a test",
+                        "answers": [
+                            "Fact",
+                            "TestMethod",
+                            "Test",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "All NUnit test methods should return void",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "Test Classes can be _____",
+                        "answers": [
+                            "public",
+                            "private",
+                            "protected",
+                            "internal",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 4
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "NUnit provides  ___  models of assertions",
+                        "answers": [
+                            "0",
+                            "1",
+                            "2",
+                            "3"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "NUnit can equality assertions can compare",
+                        "answers": [
+                            "Strings",
+                            "Numeric types",
+                            "Arrays",
+                            "Collections",
+                            "All of the Above"
+                        ],
+                        "correctAnswerIndex": 4
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "NUnit warnings will halt test execution",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "NUnit supports multiple assertions inside a  test",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "The only difference between the classic model and constraint model is the syntax",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "To run a method before EACH test add the ______ attribute",
+                        "answers": [
+                            "TestInitialize",
+                            "Setup",
+                            "TestSetup",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "To run a method after EACH test add the ______ attribute",
+                        "answers": [
+                            "TestCleanup",
+                            "TestTeardown",
+                            "TearDown",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "To run a method once before ALL tests add the _____ attribute",
+                        "answers": [
+                            "FixtureSetup",
+                            "OneTimeSetup",
+                            "SetupFixture",
+                            "None of the above"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "You should always use setup and teardown methods together",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "question": "Setup methods inside of a base class will: ",
+                        "answers": [
+                            "Run before setup methods in the test fixture class",
+                            "Run after setup methods in the test fixture class",
+                            "Run at the same time as setup methods in the test fixture class",
+                            "Never be run"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "To group a set of tests together add use the _____ attribute",
+                        "answers": [
+                            "Group",
+                            "Category",
+                            "TestCategory",
+                            "Trait"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "Use the _____ attribute to only run tests on a specific operating system or .Net runtime",
+                        "answers": [
+                            "Environment",
+                            "System",
+                            "Platform",
+                            "Category"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "To indicate an owner of a fixture or test use  ______",
+                        "answers": [
+                            "Owner attribute",
+                            "Maintainer attribute",
+                            "Author attribute",
+                            "A code comment"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "You can set a specific order to run tests in a fixture",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "The values attribute provides data for a single parameter of a test",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "To share data across multiple tests, use the _____ attribute",
+                        "answers": [
+                            "TestCase",
+                            "Data",
+                            "TestCaseSource",
+                            "DynamicData"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Both Tests and TestFixtures can be data driven",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "TestCaseData allows you to set the ________ for a test",
+                        "answers": [
+                            "Name",
+                            "Description",
+                            "Category",
+                            "All of the above"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "All data driven tests in nunit need to have the Theory attribute",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "NUnit supports adding attachments to the test output",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "By default NUnit runs tests in parallel",
+                        "answers": [
+                            "True",
+                            "False"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "The _____ class contains information about the test status",
+                        "answers": [
+                            "TestStatus",
+                            "TestResults",
+                            "TestContext",
+                            "TestInfo"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "Test results are recorded in ________ format",
+                        "answers": [
+                            "XML",
+                            "JSON",
+                            "CSV",
+                            "PDF"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "question": "The Parallelizable attribute can be applied to a ______",
+                        "answers": [
+                            "Test",
+                            "Fixture",
+                            "Assembly",
+                            "All of the above"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            }
+        ]
     }
 ]
