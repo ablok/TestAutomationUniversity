@@ -23263,5 +23263,993 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "course47",
+        "groupName": "Foundational Testing",
+        "category": "Foundational Test Automation Courses",
+        "level": "beginner",
+        "titleSlug": "git-tutorial",
+        "group": "foundational_testing",
+        "learningPaths": [
+            "learningPathUIJava",
+            "learningPathUIJS",
+            "learningPathUIPython",
+            "learningPathUICS",
+            "learningPathUIRuby",
+            "learningPathApiJava",
+            "learningPathApiJS",
+            "learningPathMobileSwift",
+            "learningPathMobileJava",
+            "learningPathMobilePython",
+            "learningPathMobileJS",
+            "learningPathCodeless"
+        ],
+        "releaseDate": "07/10/2020",
+        "chaptersCount": 8,
+        "tags": [
+            "beginner",
+            "git",
+            "source control"
+        ],
+        "duration": 176,
+        "status": "live",
+        "courseId": "course47",
+        "teacher": {
+            "profilePath": "simon_berner.",
+            "twitter": "alientester",
+            "linkedIn": "",
+            "photoURL": "simon_berner.jpg",
+            "name": "Simon Berner"
+        },
+        "credits": 800,
+        "sortOrder": 8,
+        "title": "Source Control for Test Automation with Git",
+        "abstract": "Learn the basics of source control using Git",
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "How would you handle different versions of the same source code file in your test automation project?",
+                        "answers": [
+                            "By using a version control system",
+                            "By making different copies of the file",
+                            "By only keep the latest version of the file"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "What is a version control system used for?",
+                        "answers": [
+                            "It is used to control versions of different systems",
+                            "It is used to keep track of the changes made over time to source code, documentation and configuration files.",
+                            "It is used to only keep track of configuration files of CI/CD pipelines"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "What are advantages when using a version control system for your test automation project?",
+                        "answers": [
+                            "Team Collaboration, Integration of your test automation code into a CI/CD pipeline, Fast Feedback loop through checking out a feature branch for early testing, Learning source control concepts can boost your learning journey to other technical skills",
+                            "Team Collaboration, Integration of your test automation code into a CI/CD pipeline, Fast Feedback loop through checking out a feature branch for early testing, Run docker containers",
+                            "Team Collaboration, Documentation, Less flaky tests, No bugs in your source code"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "What is Git?",
+                        "answers": [
+                            "It is a version certification system which is used by github.com",
+                            "It’s a version control system which arose out of the development community and in particular Linus Torvalds ",
+                            "It is a mutation testing framework"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Why is Git so popular these days?",
+                        "answers": [
+                            "Because it runs on Windows/macOS/Linux",
+                            "Because all the cool developers are using it",
+                            "Because it is very efficient, version controls the Linux kernel and the huge popularity of github.com"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "What happens when you create a commit in Git?",
+                        "answers": [
+                            "A snapshot object, a commit object and file objects are created and stored in your local Git database",
+                            "A snapshot object of all your project files is created and stored in the database",
+                            "A commit object and file objects are created and stored in your local Git database"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "What is the SHA-1 hash used for in Git?",
+                        "answers": [
+                            "To encrypt the data transfer in Git, so that a hacker isn’t able to leak some source code files",
+                            "To uniquely identify the stored objects in the Git database",
+                            "To make Git fast and efficient"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "What are the three different states called in Git where a file can reside in?",
+                        "answers": [
+                            "Modified, Staged and Committed",
+                            "Snapshot, Commit and File object",
+                            "Local, Middle and Remote state"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "What does the command git init do?",
+                        "answers": [
+                            "It initializes a new Git project by creating a local .git folder in the project directory",
+                            "It initializes a new Git project by creating a remote .git folder in the project directory.",
+                            "It initializes a new Git project by creating a folder for each state in the project directory."
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "By creating a commit, all indexed files are stored as objects in local repository and automatically pushed to the remote repository.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "Why is the format and the content of a commit message so important?",
+                        "answers": [
+                            "Because it is an inevitable piece of documentation for a coding project as it improves the traceability and understandability of changes made to source code.",
+                            "Because it is part of the Definition of Done of a coding project.",
+                            "Because without it, Git cannot create a commit object."
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "Pushing the commits to a Server is necessary in order to complete the Git workflow.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "What does Git do when you do git fetch followed by git merge?",
+                        "answers": [
+                            "Git will fetch all the newly added remote branches its objects from the remote repository to the local repository and then merge the changes from the local repository into the current active branch in the working directory.",
+                            "Git will fetch followed by a git mere is not possible, as first a git merge has to be performed to resolve potential conflicts in the local repository.",
+                            "Git will first fetch only the metadata of the newly added remote branches and its objects from the remote repository to the local repository. Then while merging, Git will fetch the complete data of the remote branches and its objects to the local repository and merge the changes from the local repository into the current active branch in the working directory."
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "question": "Git pull is also possible when there are open changes pending in the working directory on files which are affected by the pull, because Git can resolve conflicts automatically.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "question": "What does the command git reflog with the extended configuration options show HEAD output?",
+                        "answers": [
+                            "These extended configuration options are not permitted here.",
+                            "It will output the reference log of the HEAD, which means a log of all the changes made to the branch pointer HEAD.",
+                            "It will output all the commits messages of the current active branch."
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "What is a branch?",
+                        "answers": [
+                            "It is a pointer which points to a arbitrary commit of a series of commits.",
+                            "It is a pointer which points to a series of commits.",
+                            "It is a pointer which points to the latest commit of a series of commits."
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question10",
+                        "type": "radio",
+                        "question": "What should be thought of when changing the history of a branch?",
+                        "answers": [
+                            "That one should never rewrite the commit history of an own created feature or bugfix branch.",
+                            "That one should never rewrite the commit history of a public share branch.",
+                            "It is never a good idea to change the commit history of a branch."
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "What is the HEAD pointer good for?",
+                        "answers": [
+                            "It is used so that Git knows which branch to pull from the remote repository.",
+                            "It is used so that Git knows which branch is the active one to work on.",
+                            "It is used so that Git knows which branch to delete."
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "What is a fast-forward merge?",
+                        "answers": [
+                            "It is a merge where the HEAD of the current active target branch can be simply moved forward to the latest commit of the source (the to be merge) branch. This only happens when the source branch hasn't diverged from the active branch.",
+                            "It is a merge where the HEAD of the current active target branch can be simply moved forward to the latest commit of the source (the to be merge) branch. This happens always when merging a source branch into an active target branch.",
+                            "It is a special kind of merge and used to merge a critical bug fix into the master branch."
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "A branch diverges from an other one, as soon it has an additional and thus different commit in its chain.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "There is something called the \"Diamond Shape\". What is it? When does it happen?",
+                        "answers": [
+                            "When two diverged branches are merged, an additional merge commit is created and causes the commit history of the target branch to look like a diamond shape for that particular merge. If such merge commits happen a lot, it can pollute the target branch.",
+                            "When two diverged branches are merged, an additional merge commit is created and causes the commit history of the target branch to look like a diamond shape for that particular merge. If such merge commits happen a lot, it can't pollute the target branch.",
+                            "When two diverged branches are merged, an additional merge commit is created and causes the commit history of the target branch to look like a diamond shape for that particular merge. This is very welcome and should always be the goal when merging."
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "question": "Is Rebasing a replacement for Merging?",
+                        "answers": [
+                            "No it isn't. But one has to do a merge before a rebase can be done.",
+                            "Yes it is. Merging and Rebasing are two very different concepts!",
+                            "No it isn't. Rebasing is used to change the basis of a specific commit of a branch and can be used to update a branch onto the state of another one. "
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "question": "A proper rewriting of the commit history of a branch can only be done with the option: --amend.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question8",
+                        "type": "radio",
+                        "question": "The option -i is the shortcut for --interactive. What can be done with this option?",
+                        "answers": [
+                            "When rebasing, commits can only be squashed.",
+                            "When rebasing, commits can be squashed, edited, reworded, removed, reordered and reverted.",
+                            "When rebasing, commits can be squashed, edited, reworded, removed and reordered."
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question9",
+                        "type": "radio",
+                        "question": "The option -i has to be used as soon a branch is rebased onto the state of another one.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "type": "radio",
+                        "question": "Git always resolves conflicts automatically.",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "What does a detached HEAD mean?",
+                        "answers": [
+                            "This means that a conflict while rebasing is resolved successful.",
+                            "This is when the HEAD pointer doesn't point to a branch but instead points to a specific commit.",
+                            "This is when the HEAD pointer is in a special stealth mode for resolving conflicts while rebasing.",
+                            "This is when the HEAD pointer is pointing to several commit at the same time when resolving conflicts while rebasing."
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "answers": [
+                            "Git will apply the excat same commit with the same hash onto another branch. ",
+                            "Git will create a new commit with a new hash with the same content and apply it onto another branch."
+                        ],
+                        "type": "radio",
+                        "question": "Cherry picking lets you pick a specific commit from a branch and apply it to another one. But what is Git actually doing when cherry picking?",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "It isn't possible to cherry pick several commits at a time.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "Resetting hard is used to:",
+                        "answers": [
+                            "reset the HEAD to a specific commit in the local repository but keep the content of the previous subsequent commit(s) in the staging area and the working directory.",
+                            "reset the HEAD to a specific commit in the local repository and clean up the staging area and the working directory accordingly.",
+                            "reset the HEAD to a specific commit in the local repository but keep the content of the previous subsequent commit(s) in the working directory."
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "question": "Which reset option is the default one (when none is provided)?",
+                        "answers": [
+                            "--soft",
+                            "--hard",
+                            "--mixed"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question7",
+                        "type": "radio",
+                        "question": "There is a hidden feature in Git which makes it possible to resolve conflicts automatically.",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question8",
+                        "type": "radio",
+                        "question": "What is reverting used for?",
+                        "answers": [
+                            "It is used to revert a specific commit by re-applying the exact same commit with the opposite changes. ",
+                            "It is used to revert all commits by applying a new commit with the opposite changes. ",
+                            "It is used to revert a specific commit by applying a new commit with the opposite changes. ",
+                            "It is used to revert a specific file in a commit by re-applying the exact same commit with the opposite changes of that file."
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "Which branching strategy deals with a release and a develop branch?",
+                        "answers": [
+                            "GitHub Flow",
+                            "Trunk Based Development",
+                            "Git Flow"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "When is Git Flow less useful?",
+                        "answers": [
+                            "Mutliple version in production",
+                            "Defined numbered release per year",
+                            "All of the above",
+                            "Continuous Deployment/Delivery"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "What is a principle of the GitHub flow?",
+                        "answers": [
+                            "Ongoing work is done on one single branch",
+                            "Any branch can immediately merge into master",
+                            "All the branches are deployable",
+                            "A local branch is regularly pushed to the same named branch on the remote repository to have fast feedback from the CI server"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "What is the branching strategy called when you have just one main branch and where you work without Pull Requests?",
+                        "answers": [
+                            "GitHub Flow",
+                            "Git Flow",
+                            "Trunk Based Development"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "question": "One should always strive for Trunk Based Development!",
+                        "answers": [
+                            "true",
+                            "false"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question6",
+                        "type": "radio",
+                        "question": "Trunk Based Development is especially convenient when:",
+                        "answers": [
+                            "doing continuous deployment/delivery",
+                            "woring in a small team",
+                            "All of the above",
+                            "doing Pair/Mob Programming"
+                        ],
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which popular Git repository manager is available has hosting service only?",
+                        "answers": [
+                            "Bitbucket",
+                            "Gitea",
+                            "GitLab",
+                            "GitHub"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "question": "What is a self-hosted Git service?",
+                        "answers": [
+                            "A Git Repository Manager like GitHub.",
+                            "A Git Repository Manager which is hosted on external servers.",
+                            "All of the above",
+                            "A Git Repository Manager which is hosted on one own servers."
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which Git Repository Manager is also known as Stash?",
+                        "answers": [
+                            "GitLab",
+                            "Gogs",
+                            "Bitbucket",
+                            "GitHub"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "A Gt Repository Manager is used:",
+                        "answers": [
+                            "for collaborative development",
+                            "to make it possible to store the commits of a project",
+                            "to work with Git",
+                            "to give a local repo to someone else"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "GitHub is owned by",
+                        "answers": [
+                            "GitHub iself",
+                            "Facebook",
+                            "Microsoft",
+                            "Google"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "What kind of commits are in general better?",
+                        "answers": [
+                            "It doesn't matter at all",
+                            "Small commits with a specific intent",
+                            "Big commits because it is good got sum up as much things as possible",
+                            "It depends on the context"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "What is important to consider when writing a commit message?",
+                        "answers": [
+                            "It isn't mandatory to provide a commit message",
+                            "As long as you put some text into the message, all is fine",
+                            "The commit message is only crucial for projects in regulated environments",
+                            "That the message cleary states, what the commit will do to the code once it is applied"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "Why is a commit message so crucial?",
+                        "answers": [
+                            "Because all the stakehoders of a project, demand it",
+                            "Because it is part of the Definition Of Ready",
+                            "Because it is helpful for the traceability of the changes made to the code and is an important part of the code documentation",
+                            "Because it is part of the Definition Of Done"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "course48",
+        "credits": 700,
+        "sortOrder": 8,
+        "title": "Robot Framework",
+        "abstract": "Learn how to use Robot Framework for robotic process automation (RPA)",
+        "groupName": "Foundational Testing",
+        "category": "Foundational Test Automation Courses",
+        "level": "beginner",
+        "titleSlug": "robot-framework-tutorial",
+        "group": "foundational_testing",
+        "learningPaths": [
+            "learningPathUIJava",
+            "learningPathApiJava",
+            "learningPathMobileJava",
+            "learningPathUIJS",
+            "learningPathUIPython",
+            "learningPathUICS",
+            "learningPathApiJS",
+            "learningPathMobilePython",
+            "learningPathMobileJS",
+            "learningPathCodeless"
+        ],
+        "releaseDate": "06/26/2020",
+        "chaptersCount": 7,
+        "tags": [
+            "beginner",
+            "robot",
+            "robot framework",
+            "rpa",
+            "codeless",
+            "test-driven",
+            "test driven",
+            "keyword driven",
+            "keyword-driven",
+            "data-driven",
+            "data driven"
+        ],
+        "duration": 61,
+        "status": "live",
+        "courseId": "course48",
+        "teacher": {
+            "profilePath": "paul_merrill",
+            "twitter": "dpaulmerrill",
+            "linkedIn": "",
+            "photoURL": "paul_merrill.png",
+            "name": "Paul Merrill"
+        },
+        "chapters": [
+            {
+                "chapterId": "chapter1",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "Which of the following can Robot Framework NOT do:",
+                        "answers": [
+                            "Work with many different programming languages",
+                            "Test UIs",
+                            "Magically test your applications right out of the box.",
+                            "Test APIs"
+                        ],
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question2",
+                        "question": "Robot Framework allows you to",
+                        "answers": [
+                            "Ignore your product owner",
+                            "Easily create and read test scripts",
+                            "Avoid all manual testing"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Human readable Test Drivers like Robot Framework can aid in communication between for all the follopwing except: ",
+                        "answers": [
+                            "Developers",
+                            "Stakeholders",
+                            "Human Resources",
+                            "Testers"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "question": "Which of the following is required to be installed for Robot Framework to work?",
+                        "answers": [
+                            "Python",
+                            "Git",
+                            "An IDE",
+                            "Selenium"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            "3.0",
+                            "8.0",
+                            "1.0",
+                            "2.0"
+                        ],
+                        "type": "radio",
+                        "question": "The exercises for this course are designed to work with which major version of Python?",
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "Use Git to:",
+                        "answers": [
+                            "Create tests",
+                            "Clone or download the exercises for this course from gitlab.",
+                            "Start Robot Framework"
+                        ],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "The command to run tests in Robot Framework is",
+                        "answers": [
+                            "run",
+                            "cd",
+                            "test",
+                            "robot"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "What is generated after a test suite runs?",
+                        "answers": [
+                            "A working application",
+                            "A pull request",
+                            "A defect report",
+                            "A report and logs"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "question": "Which tool is used to execute Robot Framework tests?",
+                        "answers": [
+                            "Jira",
+                            "Selenium",
+                            "Command Line",
+                            "Chrome"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "What are the two places keywords come from?",
+                        "answers": [
+                            "Python and Java ",
+                            "Libraries and custom keywords you create",
+                            "The command line and gitlab",
+                            "Proprietary files and the Robot Framework Database"
+                        ],
+                        "correctAnswerIndex": 1
+                    },
+                    {
+                        "id": "question2",
+                        "question": "How many spaces must surround keywords?",
+                        "answers": [
+                            "At least one",
+                            "Two tabs-worth",
+                            "It doesn't matter",
+                            "Two or more"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "The information given to a keyword to do specialized work is called",
+                        "answers": [
+                            "Arguments",
+                            "Literals",
+                            "Strings",
+                            "Variables"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "What is a keyword?",
+                        "answers": [
+                            "A piece of functionality that can be used in a test case",
+                            "A space in memory that stores values",
+                            "Like a password",
+                            "The opposite of a lockword"
+                        ],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "Test cases are defined in which section of a test suite file?",
+                        "answers": [
+                            "The Test Cases section",
+                            "The Variables section",
+                            "The Settings section",
+                            "The Keywords section"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "answers": [
+                            " ### Test Cases ###",
+                            "At least 2 spaces surrounding \"test cases\"",
+                            "*** Test Cases ***",
+                            "* Test Cases *"
+                        ],
+                        "type": "radio",
+                        "question": "The Test Cases section is denoted with:",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "question": "The test case name is",
+                        "answers": [
+                            "Indented",
+                            "Always upper case",
+                            "Always lower case",
+                            "Left justified"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "question": "The steps in a test case",
+                        "answers": [
+                            "Must be indented with at least 4 spaces",
+                            "Must be indented with a tab",
+                            "Must be indented with at least 2 spaces",
+                            "Are Left Justified"
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question5",
+                        "type": "radio",
+                        "question": "The first thing to happen when a test suite file is run is:",
+                        "answers": [
+                            "Test cases are defined",
+                            "The keywords section is executed",
+                            "The settings section is executed",
+                            "The variables section is loaded"
+                        ],
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "Which of the following is the settings section NOT used for:",
+                        "answers": [
+                            "Generating test case reports",
+                            "Loading libraries",
+                            "Setting up preconditions",
+                            "Loading resource files"
+                        ],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "id": "question2",
+                        "question": "The Suite Setup keyword allows you to",
+                        "answers": [
+                            "Run a keyword before each of the test cases is executed.",
+                            "Run a keyword after each of the test cases is executed.",
+                            "Run a keyword before all the test cases are executed.",
+                            "Run a keyword after all the test cases are executed."
+                        ],
+                        "type": "radio",
+                        "correctAnswerIndex": 2
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "In which order are the sections of a test suite run?",
+                        "answers": [
+                            "Variables, Test Cases, Settings",
+                            "Settings, Test Cases, Variables",
+                            "Test Cases, Settings, Variables",
+                            "Variables, Settings, Test Cases"
+                        ],
+                        "correctAnswerIndex": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "questions": [
+                    {
+                        "id": "question1",
+                        "type": "radio",
+                        "question": "What is a variable used for?",
+                        "answers": [
+                            "Reporting results of tests",
+                            "Running test cases",
+                            "Reusing actions in a test case",
+                            "Storing information or data"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question2",
+                        "type": "radio",
+                        "question": "Which of the following uses the proper sytax for a variable?",
+                        "answers": [
+                            "@(foo)",
+                            "#foo",
+                            "$[foo]",
+                            "${foo}"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question3",
+                        "type": "radio",
+                        "question": "Which of the following uses the proper sytax for the variable section in a file?",
+                        "answers": [
+                            "* variables *",
+                            "### Variables ###",
+                            "&&& Var &&&",
+                            "*** Variables ***"
+                        ],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "id": "question4",
+                        "type": "radio",
+                        "question": "Which of the following shows the proper syntax for declaring and assigning a variable inline?",
+                        "answers": [
+                            "dim foo = bar",
+                            "${foo}=> bar",
+                            "${foo}=  Set Variable  bar",
+                            "foo = bar;"
+                        ],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            }
+        ]
     }
 ]
