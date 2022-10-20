@@ -1,7 +1,11 @@
 # TestAutomationUniversity
 
-Code project to automatically scrape and store course answers. You can then also submit them.
+Project to automatically gather and submit course answers to the Test Automation University website. Run `npm run go` to
+start.
 
-DISCLAIMER: I didn't use it in ages, so I have no idea if this still works.
+DISCLAIMER: Don't cheat.
 
-DISCLAIMER2: Don't cheat.
+TODO:
+
+1. Add github actions
+1. Abstract API calls, so it is easier to have a try catch/retry on all API's.
